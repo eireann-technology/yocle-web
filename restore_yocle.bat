@@ -1,0 +1,1 @@
+mongorestore -h mongodb -d yolofolio "G:\Program Files\MongoDB\Server\3.4\bin\yolofolio_hku_20170509"
