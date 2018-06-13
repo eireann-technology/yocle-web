@@ -1,0 +1,6 @@
+1. Use GitHub
+  - local repos
+  - remote repos
+  - for all the projects
+
+2. 

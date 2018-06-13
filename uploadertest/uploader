@@ -1,0 +1,2 @@
+cd /videoboard/web/uploadertest
+php uploader_convert.php

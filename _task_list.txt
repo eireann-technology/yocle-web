@@ -1,0 +1,64 @@
+revision 20180306
+
+1. Drift bottle (10 days)
+- add new bottle
+- throw away bottle
+- stop drifting
+- reply to bottle
+- new user interface design
+- database collection design
+- middle-ware interface implementation
+
+2. Users may show / hide activity results to others in profile for the following items. (3 days, done)
+- the statistics
+- the breakdown page of GS rating.
+- the calculation of the final GS score.
+
+3. Add notification to mood and relationship (3 days)
+- allow to choose receiver from 4 user groups (public, myself, my peers, activity peers [all or some])
+
+4. Notifications to participants after assessment is marked (1-2 day)
+
+5. Notifications of birthday (4 days)
+- add month and day to user preview page for others to know.
+- add selection to add item of whatsup when it is one's birthday.
+- may choose only visible to a specific user group (public / myself / activity peers / my peers)
+- new user interface, database scheme and middleware.
+
+6. New year me (5 days)
+- similar to time capsule
+- add to notification history
+- count down timer
+- may send to peer
+- new user interface design
+- database collection design
+- middle-ware interface implementation
+
+7. Filtering before sending notifications (2 days, done)
+- notification to avoid sending duplicated message to the same device.
+
+8. notification history (7 days)
+- any notifications sent to mobile
+- new year me
+- user interface design (view and deletion)
+- database scheme
+- middleware
+
+9. Add import users function for participants and assessors. just put in emails in the text file.
+
+10. for marking, add a feature to allow upload additional information (e.g. scanned paperwork)
+
+11. Registration – I will think of an alternative approach.
+- Just a suggestion as discussed, we may import the email address before the first day of the activities. Then they may sign in themselves. This may be your original idea. Right? You may suggest another one as well.
+
+12. Poster add two retitled Media Files(Poster/Video/Audio/Pdf) (5 days, done)
+- Okay.
+
+13. It would be good if the comments can be seen while scrolling the photos (2 days)
+- That would do.
+
+14.  Add media upload for image/audio/video for all of the assessments (5 days, done)
+
+15.  real-time recording for audio and video (5 days + ?*)
+        - web/android versions are capable now.
+        - iOS version needs a longer period (or we need native app coding).

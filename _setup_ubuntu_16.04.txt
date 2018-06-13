@@ -1,0 +1,671 @@
+- mail settings
+	postfix
+	https://easyengine.io/tutorials/linux/ubuntu-postfix-gmail-smtp/
+	PTR
+	https://support.google.com/mail/answer/81126#authentication
+	https://mxtoolbox.com/SuperTool.aspx?action=ptr%3a146.196.54.57&run=toolpage
+
+
+- ftp-upload
+- rsync
+	https://www.vultr.com/docs/setup-file-mirroring-using-rsync-in-debian-ubuntu
+	https://www.howtogeek.com/135533/how-to-use-rsync-to-backup-your-data-on-linux/
+
+- Nagios
+	https://www.howtoforge.com/tutorial/ubuntu-nagios/
+	https://serverfault.com/questions/774498/failed-to-start-nagios-service-unit-nagios-service-failed-to-load-no-such-file
+	nano /etc/systemd/system/nagios.service
+	[Unit]
+	Description=Nagios
+	BindTo=network.target
+	[Install]
+	WantedBy=multi-user.target
+	[Service]
+	User=nagios
+	Group=nagios
+	Type=simple
+	ExecStart=/usr/local/nagios/bin/nagios /usr/local/nagios/etc/nagios.cfg
+
+	sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+	nagiosadmin/btrtmr
+	http://www.the-tech-tutorial.com/adding-hosts-to-nagios/
+
+	https://access.redhat.com/documentation/en-US/Red_Hat_Storage/3/html/Console_Administration_Guide/Configuring_Nagios_to_Send_Mail_Notifications.html
+
+	https://www.ftmon.org/blog/nagios-notification-setup-testing/
+
+	check configuration
+	/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+
+	https://stackoverflow.com/questions/33028658/monitor-web-service-with-nagios-check-http
+
+	nano /usr/local/nagios/etc/servers/ubuntu_host.cfg
+# Contacts
+define contact {
+	contact_name                           	Contact1
+		alias                                   Alan
+		email                                   alantypoon@gmail.com
+		service_notification_period             24x7
+		service_notification_options            w,u,c,r,f,s
+		service_notification_commands           notify-service-by-email
+		host_notification_period                24x7
+		host_notification_options               d,u,r,f,s
+		host_notification_commands              notify-host-by-email
+
+	service_notifications_enabled   1
+	host_notifications_enabled      1
+}
+
+####################################
+
+define host{
+		use                          linux-server
+		host_name                    vb_host
+		alias                        videoboard Host
+		address                      videoboard.hk
+		register                     1
+		notifications_enabled        1
+		notification_period          24x7
+		notification_interval        120
+		notification_options         d,u,r,f,s
+		contacts                     Contact1
+}
+
+####################################
+
+define command{
+    	command_name    check_https_vb
+	command_line	/usr/local/nagios/libexec/check_http -H videoboard.hk -S
+}
+
+####################################
+
+define service {
+		service_description             vb_https
+		use                             generic-service
+		check_command                   check_https_vb
+		host_name                       vb_host
+		register                     	1
+		notification_interval           0
+    notification_period             24x7
+    notifications_enabled           1
+    flap_detection_enabled          1
+		contacts                     	Contact1
+}
+
+- NAGIOS XI
+	https://assets.nagios.com/downloads/nagiosxi/docs/Installing-Nagios-XI-Manually-on-Linux.pdf
+
+	mrtg cron job issue
+	https://support.nagios.com/forum/viewtopic.php?f=6&t=34916
+	http://penguinbliss.com/?p=239
+
+- install turnserver
+	http://turnserver.sourceforge.net/
+	http://turnserver.sourceforge.net/index.php?n=Doc.Install
+	http://turnserver.open-sys.org/downloads/v4.5.0.6/
+	https://www.howtoinstall.co/en/ubuntu/xenial/turnserver
+
+	[install by package]
+	apt-get install turnserver
+	/usr/sbin/turnserver -c /etc/turnserver/turnserver.conf
+
+	[intall by compilation with debug info]
+		apt install autoconf automake make gcc libssl-dev libconfuse-dev check doxygen pkg-config
+		wget https://downloads.sourceforge.net/project/turnserver/turnserver-0.7.3.tar.bz2
+		tar xfv turnserver-0.7.3.tar.bz2
+		cd turnserver-0.7.3
+		autoreconf -i
+		./configure --enable-debug-build
+		make && make install
+
+		/usr/local/sbin/turnserver -c /etc/turnserver/turnserver.conf
+
+	- configure
+		nano /etc/turnserver/turnserver.conf
+##
+# TurnServer configuration file.
+#
+
+## Public IPv4 address of any relayed address (if not set, no relay for IPv4).
+## To have multiple address, separate addresses with a comma
+## (i.e. listen_address = { "172.16.0.1", "172.17.0.1" }).
+#listen_address = { "192.168.0.1" }
+#listen_address = { "0.0.0.0" }
+listen_address = { "146.196.54.57" }
+
+## Public IPv6 address of any relayed address (if not set, no relay for IPv6).
+## To have multiple address, separate address with a comma
+## (i.e. listen_addressv6 = { "2001:db8:1::1", "2001:db8:2::1" }).
+#listen_addressv6 = { "2001:db8::1" }
+
+## UDP listening port.
+udp_port = 3478
+
+## TCP listening port.
+tcp_port = 3478
+
+## TLS listening port.
+tls_port = 5349
+
+## TLS support.
+tls = false
+
+## DTLS support. It is an experimental feature and is not defined in TURN
+## standard.
+dtls = false
+
+## Maximum allocation port number.
+max_port = 65535
+
+## Minimum allocation port number.
+min_port = 49152
+
+## TURN-TCP support.
+turn_tcp = true
+
+## TURN-TCP buffering mode:
+## - true, use userspace buffering;
+## - false, use kernel buffering.
+tcp_buffer_userspace = true
+
+## TURN-TCP maximum buffer size.
+tcp_buffer_size = 32768
+
+## Daemon mode.
+## default=true
+#daemon = true
+daemon = false
+
+## Unprivileged user.
+## If you want to use this feature create a system user.
+## On Linux: adduser --system --group turnserver
+unpriv_user = turnserver
+
+## Realm value.
+realm = "yocle.net"
+
+## Nonce key.
+nonce_key = "hieKedq"
+
+## Max relay per username.
+## default=5
+max_relay_per_username = 9950000
+
+## Allocation lifetime.
+allocation_lifetime = 1800
+
+## Allocation bandwidth limitation (in KBytes/s).
+## 0 value means bandwidth quota disabled.
+## default=150
+bandwidth_per_allocation = 0
+
+## Restricted user bandwidth (in KBytes/s).
+## 0 value means bandwidth limitation disabled.
+## default=10
+restricted_bandwidth = 0
+
+## Denied addresses.
+
+# disallow relaying to localhost
+denied_address {
+	address = "127.0.0.1"
+	mask = "8"
+	port = 0
+}
+
+# disallow relaying to ip6-localhost
+denied_address {
+	address = "::1"
+	mask = "128"
+	port = 0
+}
+
+#denied_address {
+#  address = "10.1.4.0"
+#  mask = 24
+#  port = 0
+#}
+
+## Certification Authority file.
+ca_file = "/etc/ssl/certs/ca-certificates.crt"
+
+## Server certificate file.
+cert_file = "/etc/turnserver/ssl/server.crt"
+
+## Private key file.
+private_key_file = "/etc/turnserver/ssl/server.key"
+
+## Account method.
+account_method = "file"
+
+## Account file (if account_method = file).
+account_file = "/etc/turnserver/turnusers.txt"
+
+## mod_tmpuser.
+mod_tmpuser = false
+
+	- users
+		nano /etc/turnserver/turnusers.txt
+		alan:1234:yocle.net:authorized
+
+	- run by command
+
+	- run by service
+		nano /etc/systemd/system/vb_turn.service
+		[Unit]
+		Description=VB Turn
+		[Service]
+		ExecStart=/usr/local/sbin/turnserver -c /etc/turnserver/turnserver.conf
+		Restart=always
+		RestartSec=10
+		StandardOutput=syslog
+		StandardError=syslog
+		SyslogIdentifier=vb_convert
+		User=root
+		Group=root
+		Environment=PATH=/usr/bin:/usr/local/bin
+		Environment=NODE_ENV=production
+		WorkingDirectory=/usr/local/sbin/
+
+		systemctl enable vb_turn
+		systemctl start vb_turn
+		systemctl status vb_turn
+		journalctl -u vb_turn
+
+		/usr/local/sbin/turnserver -c /etc/turnserver/turnserver.conf
+
+	- open port 49152-65535
+		ufw allow 49152:65535/udp
+		ufw allow 49152:65535/tcp
+		ufw allow 3478
+
+- backup job
+
+
+
+**********************************************
+* MONGODB
+**********************************************
+- auth
+	> https://docs.mongodb.com/manual/tutorial/enable-authentication/
+		db.createUser(
+			{
+				user: "admin",
+				pwd: "btrtmr624",
+				roles: [ { role: "userAdminAnyDatabase", db: "admin" }, {role: "readWrite", db: "yolofolio"} ]
+			}
+		)
+
+		use admin
+		db.auth('admin', 'btrtmr624')
+
+		use yolofolio
+		db.createUser(
+			{
+				user: "yocle_user",
+				pwd: "yoloisgreat2017",
+				roles: [ { role: "readWrite", db: "yolofolio" } ]
+			}
+		)
+
+	> http://php.net/manual/en/mongo.connecting.auth.php
+		- $m = new MongoClient("mongodb://${username}:${password}@localhost");
+		- $m = new MongoClient("mongodb://yocle_user:yoloisgreat2017@localhost:27017");
+
+		- $m = new MongoClient("mongodb://localhost", array("username" => $username, "password" => $password));
+		- $m = new MongoClient("mongodb://localhost", ['username' => 'yocle_user', 'password' => 'yoloisgreat2017']);
+
+
+MongoDB Compatibility
+https://docs.mongodb.com/ecosystem/drivers/driver-compatibility-reference/#reference-compatibility-language-php
+
+server
+- https://www.mongodb.com/download-center#community
+
+driver
+- http://pecl.php.net/package/mongodb
+- http://pecl.php.net/package/mongo/1.6.14
+- http://pecl.php.net/package/mongodb/1.1.7/windows (recommended)
+- https://askubuntu.com/questions/765146/how-to-install-mongodb-php-extension-in-ubuntu-16-04-lts
+
+install
+-http://www.thegeekstuff.com/2015/10/php-mongodb-for-xampp/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheGeekStuff+(The+Geek+Stuff)
+
+tutorial
+- http://php.net/manual/en/class.mongodb-driver-manager.php
+- http://www.tutorialspoint.com/mongodb/pdf/mongodb_quick_guide.pdf
+- http://blog.mongodb.org/post/87200945828/6-rules-of-thumb-for-mongodb-schema-design-part-1
+- http://blog.mongodb.org/post/87892923503/6-rules-of-thumb-for-mongodb-schema-design-part-2
+- http://blog.mongodb.org/post/88473035333/6-rules-of-thumb-for-mongodb-schema-design-part-3
+- MONGODB_AND_PHP_OREILLY.pdf
+	http://img105.job1001.com/upload/adminnew/2015-04-07/1428400393-GQUZFY0.pdf
+- PHP_and_MongoDB_WebDevelopment
+	http://img105.job1001.com/upload/adminnew/2015-04-07/1428398776-AAI3MVO.pdf
+
+php5.6 & 7 under ubuntu
+- http://askubuntu.com/questions/761713/how-can-i-downgrade-from-php-7-to-php-5-6-on-ubuntu-16-04
+- http://askubuntu.com/questions/59886/how-to-compelety-remove-php
+	sudo apt-get -y purge php.*
+
+---------------------------------------------------------------------------
+mongodb on windows
+install 64bit VC11 (php 5.6 does not support VC14 yet)
+---------------------------------------------------------------------------
+How-to
+	- http://lifeofageekadmin.com/how-install-apache-2-4-php-5-6-and-mysql-5-6-26-on-windows-10/
+
+=================================
+- httpd.conf
+- http://www.apachehaus.com/cgi-bin/download.plx
+- http://www.apachehaus.com/cgi-bin/download.plx?dli=gUwokWXNVWz0ERZ9iTERmRJVlUGRVYStUTV1kM
+=================================
+#
+# added by alantypoon20160921
+# placed on top of httpd.conf
+#
+Define SRVROOT "/x64Apache24"
+ServerRoot "${SRVROOT}"
+
+#LISTENING PORT
+Listen 192.168.0.100:8442
+ServerName dev.adiai.com:8442
+
+#ROOT DIRECTORY
+#DocumentRoot "C:/Users/pong2/Google Drive/___CETL/YOCLE/web"
+#<Directory "C:/Users/pong2/Google Drive/___CETL/YOCLE/web">
+#		Options Indexes FollowSymLinks
+#		AllowOverride None
+#		Require all granted
+#</Directory>
+DocumentRoot "C:/mars171"
+<Directory "C:/mars171">
+	Options Indexes FollowSymLinks
+	AllowOverride None
+	Require all granted
+</Directory>
+#
+# php5.5
+#
+LoadModule php5_module C:/x64php55/php5apache2_4.dll
+<IfModule php5_module>
+		DirectoryIndex index.html index.php
+		AddHandler application/x-httpd-php .php
+		PHPIniDir "c:/x64php55"
+</IfModule>
+
+- start service
+c:\x64apache24\bin\httpd -k install
+
+=================================
+php.ini
+http://windows.php.net/download/
+http://windows.php.net/downloads/releases/php-5.6.26-Win32-VC11-x64.zip
+=================================
+extension_dir = "c:\x64php56\ext"
+
+[general]
+extension=php_openssl.dll
+extension=php_fileinfo.dll
+
+[mongodb]
+extension=c:\x64php56\ext\mongo\php_mongo.dll
+extension=c:\x64php56\ext\mongo\php_mongodb.dll
+
+[imagick]
+extension=c:\x64php56\ext\imagick\php_imagick.dll
+
+- unzip php_ext.zip with corel files
+==================================
+mongodb
+==================================
+- download
+https://www.mongodb.com/download-center#community
+https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.2.9-signed.msi?_ga=1.202456533.513287409.1463659716
+
+- install
+mongod --remove
+mongod --dbpath="C:\Program Files\MongoDB\Server\3.2\bin" --logpath="C:\Program Files\MongoDB\Server\3.2\bin\log.txt" --install
+services.msc
+net start mongodb
+
+- dump and restore
+mongodump -h mongodb -d yolofolio -o ./yolofolio_xxxxx
+chmod 777 -R ./yolofolio_xxxxx
+
+[open shell]
+use yolofolio;
+db.dropDatabase();
+  _xxxxx
+
+---------------------------------------------------------------------------
+mongodb on ubuntu
+---------------------------------------------------------------------------
+intall
+- https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/
+- https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+steps
+- apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+- echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list	(ubuntu 14.04)
+- apt-get install -y mongodb-org
+- service mongod start
+- nano /var/log/mongodb/mongod.log (checking)
+- netstat -peanut | grep 27017 (checking)
+- nano /etc/mongod.conf (edit)
+- service mongod restart
+
+-dump/restore
+- alan: mongodump -h 192.168.1.40 -d yolofolio -o mongo_yolofolio
+- pong: mongorestore -h 192.168.0.40 -d yolofolio ./mongo_yolofolio/yolofolio
+- pong: mongorestore -h 192.168.0.100 -d yolofolio ./mongo_yolofolio/yolofolio
+- alan: mongorestore -h mongodb -d yolofolio yolofolio
+- alan: mongorestore -h localhost -d yolofolio ./yocle_
+
+php5.6 & 7 under ubuntu
+- http://askubuntu.com/questions/761713/how-can-i-downgrade-from-php-7-to-php-5-6-on-ubuntu-16-04
+- http://askubuntu.com/questions/59886/how-to-compelety-remove-php
+	sudo apt-get -y purge php.*
+
+**********************************************
+* IMAGICK(WINDOWS)
+**********************************************
+
+	1. general installation
+	- http://stackoverflow.com/questions/18375092/imagick-php-windows
+			Install WAMP 32bit (even if you running 64bit system you must use 32bit version of WAMP)
+			Install ImageMagick to C:/imagemagick, use this file: https://www.dropbox.com/s/i2mhrhd7sp0ilzk/ImageMagick-6.8.0-3-Q16-windows-dll.exe
+			Put DLL with Imagick into extension folder of PHP, e.g. D:\wamp32\bin\php\php5.4.16\ext, I used this file: https://www.dropbox.com/s/ayankf850l08rm2/php_imagick.dll
+
+			Step 1) Gather information
+				First of all you should gather some information of your PHP environment.
+				You can easily see your PHP information with the function phpinfo()
+				The information you need:
+					Architecture: x86(32-bit) or x64(64-bit)
+					PHP-version: you can find this in the header of the phpinfo() output.
+					PHP Extension Build: This string contains 2 important parts:
+					NTS or TS
+					VCx (like VC11)
+				Loaded Configuration File: the path to your used php.ini file.
+
+			Step 2) Download Binary
+				You can download the binary from the official site of ImageMagick.
+					- http://www.imagemagick.org/script/binary-releases.php#windows
+				I recommend you to read the small introduction under the "Windows Binary Release" to be certain which "bits-per-pixel" to choose from(8 or 16). Downloading the latest version should be just fine. Make sure this binary is the same architecture as your PHP architecture that you have gathered in step 1.
+
+			Step 3) Install Binary***
+				Install the binary to your phpx.x.xx\bin file. For example: C:\wamp64\bin\php\php5.6.16\bin. (This can be any folder, but for the convenience I put in here)
+				Make sure "Add application directory to your system path" is checked. Should be checked by default though.
+
+			Step 4) Download PHP extension
+				The DLL PHP extension is available through the windows pecl php site:
+					http://windows.php.net/downloads/pecl/releases/imagick/
+
+				Again, you can just click the latest version.
+				Next of, choose the right version based on the gathered information.
+				For example: php_imagick-3.4.1-5.6-nts-vc11-x64.zip
+				This can be stripped into components:
+					php_imagick-3.4.1 - This is the php imagick extension with the version. This is not important.
+					5.6 - This is your PHP version and should be equal to the PHP-version you are using, which you have determed in step 1.
+					NTS - This should be equal to the information of your PHP Extension Build that you have gathered in step 1.
+					VC11 - This should also be equal to the information of your PHP Extension Build that you have gathered in step 1.
+					x64 - This the architecture of the extension and should be equal to your PHP architecture that you have gathered in step 1.
+
+			Step 5) Extract PHP Extension
+				After you have downloaded the file, you should open the .zip file and look for a file named: php_imagick.dll. Extract this file to phpx.x.xx\ext.
+				Make sure the .dll file is fully accessable by you. Sometimes you need to explicity unblock the file.
+				Unblock file
+
+			Step 6) Activate PHP extension
+
+				To activate the extension in PHP, you should state in your php.ini file that you want to use this extension. You have gathered the path to your used php.ini file in step 1.
+					Add the line
+						extension=php_imagick.dll
+					to your php.ini PHP.ini Imagick line
+
+			Step 7) Restart your PC
+				Just to make sure, restart your PC so all Environment Paths will be correctly loaded.
+
+
+	2. The program can't start because CORE_RL_wand_.dll is missing from your computer. Try reinstalling the program to fix this problem.
+		https://github.com/WPN-XM/WPN-XM/issues/222
+		* Without setting ENV PATH to php/ext , the files must go into different folders,
+		* when unzipping the extension archive, e.g. "php_imagick-3.2.0b2-5.4-nts-vc9-x86.zip".
+		* php_imagick.dll goes into the PHP extensions folder /php/ext/
+		* all other dll files *.dll go in to the main PHP folder /php
+			- CORE_RL_bzlib_.dll
+			- CORE_RL_glib_.dll
+			- ...
+
+	3. number-of-supported-formats = 0
+	http://stackoverflow.com/questions/32764011/imagemagick-number-of-supported-formats-has-showing-value-0
+	This is a common problem when you have downloaded a version of Imagick that was compiled against a different version of ImageMagick than the one you are trying to run it with.
+	Try downloading both Imagick and ImageMagick from the same place e.g.
+	http://windows.php.net/downloads/pecl/deps/
+	http://windows.php.net/downloads/pecl/releases/imagick/
+
+	4. NoDecodeDelegateForThisImageFormat
+		- previously
+			ImageMagick-6.9.3-7-vc11-x64.zip
+			php_imagick-3.4.2-5.6-ts-vc11-x64
+		- as php upgraded to 5.6.26
+			http://windows.php.net/downloads/pecl/deps/ImageMagick-6.9.3-7-vc11-x64.zip
+			http://windows.php.net/downloads/pecl/releases/imagick/3.4.3rc1/php_imagick-3.4.3rc1-5.6-ts-vc11-x64.zip
+
+		- copy the unzipped folder:
+				.\ImageMagick-6.9.3-7-vc11-x64
+		to
+				c:\imagick6937
+		*** AND THEN "Add application directory to your system path"
+				c:\imagick6937\bin
+
+- mongoimport --db yolofolio --collection images --file images.json
+- mongoexport --db yolofolio --collection images --file images.json
+
+
+setup of ffmpeg & php on windows
+- https://ffmpeg.org/download.html
+- http://www.wikihow.com/Install-FFmpeg-on-Windows
+
+// 3. letsencrypt
+// https://letsencrypt.org/getting-started/
+///////////////////////////////////////////
+	apt-get install git
+	git clone https://github.com/letsencrypt/letsencrypt
+	cd letsencrypt
+	./letsencrypt-auto --help
+	./letsencrypt-auto
+		- Yes
+		- videoboard.hk
+		- alantypoon@gmail.com
+		- Agree
+		- Easy
+	cd /etc/apache2/sites-enabled
+	mv 000-default-le-ssl.conf videoboard.hk-ssl.conf
+	nano /etc/apache2/sites-enabled/videoboard.hk-ssl.conf (top insert)
+    ServerName videoboard.hk
+    ServerAdmin alantypoon@gmail.com
+    DocumentRoot /videoboard/web
+
+	- renew script at /etc/cron.daily/ (sh /etc/cron.daily/renew.sh)
+		#!/bin/sh
+		echo >> /var/log/letsencrypt/renew.log
+		echo '*******************************************************************************' >> /var/log/letsencrypt/renew.log
+		date >> /var/log/letsencrypt/renew.log
+		if ! /videoboard/letsencrypt/letsencrypt-auto renew >> /var/log/letsencrypt/renew.log 2>&1 ; then
+			echo Automated renewal failed:
+			cat /var/log/letsencrypt/renew.log
+			exit 1
+		fi
+		echo '*******************************************************************************' >> /var/log/letsencrypt/renew.log
+
+- install letsencrypt
+	https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04
+	sudo add-apt-repository ppa:certbot/certbot
+	sudo apt-get update
+	sudo apt-get install python-certbot-apache
+	sudo certbot --apache -d videoboard.hk
+	https://www.ssllabs.com/ssltest/analyze.html?d=videoboard.hk&latest
+
+	[cron job]
+	sudo crontab -e
+	15 3 * * * /usr/bin/certbot renew --quiet
+
+- letsencrypt: check renewal at yocle.net server
+	certbot --apache -d videoboard.hk (--quiet)
+	certbot --apache -d yocle.net (--quiet)
+	certbot --apache -d cetl.ddns.net (--quiet)
+	certbot --apache -d alanpoon.ddns.net (--quiet)
+	certbot --apache -d cplau.ddns.net (--quiet)
+
+	tail -f /var/log/letsencrypt/letsencrypt.log
+
+	sudo crontab -e
+	15 3 * * * /usr/bin/certbot --apache -d yocle.net --quiet
+	15 3 * * * /usr/bin/certbot --apache -d videoboard.hk --quiet
+
+	crontab -l
+
+	run-parts /etc/cron.daily
+
+[freedns]
+	cplau 180.131.162.129
+	yocle 146.196.54.57
+
+	add  --quiet for automatic
+	certbot --apache -d apmac.mooo.com
+	certbot --apache -d alanpoon.mooo.com
+	certbot --apache -d cetl.mooo.com
+	certbot --apache -d cplau.mooo.com
+	certbot --apache -d apmac.crabdance.com
+
+[openvpn]
+	https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04
+	sudo apt-get -f install easy-rsa
+	sudo apt-get -f install openvpn
+
+	[pkcs11-helper]
+	https://github.com/OpenSC/pkcs11-helper
+	git clone https://github.com/OpenSC/pkcs11-helper.git
+	autoreconf -i
+	./configure
+	make
+	make install
+
+	sudo apt-key list | \
+	 grep "expired: " | \
+	 sed -ne 's|pub .*/\([^ ]*\) .*|\1|gp' | \
+	 xargs -n1 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys
+
+	 apt-key update
+
+[Package libpkcs11-helper1 is not available, but is referred to by another package.]
+
+[tunnelblick]
+	https://tunnelblick.net/cInstall.html
+
+[Apr 01 15:10:55 yocle.net ovpn-server[19714]: MULTI: new connection by client 'client1' will cause previous active sessions by this client to be dropped.  Remember to use the --duplicate-cn option if you want multiple clients using the same certificate or username to concurrently connect.]
+
+	https://www.unixtutorial.org/2016/03/multiple-openvpn-clients-sharing-the-same-certificate/
+	https://gist.github.com/laurenorsini/9925434
+	duplicate-cn

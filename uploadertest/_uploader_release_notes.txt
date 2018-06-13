@@ -1,0 +1,103 @@
+20161102
+	- fixed multiple uploader issues
+	- added media support up to 4 data types
+		1. user
+		2. activity
+		3. assessment
+		3. item
+	- added common creation function: initUploader
+
+20161101 change svrop.php to support 
+ 	1. user
+ 	2. activity
+ 	3. assessment
+ 	4. assessment items
+ for the following methods
+ 	1. get_media
+ 	2. ul_media
+ 	3. remove_media
+
+20161030
+	- show warnning in chrome upload video (that has an unsupported format)
+		alert('Timeout: please upload by another browser.');
+
+20161029
+	// 1. CREATE EMPTY DIV (UPLOADER_CHILD)
+	// 2. ADD PLAY BUTTON FOR THE VIDEO
+	// 3. ADD PROGRESS BAR INSIDE DIV
+	// 4. START UPLOAD
+	// 5. CREATE ELEMENT OF MEDIA (PREVIEW IF DONE)
+	// 6. ADD TRASH
+	// 7. AFTER UPLOADING IF THE MEDIA IS STILL NOT LOADED, CALL SERVER FOR CONVERSION AND UPDATE THE VIDEO TO BE THE CONVERTED VIDEO (TO BE DONE)
+
+20161027
+	- a.uploader.js
+		> considered wrong mime type (client and server)
+		> considered multiple loading
+		> considered no media yet
+		
+	- server cannot determine file type
+		> added resumableFileCat and passed from client
+		
+	- file.pbar not created yet
+		> it should not happen because the pbar is created before upload()?
+		> fixed by considering added again
+		
+	- findandmodify (solved)
+		2016-10-27 09:10:38 generate new media_id=4 on yolofolio media
+		2016-10-27 09:10:38 generate new media_id=4 on yolofolio media
+		> incx2 before read=4x2
+		> solution: findandmodify
+		> install mongo-php-library: 
+		 - https://github.com/mongodb/mongo-php-library
+		 - https://docs.mongodb.com/php-library/master/tutorial/install-php-library/
+		> write my own method
+			- https://docs.mongodb.com/manual/reference/command/findAndModify/
+			- https://docs.mongodb.com/v3.2/reference/method/db.collection.findAndModify/
+		> db.runCommand(
+				 {
+					 findAndModify: "people",
+					 query: { name: "Tom", state: "active", rating: { $gt: 10 } },
+					 sort: { rating: 1 },
+					 update: { $inc: { score: 1 } }
+				 }
+			)
+			- The query finds a document in the people collection where the name field has the value Tom, the state field has the value active and the rating field has a value greater than 10.
+			- The sort orders the results of the query in ascending order. If multiple documents meet the query condition, the command will select for modification the first document as ordered by this sort.
+			- The update increments the value of the score field by 1.
+		> solved by modifiying datadbaseFindAndInc
+
+20161026
+	- return sub-doucment from mongodb
+		- http://stackoverflow.com/questions/15081463/how-to-write-mongo-query-to-find-sub-document-with-condition
+		- db.getCollection('users').find({user_id:1}, {_id:0, 'profile.activity':1}), return
+			{
+					"profile" : {
+							"education" : [ 
+									{
+											"item_id" : 0,
+											"school" : "P.L.K. Vicwood K.T.Chong Sixth Form College",
+											"degree" : "Matriculation Level",
+											"field" : "HKAL",
+											"start" : "1993",
+											"end" : "1995",
+											"desc" : ""
+									}, 
+									{
+											"item_id" : 1,
+											"school" : "The University of Hong Kong, Hong Kong",
+											"degree" : "Bachelor’s Degree",
+											"field" : "Bachelor of Cogntive Science",
+											"start" : "1995",
+											"end" : "1999",
+											"desc" : ""
+									}
+							]
+					}
+			}			
+	- load media into gallery
+	- use resumablejs as a singleton to save resources
+	- clean up objects after its use
+	- media_path: if array, add element, number, update
+	- add quota (100MB) and stored.
+	

@@ -1,0 +1,671 @@
+{
+    "_id" : ObjectId("57b2c631a2a0e0af8ac83c61"),
+    "user_id" : 1,
+    "img_id" : 1,
+    "email" : "alantypoon@gmail.com",
+    "pwd" : "1234",
+    "username" : "Alan Poon",
+    "position" : "Computer Officer",
+    "location" : "The University of Hong Kong, HONG KONG",
+    "photo" : 1,
+    "gender" : "0",
+    "birthday" : "2016-07-22",
+    "confirmed_email" : 1,
+    "secret_token" : "915CCF72FFAC04E7DB5FDB7CD549C224",
+    "last_send_confirm" : "2016-08-12 11:08:24",
+    "network" : 16,
+    "coordinated" : 2,
+    "participated" : 7,
+    "skills" : {
+        "Information technology" : {
+            "show" : 1,
+            "score" : 4.5,
+            "rated" : [ 
+                "p01", 
+                "p02", 
+                "p04", 
+                "m02", 
+                "f03", 
+                "m04", 
+                "p01", 
+                "p02", 
+                "p03", 
+                "p04", 
+                "f01"
+            ]
+        },
+        "Teamwork" : {
+            "show" : 1,
+            "score" : 4.5,
+            "rated" : [ 
+                "p01", 
+                "p02", 
+                "p04", 
+                "m02", 
+                "f03", 
+                "m04", 
+                "p01", 
+                "p02", 
+                "p03", 
+                "p04", 
+                "f01", 
+                "m02", 
+                "f03", 
+                "m04"
+            ]
+        },
+        "Problem solving" : {
+            "show" : 1,
+            "score" : 4,
+            "rated" : [ 
+                "p06", 
+                "f01", 
+                "m01", 
+                "f02", 
+                "f03"
+            ]
+        },
+        "Critical thinking" : {
+            "show" : 1,
+            "score" : 4,
+            "rated" : [ 
+                "p05", 
+                "p06", 
+                "p07", 
+                "", 
+                "f01"
+            ]
+        },
+        "Numeracy" : {
+            "show" : 1,
+            "score" : 4,
+            "rated" : [ 
+                "p06", 
+                "f01", 
+                "m01", 
+                "f02", 
+                "f03", 
+                "f04"
+            ]
+        },
+        "Self-management" : {
+            "show" : 1,
+            "score" : 4,
+            "rated" : [ 
+                "p05", 
+                "p06", 
+                "p07", 
+                "", 
+                "f01"
+            ]
+        },
+        "Creativity" : {
+            "show" : 0,
+            "score" : 3.5,
+            "rated" : [ 
+                "p05", 
+                "p06", 
+                "p07", 
+                "p08", 
+                "m02", 
+                "f03", 
+                "m04", 
+                "", 
+                ""
+            ]
+        },
+        "Organization" : {
+            "show" : 0,
+            "score" : 3.5,
+            "rated" : [ 
+                "p07", 
+                "p08", 
+                "", 
+                ""
+            ]
+        },
+        "Leadership" : {
+            "show" : 0,
+            "score" : 3.5,
+            "rated" : [ 
+                "p05", 
+                "p06", 
+                "p07", 
+                "p08", 
+                "f01", 
+                "m02", 
+                "f03", 
+                "m04", 
+                ""
+            ]
+        },
+        "Communication" : {
+            "show" : 0,
+            "score" : 3,
+            "rated" : [ 
+                "p06", 
+                "p07", 
+                "p08", 
+                "", 
+                "", 
+                ""
+            ]
+        },
+        "Collaboration" : {
+            "show" : 0,
+            "score" : 3,
+            "rated" : [ 
+                "p01", 
+                "p03", 
+                "f03", 
+                "m08", 
+                "m02", 
+                ""
+            ]
+        }
+    },
+    "objectives" : "Live cheerfully with others.",
+    "profile" : {
+        "order" : [ 
+            "objectives", 
+            "activity", 
+            "award", 
+            "language", 
+            "publication", 
+            "education", 
+            "work", 
+            "interest",
+            "media"
+        ],
+        "work" : [ 
+            {
+                "item_id" : 0,
+                "company" : "Supreme Imperial International Limited",
+                "title" : "Chief Technical Officer",
+                "location" : "Hong Kong",
+                "start" : "2015-01",
+                "end" : "2015-08",
+                "desc" : "<p>- Design and develop a GPS-tracker system for elderly, kids, mental handicapped and pets.</p><p>- Develop a Point-of-Sales and CRM system with mobile applications and SMS modem.</p><p>- Generate feasible business models in terms of business and technology.</p><p>- Source suitable IT hardware from manufacturers in mainland China.</p><p>- Perform quality control on the products and services.</p><p>- Install IT services such as web, mail and DNS server.</p><p>- Plan for contingency and disaster recovery.</p>"
+            }, 
+            {
+                "item_id" : 1,
+                "company" : "videoboard",
+                "title" : "Product Research Developer",
+                "location" : "Hong Kong",
+                "start" : "2015-9",
+                "end" : "2016-1",
+                "desc" : "<p>- One of the founders involved with the creation of service design and business model.</p><p>- Develop the system with video conferencing, virtually unlimited drawing board, with media and screen sharing, recording and cloud functions, used in most major browsers without any extra installation.</p><p>- Set up and maintain the servers required for the system.</p>"
+            }, 
+            {
+                "item_id" : 2,
+                "company" : "The University of Hong Kong",
+                "title" : "Computer Officer",
+                "location" : "HONG KONG",
+                "start" : "2016-4",
+                "end" : "Present",
+                "desc" : "<span style=\"display: inline !important;\">Develop a social media platform for generic skills</span>"
+            }
+        ],
+        "education" : [ 
+            {
+                "item_id" : 0,
+                "school" : "P.L.K. Vicwood K.T.Chong Sixth Form College",
+                "degree" : "Matriculation Level",
+                "field" : "HKAL",
+                "start" : "1993",
+                "end" : "1995",
+                "desc" : ""
+            }, 
+            {
+                "item_id" : 1,
+                "school" : "The University of Hong Kong, Hong Kong",
+                "degree" : "Bachelor’s Degree",
+                "field" : "Bachelor of Cogntive Science",
+                "start" : "1995",
+                "end" : "1999",
+                "desc" : ""
+            }
+        ],
+        "publication" : [ 
+            {
+                "item_id" : 0,
+                "title" : "Learning User Behavior through Autonomous Agent",
+                "publisher" : "The University of Hong Kong",
+                "date" : "2000-1",
+                "desc" : "An agent which learns the user's behavior on browsing financial information."
+            }
+        ],
+        "language" : [ 
+            {
+                "item_id" : 1,
+                "language" : "English",
+                "spoken" : "intermediate",
+                "written" : "intermediate",
+                "remarks" : ""
+            }, 
+            {
+                "item_id" : 2,
+                "language" : "Chinese",
+                "spoken" : "native",
+                "written" : "fluent",
+                "remarks" : "Lived in HK since birth"
+            }
+        ],
+        "award" : [ 
+            {
+                "item_id" : 0,
+                "title" : "Exceptional Performance Award",
+                "issuer" : "Hong Kong Jockey Club",
+                "date" : "2004-7",
+                "desc" : ""
+            }
+        ],
+        "activity" : [ 
+            {
+                "act_id" : 4,
+                "title" : "Post-earthquake Visit to Sichuan",
+                "act_type" : "OCL-X",
+                "start" : "2016-01-01 09:00",
+                "end" : "2016-01-31 18:00",
+                "published" : 1,
+                "coordinator" : 1,
+                "uact_role" : "coordinator",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1,
+                "sharing" : "0",
+                "skills" : {
+                    "Information technology" : {
+                        "show" : 1,
+                        "score" : 4.5,
+                        "rated" : [ 
+                            "p01", 
+                            "p02", 
+                            "p04", 
+                            "m02", 
+                            "f03"
+                        ]
+                    },
+                    "Teamwork" : {
+                        "show" : 1,
+                        "score" : 4.5,
+                        "rated" : [ 
+                            "p01", 
+                            "p02", 
+                            "p04", 
+                            "m02", 
+                            "f03"
+                        ]
+                    },
+                    "Problem solving" : {
+                        "show" : 1,
+                        "score" : 4,
+                        "rated" : [ 
+                            "p06", 
+                            "f01", 
+                            "m01", 
+                            "f02"
+                        ]
+                    },
+                    "Critical thinking" : {
+                        "show" : 1,
+                        "score" : 4,
+                        "rated" : [ 
+                            "p05", 
+                            "p06", 
+                            "p07", 
+                            "", 
+                            "f01"
+                        ]
+                    },
+                    "Numeracy" : {
+                        "show" : 1,
+                        "score" : 4,
+                        "rated" : [ 
+                            "p06", 
+                            "f01", 
+                            "m01", 
+                            "f02", 
+                            "f03", 
+                            "f04"
+                        ]
+                    }
+                },
+                "assessments" : []
+            }, 
+            {
+                "act_id" : 3,
+                "title" : "Beyond Our Borders: Experience Taiwan and South Korea",
+                "act_type" : "OCL-X",
+                "start" : "2016-11-01 09:00",
+                "end" : "2016-11-31 18:00",
+                "published" : 0,
+                "coordinator" : 1,
+                "uact_role" : "coordinator",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1,
+                "sharing" : "2",
+                "assessments" : [],
+                "skills" : {
+                    "Numeracy" : {
+                        "show" : 0,
+                        "score" : 4,
+                        "rated" : [ 
+                            "p06", 
+                            "f01", 
+                            "m01", 
+                            "f02", 
+                            "f03", 
+                            "f04"
+                        ]
+                    },
+                    "Self-management" : {
+                        "show" : 1,
+                        "score" : 4,
+                        "rated" : [ 
+                            "p05", 
+                            "p06", 
+                            "p07", 
+                            "", 
+                            "f01"
+                        ]
+                    },
+                    "Creativity" : {
+                        "show" : 1,
+                        "score" : 4.5,
+                        "rated" : [ 
+                            "p05", 
+                            "p06", 
+                            "p07", 
+                            "p08", 
+                            "m02", 
+                            "f03", 
+                            "m04", 
+                            "", 
+                            ""
+                        ]
+                    },
+                    "Organization" : {
+                        "show" : 1,
+                        "score" : 3,
+                        "rated" : [ 
+                            "p07", 
+                            "p08", 
+                            "", 
+                            ""
+                        ]
+                    },
+                    "Leadership" : {
+                        "show" : 1,
+                        "score" : 3.5,
+                        "rated" : [ 
+                            "p05", 
+                            "p06", 
+                            "p07", 
+                            "p08", 
+                            "f01", 
+                            "m02", 
+                            "f03", 
+                            "m04", 
+                            ""
+                        ]
+                    },
+                    "Communication" : {
+                        "show" : 1,
+                        "score" : 3,
+                        "rated" : [ 
+                            "p06", 
+                            "p07", 
+                            "p08", 
+                            "", 
+                            "", 
+                            ""
+                        ]
+                    },
+                    "Collaboration" : {
+                        "show" : 1,
+                        "score" : 3,
+                        "rated" : [ 
+                            "p01", 
+                            "p03", 
+                            "f03", 
+                            "m08", 
+                            "m02", 
+                            ""
+                        ]
+                    }
+                }
+            }, 
+            {
+                "act_id" : 5,
+                "title" : "Science Society Open Day",
+                "act_type" : "OCL-X",
+                "start" : "2016-01-01 09:00",
+                "end" : "2016-01-31 18:00",
+                "published" : 1,
+                "coordinator" : 1,
+                "uact_role" : "coordinator",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1,
+                "sharing" : "2",
+                "skills" : {
+                    "Numeracy" : {
+                        "show" : 0,
+                        "score" : 4,
+                        "rated" : [ 
+                            "p06", 
+                            "f01", 
+                            "m01", 
+                            "f02", 
+                            "f03", 
+                            "f04"
+                        ]
+                    },
+                    "Self-management" : {
+                        "show" : 1,
+                        "score" : 4,
+                        "rated" : [ 
+                            "p05", 
+                            "p06", 
+                            "p07", 
+                            "", 
+                            "f01"
+                        ]
+                    },
+                    "Creativity" : {
+                        "show" : 1,
+                        "score" : 4.5,
+                        "rated" : [ 
+                            "p05", 
+                            "p06", 
+                            "p07", 
+                            "p08", 
+                            "m02", 
+                            "f03", 
+                            "m04", 
+                            "", 
+                            ""
+                        ]
+                    },
+                    "Organization" : {
+                        "show" : 1,
+                        "score" : 3,
+                        "rated" : [ 
+                            "p07", 
+                            "p08", 
+                            "", 
+                            ""
+                        ]
+                    },
+                    "Leadership" : {
+                        "show" : 1,
+                        "score" : 3.5,
+                        "rated" : [ 
+                            "p05", 
+                            "p06", 
+                            "p07", 
+                            "p08", 
+                            "f01", 
+                            "m02", 
+                            "f03", 
+                            "m04", 
+                            ""
+                        ]
+                    },
+                    "Communication" : {
+                        "show" : 1,
+                        "score" : 3,
+                        "rated" : [ 
+                            "p06", 
+                            "p07", 
+                            "p08", 
+                            "", 
+                            "", 
+                            ""
+                        ]
+                    },
+                    "Collaboration" : {
+                        "show" : 1,
+                        "score" : 3,
+                        "rated" : [ 
+                            "p01", 
+                            "p03", 
+                            "f03", 
+                            "m08", 
+                            "m02", 
+                            ""
+                        ]
+                    }
+                },
+                "assessments" : []
+            }, 
+            {
+                "act_id" : 2,
+                "act_type" : "YOLO-X",
+                "title" : "Parachute Diving",
+                "start" : "2016-10-14 09:00",
+                "end" : "2016-10-15 18:00",
+                "published" : 1,
+                "coordinator" : 1,
+                "uact_role" : "coordinator",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1,
+                "sharing" : "2",
+                "skills" : [],
+                "assessments" : []
+            }, 
+            {
+                "act_id" : 6,
+                "act_type" : "YOLO-X",
+                "title" : "Volunteer at Stocklerbridge Hospital",
+                "start" : "2017-01-01 05:00",
+                "end" : "2017-01-31 05:00",
+                "published" : 1,
+                "coordinator" : 1,
+                "uact_role" : "coordinator",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1,
+                "sharing" : "2",
+                "skills" : [],
+                "assessments" : []
+            }, 
+            {
+                "act_id" : 1,
+                "act_type" : "YOLO-X",
+                "title" : "Experiential Learning 2016",
+                "start" : "2016-10-01 09:00",
+                "end" : "2016-11-30 18:00",
+                "published" : 1,
+                "coordinator" : 1,
+                "uact_role" : "coordinator",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1,
+                "sharing" : "2",
+                "skills" : {
+                    "Numeracy" : {
+                        "show" : 0,
+                        "score" : 4,
+                        "rated" : [ 
+                            "p06", 
+                            "f01", 
+                            "m01", 
+                            "f02", 
+                            "f03", 
+                            "f04"
+                        ]
+                    },
+                    "Self-management" : {
+                        "show" : 1,
+                        "score" : 4,
+                        "rated" : [ 
+                            "p05", 
+                            "p06", 
+                            "p07", 
+                            "", 
+                            "f01"
+                        ]
+                    }
+                },
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "100",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 1,
+                        "uass_assessor" : 1,
+                        "uass_participant" : 1,
+                        "uass_status" : "new",
+                        "uass_items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "uass_input" : "First answer",
+                                "uass_output" : [ 
+                                    {
+                                        "user_id" : 2,
+                                        "datetime" : "2016-10-22 10:00",
+                                        "marks" : 70,
+                                        "comments" : "quite good"
+                                    }, 
+                                    {
+                                        "user_id" : 3,
+                                        "datetime" : "2016-10-22 10:00",
+                                        "marks" : 80,
+                                        "comments" : "very good. Keep trying!"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "uass_input" : "Second answer",
+                                "uass_output" : [ 
+                                    {
+                                        "user_id" : 2,
+                                        "datetime" : "2016-10-22 10:00",
+                                        "marks" : 75,
+                                        "comments" : "quite good. Improved!"
+                                    }, 
+                                    {
+                                        "user_id" : 3,
+                                        "datetime" : "2016-10-22 10:00",
+                                        "marks" : 90,
+                                        "comments" : "Excellent!"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+				"interest" : "Table tennis, reading, watching movies and playing board games.",
+				"media": []
+    }
+}

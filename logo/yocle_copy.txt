@@ -1,0 +1,7 @@
+data
+remote: C:\Program Files\MongoDB\Server\3.2\bin\
+local: 	g:\Program Files\MongoDB\Server\3.4\bin\yolofolio
+
+code
+remote: C:\Users\AlanPoon\Google Drive\___CETL\YOCLE\web\dev
+local: 	D:\GoogleDrive\___CETL\YOCLE\web\dev
