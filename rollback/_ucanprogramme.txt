@@ -1,0 +1,341 @@
+{
+    "act_id" : 0,
+    "img_id" : 0,
+    "act_type" : "OCL-X",
+    "start" : "2017-06-20 09:00",
+    "end" : "2017-11-30 18:00",
+    "title" : "<school> July 2017- Have, U Can Programme 全能有情教育工作坊",
+    "desc" : "Welcome to HKU, I hope that you are enjoying your programme activities and are meeting&nbsp;some new friends.<br>In the programme, we will be&nbsp;given you the opportunities to develop a number of different holistic competencies<br>including creativity, critical thinking, teamwork, problem solving, consideration, appreciation, communication and many more. I hope that you will somehow enhance these competencies as these competencies will help you in many aspects in life, society and career.<br>Don't forget to appreciate things in life, love people and not things.&nbsp;<br>情繫社會 共結校園<span><br>「全能」發展顯本領，有才有智更「有情」。<br></span>多謝各位同學和老師支持。",
+    "published" : 1,
+    "coordinator_id" : 2,
+    "participants" : [ 
+        2
+    ],
+    "impression" : {
+        "enabled" : 1,
+        "skills" : {
+            "Adaptability" : {
+                "act_part_scores" : {},
+                "act_assr_scores" : {},
+                "act_assr_completeds" : {}
+            },
+            "Collaboration" : {
+                "act_part_scores" : {},
+                "act_assr_scores" : {},
+                "act_assr_completeds" : {}
+            },
+            "Communication" : {
+                "act_part_scores" : {},
+                "act_assr_scores" : {},
+                "act_assr_completeds" : {}
+            },
+            "Contribution" : {
+                "act_part_scores" : {},
+                "act_assr_scores" : {},
+                "act_assr_completeds" : {}
+            },
+            "Creativity" : {
+                "act_part_scores" : {},
+                "act_assr_scores" : {},
+                "act_assr_completeds" : {}
+            },
+            "Leadership" : {
+                "act_part_scores" : {},
+                "act_assr_scores" : {},
+                "act_assr_completeds" : {}
+            },
+            "Resilience" : {
+                "act_part_scores" : {},
+                "act_assr_scores" : {},
+                "act_assr_completeds" : {}
+            },
+            "Self-confidence" : {
+                "act_part_scores" : {},
+                "act_assr_scores" : {},
+                "act_assr_completeds" : {}
+            }
+        },
+        "panelists" : {
+            "coordinator" : 1,
+            "self" : 0,
+            "peers" : 0,
+						"others" : [ 
+							3, 
+							7, 
+							8, 
+							9, 
+							11, 
+							12, 
+							13, 
+							14, 
+							15, 
+							16, 
+							17, 
+							18, 
+							32
+						]
+        },
+        "weight" : 50
+    },
+    "assessment" : {
+        "enabled" : 1,
+        "assessments" : [ 
+            {
+                "ass_id" : 1,
+                "method" : "sur",
+                "title" : "Learning Contract HKU Vs <school> 我們的學習合約",
+                "weight" : 0,
+                "start" : "2017-06-16 09:00",
+                "end" : "2017-07-20 18:00",
+                "skills" : {},
+                "panelists" : {
+                    "coordinator" : 1,
+                    "self" : 0,
+                    "peers" : 0,
+                    "others" : [ 
+											3, 
+											7, 
+											8, 
+											9, 
+											11, 
+											12, 
+											13, 
+											14, 
+											15, 
+											16, 
+											17, 
+											18, 
+											32 
+                    ]
+                },
+                "items" : [ 
+                    {
+                        "question" : "<span>Please write\ndown two to five competencies that you think that you are particularly \"STRONG\" at. <br>\n請列出二至五項你認為自己最<span>'強' (優秀/出眾/擅長)<span>的共通能力。<br>1.<br>2.<br>3.<br>4.<br>5.&nbsp;</span></span></span>",
+                        "sur_type" : 6,
+                        "weight" : 11
+                    }, 
+                    {
+                        "question" : "Please\nwrite down two to five competencies that you think that you are particularly\n\"WEAK\" at.\n\n<span>請列出二至五項你認為最<span>'弱'(差/平凡)<span>的共通能力。<br>1.<br>2.<br>3.<br>4.<br>5.</span></span></span>",
+                        "sur_type" : 6,
+                        "weight" : 11
+                    }, 
+                    {
+                        "question" : "(Think\nabout how you can enhance your competencies)\n\nAs\na participant of the HKU HAVE Project, my responsibility is to improve my weak\ncompetencies by: <br>\n\n(試想想能如何提升你的共通能力） 作為香港大學全能有情教育發展硏究計劃的參加者，我有責任透過以下方法提升自己最弱的共通能力 :\n\n&nbsp;\n\n<br>1.\n\n<br>2.\n\n<br>3.",
+                        "sur_type" : 6,
+                        "weight" : 11
+                    }, 
+                    {
+                        "question" : "As\na participant of the HKU HAVE Project, I agree to enthusiastically participate\nand contribute in all the activities. <br>作為香港大學全能有情教育發展硏究計劃的參加者, 我願意踴躍參與所有活動。",
+                        "sur_type" : 1,
+                        "weight" : 11
+                    }, 
+                    {
+                        "question" : "As\na participant of the HKU HAVE Project, I agree to listen attentively to my\nmentors and peers in all the activities. &nbsp;<br>作為香港大學全能有情教育發展硏究計劃的參加者, 我願意在所有活動中細心聆聽導師和同學的指導及意見。",
+                        "sur_type" : 1,
+                        "weight" : 11
+                    }, 
+                    {
+                        "question" : "As\na participant of the HKU HAVE Project, I agree to embrace all the activities\nand people involved with an open mind and heart. <br>作為香港大學全能有情教育發展硏究計劃的參加者, 我願意以開放的心態去接納及尊重所有活動參加者。",
+                        "sur_type" : 1,
+                        "weight" : 11
+                    }, 
+                    {
+                        "question" : "As\na participant of the HKU HAVE Project, I agree to act responsibly. <br>作為香港大學全能有情教育發展硏究計劃的參加者, 我願意行事盡責。",
+                        "sur_type" : 1,
+                        "weight" : 11
+                    }, 
+                    {
+                        "question" : "By\nadhering to these guidelines, I’ll help to create a positive environment for\nall of us.\n\n<br><span>通過遵守以上規條, 我會盡我所能為大家創造一個<span>正面及積極的學習<span>環境。</span></span></span>",
+                        "sur_type" : 1,
+                        "weight" : 11
+                    }, 
+                    {
+                        "question" : "<span>By\nsigning this contract, I agree to adhere to these guidelines.<br>\n通過簽訂這合同,我同意遵守以上規條。<br><br></span><span>I\nunderstand that, in return, Dr. Cecilia Chan and her mentors promise to do\nwhatever they can to make the HKU HAVE U CAN programme, a fruitful, enjoyable\nand unforgettable experience for you.<span><br>\n</span>我知道陳嘉玉博士及她的導師團隊會竭盡所能透過全能有情教育發展硏究計劃的活動帶給我一個豐富、愉快及難忘的經歷。</span>",
+                        "sur_type" : 6,
+                        "weight" : 12
+                    }
+                ],
+                "assr_asst_completed" : {},
+                "part_asst_marks" : {},
+                "assr_asst_marks" : {},
+                "desc" : "This is a learning contract between Dr. Cecilia Chan from HKU and you, as a student of <school>"
+            }, 
+            {
+                "ass_id" : 2,
+                "method" : "abs",
+                "title" : "Think think Ponder Ponder 學生先鋒敢想 - 感想  ",
+                "weight" : 40,
+                "start" : "2017-06-20 09:00",
+                "end" : "2017-11-30 18:00",
+                "skills" : {
+                    "Consideration" : {
+                        "act_asst_scores" : {}
+                    },
+                    "Creativity" : {
+                        "act_asst_scores" : {}
+                    },
+                    "Resilience" : {
+                        "act_asst_scores" : {}
+                    },
+                    "Self-confidence" : {
+                        "act_asst_scores" : {}
+                    },
+                    "Teamwork" : {
+                        "act_asst_scores" : {}
+                    }
+                },
+                "panelists" : {
+                    "coordinator" : 1,
+                    "self" : 0,
+                    "peers" : 0,
+                    "others" : [ 
+                        3, 
+                        7, 
+                        8, 
+                        9, 
+                        11, 
+                        12, 
+                        13, 
+                        14, 
+                        15, 
+                        16, 
+                        17, 
+                        18, 
+                        32
+                    ]
+                },
+                "items" : [ 
+                    {
+                        "question" : "In\nthe last few days, we believe that you should have developed the above\ncompetencies. Can you tell us how you developed these competencies?\n\n<br><br><span>我們相信過去幾天的活動有助你發展上述的共通能力，請告訴我們這幾天的活動如何幫助你發展這些能力。</span>",
+                        "min" : "",
+                        "max" : "",
+                        "attachments" : 1,
+                        "weight" : 40
+                    }, 
+                    {
+                        "question" : "Now\nthat you have time to reflect, would you have done things differently to\nimprove these competencies? And how would you use these competencies to help\nyou to achieve your goals? <br><br>現在請反思，若從頭開始這幾天的活動，你會用不同的處事方法來提升以上的能力嗎？你會如何利用這些能力來幫助你實現目標？",
+                        "min" : "",
+                        "max" : "",
+                        "attachments" : 1,
+                        "weight" : 40
+                    }, 
+                    {
+                        "question" : "<span>What\nother competencies (apart from those in the list above) did you encounter and\ndevelop in the last few days?&nbsp; Under\nwhat circumstances did you encounter and develop them?<br><span><br>\n</span>在過去幾天, 有什麽經歷讓你發展列表以外的共通能力？<span>如果有，是什麼共通能力？試分享當中經歷。</span></span>",
+                        "min" : "",
+                        "max" : "",
+                        "attachments" : 1,
+                        "weight" : 20
+                    }
+                ],
+                "assr_asst_completed" : {},
+                "part_asst_marks" : {},
+                "assr_asst_marks" : {},
+                "desc" : "This assessment provides you with a chance to think and ponder on the activities that you have been participating in the last few days, particularly in relation to consideration, creativity, resilience, self-confidence and teamwork. Think about it, would you do things differently in the future?&nbsp;<br><ul><ul><ul><li>Consideration&nbsp;體諒&nbsp;</li><li>Creativity&nbsp;創意思維</li><li>Resilience\n抗逆力&nbsp;</li><li>Self-confidence&nbsp;自信心&nbsp;</li><li>Teamwork\n團隊合作</li></ul></ul></ul>"
+            }, 
+            {
+                "ass_id" : 3,
+                "method" : "pst",
+                "title" : "心底話 - 你做到嗎?",
+                "weight" : 30,
+                "start" : "2017-06-20 09:00",
+                "end" : "2017-11-29 18:00",
+                "skills" : {
+                    "Appreciation" : {
+                        "act_asst_scores" : {}
+                    },
+                    "Consideration" : {
+                        "act_asst_scores" : {}
+                    },
+                    "Openness" : {
+                        "act_asst_scores" : {}
+                    }
+                },
+                "panelists" : {
+                    "coordinator" : 1,
+                    "self" : 0,
+                    "peers" : 0,
+                    "others" : [ 
+                        3, 
+                        7, 
+                        8, 
+                        9, 
+                        11, 
+                        12, 
+                        13, 
+                        14, 
+                        15, 
+                        16, 
+                        17, 
+                        18, 
+                        32
+                    ]
+                },
+                "items" : [],
+                "assr_asst_completed" : {},
+                "part_asst_marks" : {},
+                "assr_asst_marks" : {},
+                "desc" : "<span>In this part of your assessment, I would\nlike you to reflect back the whole programme. Think about what you have learnt\nand what you have done. Is there anyone you want to share a few heartfelt words\n(心底話) with? Make a one-minute selfie video and\nshare this video with that person. Submit the video via the YOCLE system, and\ndon't worry we won't be sharing the video with others, so be truthful to\nyourself.</span>\n\n&nbsp;\n\n<br><span><br>試回顧你在全能有情教育發展硏究計劃所參與過的活動及得着。你有想感謝的人嗎？你有一些心底話想跟這個人分享嗎？請嘗試製作一個一分鐘的自拍視頻送給這個人，再把視頻上載到 YOCLE。我們不會與其他人分享你的視頻，所以希望你能夠在視頻中坦誠地分享你的想法<span>。</span></span>"
+            }, 
+            {
+                "ass_id" : 4,
+                "method" : "ref",
+                "title" : "我的日記 - My Reflective Journal at HKU",
+                "weight" : 30,
+                "start" : "2017-06-20 09:00",
+                "end" : "2017-11-30 18:00",
+                "skills" : {},
+                "panelists" : {
+                    "coordinator" : 1,
+                    "self" : 0,
+                    "peers" : 0,
+                    "others" : [ 
+                        3, 
+                        7, 
+                        8, 
+                        9, 
+                        11, 
+                        12, 
+                        13, 
+                        14, 
+                        15, 
+                        16, 
+                        17, 
+                        18, 
+                        32
+                    ]
+                },
+                "items" : [ 
+                    {
+                        "question" : "<span>What have you learnt today?<br></span><pre>你今天學到了什麼?</pre>",
+                        "min" : "",
+                        "max" : "",
+                        "weight" : 33
+                    }, 
+                    {
+                        "question" : "What activity did you enjoy most? And why?<br><pre>你最喜歡什麼活動？為什麼？</pre>",
+                        "min" : "",
+                        "max" : "",
+                        "weight" : 33
+                    }, 
+                    {
+                        "question" : "<span>Which holistic competencies do you think that you have developed?&nbsp;<br></span><pre>你認為今天的活動開發了你哪一樣共通能力？</pre>",
+                        "min" : "",
+                        "max" : "",
+                        "weight" : 34
+                    }
+                ],
+                "assr_asst_completed" : {
+                },
+                "part_asst_marks" : {
+                },
+                "assr_asst_marks" : {
+                },
+                "desc" : "<a target=\"_blank\" rel=\"nofollow\"><div></div></a>\t\t\t<div><div>Tell us how you feel on the day, answer the questions below.<br><br></div></div><div>告訴我們你當天的感受，回答下面的問題。<br></div>"
+            }
+        ],
+        "weight" : 50
+    },
+    "media" : [ 
+
+    ]
+}

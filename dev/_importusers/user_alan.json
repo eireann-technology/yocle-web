@@ -1,0 +1,2484 @@
+{
+    "_id" : ObjectId("57b2c631a2a0e0af8ac83c61"),
+    "user_id" : 1,
+    "img_id" : 1,
+    "email" : "alantypoon@gmail.com",
+    "pwd" : "1234",
+    "username" : "Alan Poon",
+    "position" : "Computer Officer",
+    "location" : "The University of Hong Kong, HONG KONG",
+    "photo" : 1,
+    "gender" : "0",
+    "birthday" : "2016-07-22",
+    "confirmed_email" : 1,
+    "secret_token" : "915CCF72FFAC04E7DB5FDB7CD549C224",
+    "last_send_confirm" : "2016-08-12 11:08:24",
+    "network" : 16,
+    "coordinated" : 2,
+    "participated" : 7,
+    "skills" : {
+        "Collaboaration" : {
+            "show" : 1,
+            "usr_final_score" : 2.0
+        },
+        "Communication" : {
+            "show" : 1,
+            "usr_final_score" : 0.3
+        },
+        "Information Technology" : {
+            "show" : 1,
+            "usr_final_score" : 4.0
+        },
+        "Problem solving" : {
+            "usr_final_score" : 2.0,
+            "show" : 1
+        }
+    },
+    "profile" : {
+        "order" : [ 
+            "objectives", 
+            "activity", 
+            "media", 
+            "education", 
+            "award", 
+            "language", 
+            "publication", 
+            "work", 
+            "interest"
+        ],
+        "work" : [ 
+            {
+                "item_id" : 0,
+                "company" : "Supreme Imperial International Limited",
+                "title" : "Chief Technical Officer",
+                "location" : "Hong Kong",
+                "start" : "2015-01",
+                "end" : "2015-08",
+                "desc" : "<p>- Design and develop a GPS-tracker system for elderly, kids, mental handicapped and pets.</p><p>- Develop a Point-of-Sales and CRM system with mobile applications and SMS modem.</p><p>- Generate feasible business models in terms of business and technology.</p><p>- Source suitable IT hardware from manufacturers in mainland China.</p><p>- Perform quality control on the products and services.</p><p>- Install IT services such as web, mail and DNS server.</p><p>- Plan for contingency and disaster recovery.</p>"
+            }, 
+            {
+                "item_id" : 1,
+                "company" : "videoboard",
+                "title" : "Product Research Developer",
+                "location" : "Hong Kong",
+                "start" : "2015-9",
+                "end" : "2016-1",
+                "desc" : "<p>- One of the founders involved with the creation of service design and business model.</p><p>- Develop the system with video conferencing, virtually unlimited drawing board, with media and screen sharing, recording and cloud functions, used in most major browsers without any extra installation.</p><p>- Set up and maintain the servers required for the system.</p>"
+            }, 
+            {
+                "item_id" : 2,
+                "company" : "The University of Hong Kong",
+                "title" : "Computer Officer",
+                "location" : "HONG KONG",
+                "start" : "2016-4",
+                "end" : "Present",
+                "desc" : "<span style=\"display: inline !important;\">Develop a social media platform for generic skills</span>"
+            }
+        ],
+        "education" : [ 
+            {
+                "item_id" : 0,
+                "school" : "P.L.K. Vicwood K.T.Chong Sixth Form College",
+                "degree" : "Matriculation Level",
+                "field" : "HKAL",
+                "start" : "1993",
+                "end" : "1995",
+                "desc" : ""
+            }, 
+            {
+                "item_id" : 1,
+                "school" : "The University of Hong Kong, Hong Kong",
+                "degree" : "Bachelor’s Degree",
+                "field" : "Bachelor of Cogntive Science",
+                "start" : "1995",
+                "end" : "1999",
+                "desc" : ""
+            }
+        ],
+        "publication" : [ 
+            {
+                "item_id" : 0,
+                "title" : "Learning User Behavior through Autonomous Agent",
+                "publisher" : "The University of Hong Kong",
+                "date" : "2000-1",
+                "desc" : "An agent which learns the user's behavior on browsing financial information."
+            }
+        ],
+        "language" : [ 
+            {
+                "item_id" : 1,
+                "language" : "English",
+                "spoken" : "intermediate",
+                "written" : "intermediate",
+                "remarks" : ""
+            }, 
+            {
+                "item_id" : 2,
+                "language" : "Chinese",
+                "spoken" : "native",
+                "written" : "fluent",
+                "remarks" : "Lived in HK since birth"
+            }
+        ],
+        "award" : [ 
+            {
+                "item_id" : 0,
+                "title" : "Exceptional Performance Award",
+                "issuer" : "Hong Kong Jockey Club",
+                "date" : "2004-7",
+                "desc" : ""
+            }
+        ],
+        "objectives" : "Live a <i>happy</i> life with <b>others</b>.",
+        "interest" : "Table tennis, reading, watching movies, playing board games and travelling.",
+        "media" : [ 
+            211, 
+            212, 
+            213, 
+            17, 
+            18, 
+            19
+        ],
+        "activity" : [ 
+            {
+                "act_id" : 3,
+                "title" : "Beyond Our Borders: Experience Taiwan and South Korea",
+                "act_type" : "OCL-X",
+                "img_id" : "19",
+                "desc" : "The Global Citizenship Summer Institute (GCSI) provides a platform for Social Sciences students to step beyond their academic and physical borders, engaging in intellectual and experiential learning through participating in a four-week intensive study programme in Taiwan and South Korea. GCSI aims to enhance Social Sciences students' awareness of the importance of Asia in the globalizing world. Students will spend first two weeks in Taiwan and following two weeks in South Korea attending academic lectures relating to three focus areas: social, cultural and political developments in Taiwan and South Korea. Students will critically examine these focus areas through a comparative lens as well as analyzing their regional and global implications. Field visits to civil society organizations and political and cultural parties will be organized to provide students with a more holistic understanding of Taiwanese and South Korean societies. By the end of these four weeks, students will gain a unique perspective on Asia through interacting with academics, students, community leaders and people in the selected Asian societies.",
+                "media" : [ 
+                    "275", 
+                    "276", 
+                    "277"
+                ],
+                "start" : "2016-11-01 09:00",
+                "end" : "2018-11-30 18:00",
+                "published" : 1,
+                "coordinator_id" : 2,
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 0,
+                "sharing" : "0",
+                "impression" : {
+                    "panelists" : {
+                        "peer_assessors" : [ 
+                            2, 
+                            3, 
+                            8, 
+                            15
+                        ]
+                    },
+                    "skills" : []
+                },
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 1,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 0,
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "saved" : "2016-11-08 08:00",
+                        "performed" : "2016-11-09 08:00",
+                        "marked" : "2016-11-10 09:00",
+                        "marks" : 91,
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "av_marks" : 80,
+                                "answer" : "This is a testing answer 1.",
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 1,
+                                        "img_id" : 1,
+                                        "username" : "Alan Poon",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "answer" : "This is a testing answer 2.",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "answer" : "This is a testing answer 3.",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 0,
+                        "uass_assessor" : 1,
+                        "uass_participant" : 0,
+                        "participants" : [ 
+                            {
+                                "user_id" : 1,
+                                "username" : "Alan Poon",
+                                "img_id" : 1,
+                                "performed" : "2016-11-10 09:00",
+                                "marked" : "2016-11-12 10:00"
+                            }, 
+                            {
+                                "user_id" : 3,
+                                "username" : "Lillian Luk",
+                                "img_id" : 3,
+                                "performed" : "2016-11-11 10:00",
+                                "marked" : ""
+                            }, 
+                            {
+                                "user_id" : 8,
+                                "username" : "Lavina Luk",
+                                "img_id" : 5,
+                                "performed" : "2016-11-12 11:00",
+                                "marked" : ""
+                            }
+                        ],
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "performed" : "This is a testing 1",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "performed" : "This is a testing 2",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "performed" : "This is a testing 3",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "40",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 0,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 1,
+                        "participants" : [ 
+                            {
+                                "user_id" : 1,
+                                "username" : "Alan Poon",
+                                "img_id" : 1,
+                                "performed" : "2016-11-10 09:00",
+                                "marked" : "2016-11-12 10:00"
+                            }, 
+                            {
+                                "user_id" : 3,
+                                "username" : "Lillian Luk",
+                                "img_id" : 3,
+                                "performed" : "2016-11-11 10:00",
+                                "marked" : ""
+                            }, 
+                            {
+                                "user_id" : 8,
+                                "username" : "Lavina Luk",
+                                "img_id" : 5,
+                                "performed" : "2016-11-12 11:00",
+                                "marked" : ""
+                            }
+                        ],
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "performed" : "This is a testing 1",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "performed" : "This is a testing 2",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "performed" : "This is a testing 3",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "act_id" : 5,
+                "title" : "Science Society Open Day",
+                "act_type" : "OCL-X",
+                "img_id" : "21",
+                "desc" : "<div>The Society aims at (a) promoting comradeship and spirit within the Faculty (b) representing the students of the Faculty as a whole (c) promoting interest in Science within and without the Society (d) promoting intellectual and social intercourse within and without the Society (e) promoting general welfare of the members of the Society. The Society is also the representative body for all students studying in the Faculty of Science in The University of Hong Kong. Until now, Science Society, HKUSU has more than 2000 members, from the following programmes: B.Sc. - Bachelor of ScienceWith 16 Science majors - Astronomy - Biochemistry - Biological Sciences - Chemistry - Decision Analytics - Earth System Science - Ecology &amp; Biodiversity - Environmental Science - Food &amp; Nutritional Science - Geology - Mathematics - Mathematics/Physics- Molecular Biology &amp; Biotechnology - Physics - Risk Management - Statistics B.Sc.(AC) - Bachelor of Science in Actuarial Science B.Ed. &amp; B.Sc. - Bachelor of Education and Bachelor of Science (5-year double degree programme) Science Society, HKUSU is devoted to support the development of versatile science leaders, who would go on to succeed in any career prospects, through organising various events. In order to benefit members and promote science, a series of academic and social functions is being held every year.</div>",
+                "media" : [ 
+                    "275", 
+                    "276", 
+                    "277"
+                ],
+                "start" : "2016-11-01 09:00",
+                "end" : "2017-10-31 18:00",
+                "published" : 1,
+                "coordinator_id" : 2,
+                "uact_coordinator" : 0,
+                "uact_assessor" : 0,
+                "uact_participant" : 1,
+                "sharing" : "2",
+                "impression" : {
+                    "panelists" : {
+                        "peer_assessors" : [ 
+                            2, 
+                            3, 
+                            8, 
+                            15
+                        ]
+                    },
+                    "skills" : []
+                },
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 0,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 1,
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "saved" : 0,
+                        "performed" : 0,
+                        "marked" : 0,
+                        "marks" : 0,
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "answer" : "a"
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "answer" : "b"
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "answer" : "c"
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 0,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 1,
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "saved" : 0,
+                        "performed" : 0,
+                        "marked" : 0,
+                        "marks" : 0,
+                        "items" : []
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "40",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 0,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 1,
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "saved" : 0,
+                        "performed" : 0,
+                        "marked" : 0,
+                        "marks" : 0,
+                        "items" : []
+                    }
+                ]
+            }, 
+            {
+                "act_id" : 2,
+                "act_type" : "YOLO-X",
+                "title" : "Parachute Diving",
+                "img_id" : "22",
+                "desc" : "Jumping is fun! Skydiving is not just falling; it is flying—the closest we have been able to come to free, unencumbered, non-mechanical individual flight. \"Bend your knees,\" he says and I have to obey. From behind, he pulls the strap until the rubber scrapes my skull. I hug my arms against my chest and crank my head back, making the shackles around my thighs tighten further. \"Now,\" he commands, as I try to ignore the gap where the side of the aeroplane should be, \"don’t forget to smile for the camera.\" And with that, we’re gone. Of course, there’s been a build up to my first sky dive. Hundreds of thousands of other people have already done this, including, I’m hoping, my instructor. I use this thought to keep me steady on the morning of the big day. I’ve met people who’ve done parachute-loads of these things, including those for whom it’s simply a matter of getting from A to B: barracks to war zone. Their plight puts my pre-jump jitters into perspective.",
+                "media" : [ 
+                    "248", 
+                    "250", 
+                    "251"
+                ],
+                "start" : "2016-10-14 09:00",
+                "end" : "2016-10-15 18:00",
+                "published" : 1,
+                "coordinator_id" : 2,
+                "uact_coordinator" : 0,
+                "uact_assessor" : 0,
+                "uact_participant" : 1,
+                "sharing" : "0",
+                "impression" : {
+                    "panelists" : {
+                        "peer_assessors" : [ 
+                            2, 
+                            3, 
+                            8, 
+                            15
+                        ]
+                    },
+                    "skills" : []
+                },
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 0,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 1,
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "saved" : "2016-11-08 08:00",
+                        "performed" : "2016-11-09 08:00",
+                        "marked" : "2016-11-10 09:00",
+                        "marks" : 91,
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "av_marks" : 80,
+                                "answer" : "This is a testing answer 1.",
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 1,
+                                        "img_id" : 1,
+                                        "username" : "Alan Poon",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "answer" : "This is a testing answer 2.",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "answer" : "This is a testing answer 3.",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 0,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 1,
+                        "participants" : [ 
+                            {
+                                "user_id" : 1,
+                                "username" : "Alan Poon",
+                                "img_id" : 1,
+                                "performed" : "2016-11-10 09:00",
+                                "marked" : "2016-11-12 10:00"
+                            }, 
+                            {
+                                "user_id" : 3,
+                                "username" : "Lillian Luk",
+                                "img_id" : 3,
+                                "performed" : "2016-11-11 10:00",
+                                "marked" : ""
+                            }, 
+                            {
+                                "user_id" : 8,
+                                "username" : "Lavina Luk",
+                                "img_id" : 5,
+                                "performed" : "2016-11-12 11:00",
+                                "marked" : ""
+                            }
+                        ],
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "performed" : "This is a testing 1",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "performed" : "This is a testing 2",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "performed" : "This is a testing 3",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "40",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 0,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 1,
+                        "participants" : [ 
+                            {
+                                "user_id" : 1,
+                                "username" : "Alan Poon",
+                                "img_id" : 1,
+                                "performed" : "2016-11-10 09:00",
+                                "marked" : "2016-11-12 10:00"
+                            }, 
+                            {
+                                "user_id" : 3,
+                                "username" : "Lillian Luk",
+                                "img_id" : 3,
+                                "performed" : "2016-11-11 10:00",
+                                "marked" : ""
+                            }, 
+                            {
+                                "user_id" : 8,
+                                "username" : "Lavina Luk",
+                                "img_id" : 5,
+                                "performed" : "2016-11-12 11:00",
+                                "marked" : ""
+                            }
+                        ],
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "performed" : "This is a testing 1",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "performed" : "This is a testing 2",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "performed" : "This is a testing 3",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "act_id" : 6,
+                "act_type" : "YOLO-X",
+                "title" : "Volunteer at Stocklerbridge Hospital",
+                "img_id" : "23",
+                "desc" : "VOLUNTEER &amp; COMMUNITY SERVICE Stocklerbridge Hospital, Stockler, CA Pediatric Ward Volunteer Fall 20XX - present. Develop and implement activities to entertain patients ages 5-15, including arts and crafts activities and theater workshops, perform administrative work and run errands for pediatric staff, received Volunteer-of-the-Summer award for critical role in developing a theater program for patients I love working as a volunteer in the hospital, entertaining children and teenagers. I learnt so much on how to interact with different types of people and collaborate with other team members to bring the best outcomes. I feel very lucky to have good health, and able to contribute to others who might not be as lucky as I am. The HKU Service Network is a dynamic online platform specifically designed to help HKU students to contribute to global issues through joining and developing sustainable and innovative service projects. The platform enables students and NGOs to interact directly by way of exchanging service ideas and resources. While NGOs can recruit energetic volunteers and fresh ideas in the exchange, students can obtain professional advices and latest field information from front-line workers.",
+                "media" : [ 
+                    "247"
+                ],
+                "start" : "2016-12-01 05:00",
+                "end" : "2016-12-31 05:00",
+                "published" : 1,
+                "coordinator_id" : 1,
+                "uact_coordinator" : 1,
+                "uact_assessor" : 0,
+                "uact_participant" : 0,
+                "sharing" : "2",
+                "impression" : {
+                    "panelists" : {
+                        "peer_assessors" : [ 
+                            2, 
+                            3, 
+                            8, 
+                            15
+                        ]
+                    },
+                    "skills" : []
+                },
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 1,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 0,
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "saved" : "2016-11-08 08:00",
+                        "performed" : "2016-11-09 08:00",
+                        "marked" : "2016-11-10 09:00",
+                        "marks" : 91,
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "av_marks" : 80,
+                                "answer" : "This is a testing answer 1.",
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 1,
+                                        "img_id" : 1,
+                                        "username" : "Alan Poon",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "answer" : "This is a testing answer 2.",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "answer" : "This is a testing answer 3.",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 1,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 0,
+                        "participants" : [ 
+                            {
+                                "user_id" : 1,
+                                "username" : "Alan Poon",
+                                "img_id" : 1,
+                                "performed" : "2016-11-10 09:00",
+                                "marked" : "2016-11-12 10:00"
+                            }, 
+                            {
+                                "user_id" : 3,
+                                "username" : "Lillian Luk",
+                                "img_id" : 3,
+                                "performed" : "2016-11-11 10:00",
+                                "marked" : ""
+                            }, 
+                            {
+                                "user_id" : 8,
+                                "username" : "Lavina Luk",
+                                "img_id" : 5,
+                                "performed" : "2016-11-12 11:00",
+                                "marked" : ""
+                            }
+                        ],
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "performed" : "This is a testing 1",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "performed" : "This is a testing 2",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "performed" : "This is a testing 3",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "40",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 0,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 1,
+                        "participants" : [ 
+                            {
+                                "user_id" : 1,
+                                "username" : "Alan Poon",
+                                "img_id" : 1,
+                                "performed" : "2016-11-10 09:00",
+                                "marked" : "2016-11-12 10:00"
+                            }, 
+                            {
+                                "user_id" : 3,
+                                "username" : "Lillian Luk",
+                                "img_id" : 3,
+                                "performed" : "2016-11-11 10:00",
+                                "marked" : ""
+                            }, 
+                            {
+                                "user_id" : 8,
+                                "username" : "Lavina Luk",
+                                "img_id" : 5,
+                                "performed" : "2016-11-12 11:00",
+                                "marked" : ""
+                            }
+                        ],
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "performed" : "This is a testing 1",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "performed" : "This is a testing 2",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "performed" : "This is a testing 3",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "act_id" : 7,
+                "act_type" : "YOLO-X",
+                "title" : "Volunteer at Stocklerbridge Hospital2",
+                "img_id" : "23",
+                "desc" : "VOLUNTEER &amp; COMMUNITY SERVICE Stocklerbridge Hospital, Stockler, CA Pediatric Ward Volunteer Fall 20XX - present. Develop and implement activities to entertain patients ages 5-15, including arts and crafts activities and theater workshops, perform administrative work and run errands for pediatric staff, received Volunteer-of-the-Summer award for critical role in developing a theater program for patients I love working as a volunteer in the hospital, entertaining children and teenagers. I learnt so much on how to interact with different types of people and collaborate with other team members to bring the best outcomes. I feel very lucky to have good health, and able to contribute to others who might not be as lucky as I am. The HKU Service Network is a dynamic online platform specifically designed to help HKU students to contribute to global issues through joining and developing sustainable and innovative service projects. The platform enables students and NGOs to interact directly by way of exchanging service ideas and resources. While NGOs can recruit energetic volunteers and fresh ideas in the exchange, students can obtain professional advices and latest field information from front-line workers.",
+                "media" : [ 
+                    "247"
+                ],
+                "start" : "2015-12-01 05:00",
+                "end" : "2015-12-31 05:00",
+                "published" : 1,
+                "coordinator_id" : 2,
+                "uact_coordinator" : 1,
+                "uact_assessor" : 0,
+                "uact_participant" : 0,
+                "sharing" : "2",
+                "impression" : {
+                    "panelists" : {
+                        "peer_assessors" : [ 
+                            2, 
+                            3, 
+                            8, 
+                            15
+                        ]
+                    },
+                    "skills" : []
+                },
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 1,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 0,
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "saved" : "2016-11-08 08:00",
+                        "performed" : "2016-11-09 08:00",
+                        "marked" : "2016-11-10 09:00",
+                        "marks" : 91,
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "av_marks" : 80,
+                                "answer" : "This is a testing answer 1.",
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 1,
+                                        "img_id" : 1,
+                                        "username" : "Alan Poon",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "answer" : "This is a testing answer 2.",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "answer" : "This is a testing answer 3.",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "30",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 1,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 0,
+                        "participants" : [ 
+                            {
+                                "user_id" : 1,
+                                "username" : "Alan Poon",
+                                "img_id" : 1,
+                                "performed" : "2016-11-10 09:00",
+                                "marked" : "2016-11-12 10:00"
+                            }, 
+                            {
+                                "user_id" : 3,
+                                "username" : "Lillian Luk",
+                                "img_id" : 3,
+                                "performed" : "2016-11-11 10:00",
+                                "marked" : ""
+                            }, 
+                            {
+                                "user_id" : 8,
+                                "username" : "Lavina Luk",
+                                "img_id" : 5,
+                                "performed" : "2016-11-12 11:00",
+                                "marked" : ""
+                            }
+                        ],
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "performed" : "This is a testing 1",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "performed" : "This is a testing 2",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "performed" : "This is a testing 3",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "mcq",
+                        "title" : "MCQ Experiential Learning",
+                        "weight" : "40",
+                        "start" : "2016-10-01 09:00",
+                        "end" : "2016-11-30 18:00",
+                        "uass_coordinator" : 1,
+                        "uass_assessor" : 0,
+                        "uass_participant" : 0,
+                        "participants" : [ 
+                            {
+                                "user_id" : 1,
+                                "username" : "Alan Poon",
+                                "img_id" : 1,
+                                "performed" : "2016-11-10 09:00",
+                                "marked" : "2016-11-12 10:00"
+                            }, 
+                            {
+                                "user_id" : 3,
+                                "username" : "Lillian Luk",
+                                "img_id" : 3,
+                                "performed" : "2016-11-11 10:00",
+                                "marked" : ""
+                            }, 
+                            {
+                                "user_id" : 8,
+                                "username" : "Lavina Luk",
+                                "img_id" : 5,
+                                "performed" : "2016-11-12 11:00",
+                                "marked" : ""
+                            }
+                        ],
+                        "panelists" : {
+                            "peer_assessors" : [ 
+                                2, 
+                                3, 
+                                8, 
+                                15
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "performed" : "This is a testing 1",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "performed" : "This is a testing 2",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "performed" : "This is a testing 3",
+                                "submitted" : "2016-11-10 09:00",
+                                "av_marks" : 80,
+                                "assessors" : [ 
+                                    {
+                                        "user_id" : 4,
+                                        "img_id" : 3,
+                                        "username" : "Lillian Luk",
+                                        "marks" : 70,
+                                        "comments" : "You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 10:00"
+                                    }, 
+                                    {
+                                        "user_id" : 8,
+                                        "img_id" : 5,
+                                        "username" : "Lavina Luk",
+                                        "marks" : 80,
+                                        "comments" : "That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.You're on the right track now! You've got it made. Super! That's right! That's good. You're really working hard today. You are very good at that. ",
+                                        "marked" : "2016-11-10 11:00"
+                                    }, 
+                                    {
+                                        "user_id" : 11,
+                                        "img_id" : 6,
+                                        "username" : "Vincent Choy",
+                                        "marks" : 90,
+                                        "comments" : "Super! That's right! That's good. You're really working hard today. You are very good at that.  That's coming along nicely. Good work! I'm happy to see you working like that. That's much, much better! Exactly right. You're on the right track now! You've got it made.I'm proud of the way you worked today. You're doing that much better today. You've just about got it. That's the best you've ever done. You're doing a good job. That's it! Now you've figured it out. That's quite an improvement.",
+                                        "marked" : "2016-11-10 12:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "act_id" : 1,
+                "act_type" : "YOLO-X",
+                "title" : "Experiential Learning 2016",
+                "desc" : "In May 2016, I was involved in an experiential learning project with Doctors without Borders. I was responsible to coordinate the Hong Kong sector, including collecting resources and materials to the east of China. I felt so grateful to love this opportunity to meet, learn and develop myself. Experiential learning is the process of learning through experience, and is more specifically defined as \"learning through reflection on doing\". Hands-on learning is a form of experiential learning but does not necessarily involve students reflecting on their product. Experiential learning is distinct from rote or didactic learning, in which the learner plays a comparatively passive role. It is related to but not synonymous with other forms of active learning such as action learning, adventure learning, free choice learning, cooperative learning, and service learning.",
+                "img_id" : 20,
+                "media" : [ 
+                    242, 
+                    243
+                ],
+                "start" : "2017-10-01 09:00",
+                "end" : "2017-11-30 18:00",
+                "published" : 1,
+                "coordinator" : 1,
+                "uact_role" : "coordinator",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1,
+                "sharing" : "0",
+                "impression" : {
+                    "enabled" : 1,
+                    "skills" : []
+                },
+                "assessment" : {
+                    "enabled" : 1,
+                    "assessments" : [ 
+                        {
+                            "ass_id" : 1,
+                            "method" : "mcq",
+                            "title" : "MCQ Experiential Learning",
+                            "weight" : "100",
+                            "start" : "2016-10-01 09:00",
+                            "end" : "2016-11-30 18:00",
+                            "uass_coordinator" : 1,
+                            "uass_assessor" : 1,
+                            "uass_participant" : 1,
+                            "uass_status" : "unpublished",
+                            "impression" : []
+                        }
+                    ]
+                }
+            }, 
+            {
+                "act_id" : 4,
+                "title" : "Post-earthquake Visit to Sichuan",
+                "act_type" : "OCL-X",
+                "img_id" : "4",
+                "desc" : "Whether it be internationally or locally, the HKRC is without fail always willing to lend a helping hand and show support no matter what the situation. I can surely tell you that this organization has been making a difference and will continue to make a difference to the world for years to come. Simply being a part of the HKRC stands for leaves me speechless everyday. Red Cross is the ideal service organization for a HKU student; it requires commitment and attendance, while meetings are efficient and very organized. Not only that, but it is possible to find a service activity for so many different interests, both on and off campus. Walking into a meeting, you will find a diverse group of students, but we all have one thing in common: we love to serve, and we are all genuinely nice people!",
+                "media" : [ 
+                    "252", 
+                    "253"
+                ],
+                "start" : "2017-01-01 09:00",
+                "end" : "2017-12-11 18:00",
+                "published" : 1,
+                "coordinator_id" : 1,
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1,
+                "sharing" : "0",
+                "impression" : {
+                    "panelists" : {
+                        "peer_assessors" : [ 
+                            "1", 
+                            "11", 
+                            "7", 
+                            "16", 
+                            "8"
+                        ]
+                    },
+                    "skills" : {
+                        "Communication" : {
+                            "usr_part_score" : 3,
+                            "assessors" : {
+                                "1" : {
+                                    "usr_assr_score" : "3",
+                                    "comments" : "a",
+                                    "date" : "2017-01-10 11:22:43"
+                                }
+                            }
+                        },
+                        "Collaboration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Information technology" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        }
+                    }
+                },
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "ref",
+                        "title" : "Self Reflective",
+                        "weight" : 0,
+                        "start" : "2017-01-01 09:00",
+                        "end" : "2017-12-11 18:00",
+                        "skills" : {
+                            "Communication" : {},
+                            "Critical Thinking" : {},
+                            "Teamwork" : {}
+                        },
+                        "panelists" : {
+                            "coordinator" : "0",
+                            "self" : "1",
+                            "peers" : "3",
+                            "others" : [ 
+                                "9", 
+                                "12", 
+                                "15"
+                            ],
+                            "peer_assessors" : [ 
+                                "1", 
+                                "11", 
+                                "7"
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : 100,
+                                "answer" : "a",
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 11:15:37",
+                                        "assr_item_marks" : 100,
+                                        "comments" : "good a"
+                                    }
+                                }
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : 61,
+                                "answer" : "b",
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 11:15:37",
+                                        "assr_item_marks" : 61,
+                                        "comments" : "good b"
+                                    }
+                                }
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : 65,
+                                "answer" : "c",
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 11:15:37",
+                                        "assr_item_marks" : 65,
+                                        "comments" : "good c"
+                                    }
+                                }
+                            }
+                        ],
+                        "performed" : "2017-01-10 10:02:14",
+                        "marked" : ""
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "Earthquake MCQ",
+                        "weight" : 0,
+                        "start" : "2017-01-01 09:00",
+                        "end" : "2017-12-11 18:00",
+                        "skills" : {
+                            "Communication" : {},
+                            "Critical Thinking" : {},
+                            "Teamwork" : {}
+                        },
+                        "panelists" : {
+                            "coordinator" : "0",
+                            "self" : "1",
+                            "peers" : "1",
+                            "others" : [ 
+                                "1", 
+                                "2", 
+                                "3"
+                            ],
+                            "peer_assessors" : [ 
+                                "11"
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : 50,
+                                "answer" : "B",
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 18:33:30",
+                                        "assr_item_marks" : 50,
+                                        "comments" : "great1"
+                                    }
+                                }
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : 0,
+                                "answer" : "B",
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 18:33:30",
+                                        "assr_item_marks" : 0,
+                                        "comments" : "cool2"
+                                    }
+                                }
+                            }
+                        ],
+                        "performed" : "2017-01-10 13:59:36",
+                        "marked" : "2017-01-10 18:33:30"
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "prt",
+                        "title" : "Participation Observation",
+                        "weight" : 0,
+                        "start" : "2017-01-01 09:00",
+                        "end" : "2017-12-11 18:00",
+                        "skills" : {
+                            "Communication" : {},
+                            "Critical Thinking" : {},
+                            "Teamwork" : {}
+                        },
+                        "panelists" : {
+                            "coordinator" : "0",
+                            "self" : "1",
+                            "peers" : "1",
+                            "others" : [ 
+                                "1", 
+                                "2", 
+                                "3"
+                            ],
+                            "peer_assessors" : [ 
+                                "11"
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 18:53:45",
+                                        "selected" : "2"
+                                    }
+                                }
+                            }, 
+                            {
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 18:53:45",
+                                        "selected" : "1"
+                                    }
+                                }
+                            }
+                        ],
+                        "likert" : "3",
+                        "marked" : "2017-01-10 18:53:45"
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "abs",
+                        "title" : "Abstract Journel",
+                        "weight" : 0,
+                        "start" : "2017-01-01 09:00",
+                        "end" : "2017-12-11 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : 85,
+                                "answer" : "hello",
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 18:54:23",
+                                        "assr_item_marks" : 85,
+                                        "comments" : "Excellent!"
+                                    }
+                                }
+                            }, 
+                            {
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-09 18:27:54",
+                                        "selected" : "1"
+                                    }
+                                }
+                            }
+                        ],
+                        "marked" : "2017-01-10 18:54:23",
+                        "performed" : "2017-01-10 18:54:03"
+                    }, 
+                    {
+                        "ass_id" : 5,
+                        "method" : "lcn",
+                        "title" : "My Learning Contract",
+                        "weight" : 0,
+                        "start" : "2017-01-01 09:00",
+                        "end" : "2017-12-11 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : 90,
+                                "answer" : "a",
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 18:55:12",
+                                        "assr_item_marks" : 90,
+                                        "comments" : "d"
+                                    }
+                                }
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : 100,
+                                "answer" : "b",
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 18:55:12",
+                                        "assr_item_marks" : 100,
+                                        "comments" : "e"
+                                    }
+                                }
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : 80,
+                                "answer" : "c",
+                                "assessors" : {
+                                    "1" : {
+                                        "date" : "2017-01-10 18:55:12",
+                                        "assr_item_marks" : 80,
+                                        "comments" : "f"
+                                    }
+                                }
+                            }
+                        ],
+                        "performed" : "2017-01-10 18:54:51",
+                        "marked" : "2017-01-10 18:55:12"
+                    }, 
+                    {
+                        "ass_id" : 6,
+                        "method" : "sur",
+                        "title" : "Group Survey",
+                        "weight" : 0,
+                        "start" : "2017-01-01 09:00",
+                        "end" : "2017-12-11 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : "-",
+                                "answer" : "0",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : "-",
+                                "answer" : "1",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : "-",
+                                "answer" : "2",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : "-",
+                                "answer" : "3",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : "-",
+                                "answer" : "4",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : "-",
+                                "answer" : "5",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : "-",
+                                "answer" : "good comments.",
+                                "assessors" : {}
+                            }
+                        ],
+                        "performed" : "2017-01-10 20:08:39"
+                    }
+                ]
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "ref",
+                        "title" : "test ref",
+                        "weight" : 0,
+                        "start" : "2015-12-09 09:00",
+                        "end" : "2015-12-10 18:00",
+                        "skills" : {
+                            "Self-management" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                24
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 0,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "pst",
+                        "title" : "My Poster",
+                        "weight" : 0,
+                        "start" : "2017-02-01 09:00",
+                        "end" : "2017-02-02 18:00",
+                        "skills" : {
+                            "Communication" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Critical thinking" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 1,
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [40]
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Problem solving" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        }
+                    },
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 0,
+                "act_id" : 47,
+                "title" : "test act",
+                "act_type" : "OCL-X",
+                "start" : "2015-12-09 09:00",
+                "end" : "2018-12-10 18:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }
+        ]
+    }
+}

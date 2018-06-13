@@ -1,0 +1,823 @@
+20170718
+	- added notified_invitation
+		db.getCollection('users').find({})
+			.forEach(function (user) {
+				user.profile.activity.forEach(function (act) {
+					 act.notified_invitation = NumberInt(1);
+					 print(act);
+				});
+				db.getCollection('users').save(user);
+			});
+			
+		db.getCollection('users').update({'user_id':1, 'profile.activity.act_id':3}, {'$set': {'profile.activity.$.notified_invitation': NumberInt(0)}});
+
+		db.getCollection('users').find({'user_id':1, 'profile.activity.act_id':3}, {'user_id': 1, 'profile.activity.$': 1});		
+			
+		$documents1 = databaseRead($database, $col_usr,
+			['user_id' => $user_id, 'profile.activity.act_id' => $act_id],
+			['projection' => 
+				[	'_id' => 0,
+					'email' => 1,
+					'confirmed_email' => 1,
+					'token_ios' => 1,
+					'token_android' => 1,
+					'profile.activity.$' => 1,
+				]
+			]
+		);
+		
+			
+		resume email & mobile notification for invitation after publish (only once)
+		
+
+20170718
+	- made the first draft to calcgs, waiting for cc's response
+
+20170714
+	- removed friends, assessors in activities to avoid too many in messenger
+
+20170712
+	- enhanced whatsup feature: now allow selectively choose which activities to send
+	* add invited_user_ids to activity to avoid double notify
+	* consider case sensitive issue when signup and login
+	* add change password
+	
+20170710		
+	- yocle: added svrop_import.php
+	- why can add 2 lillians to the assessor list?
+		- fixed in addUsers2()
+	* why can save annebelle and mankiuwong?
+		- ????
+
+20170708
+	- fixed login password checking
+	- fixed peers add_peer initial click missing
+	- fixed add/remove peer show
+	- fixed messenger do not show undefined
+	- fixed messenger add friend to messenger list
+	- fixed messenger false mark_readmsg
+	- fixed messenger notification
+
+20170706
+	- sysop_check.php
+		> trace the participants for act_id=119
+			- old: [454, 457, 459, 461, 480, 483, 484, 490, 495, 499, 504, 507, 509, 522, 529, 530, 531, 533, 535, 540, 545, 546, 547, 548, 549, 568, 569, 570]
+			(total: 28)
+			- new: [25, 454, 455, 457, 459, 460, 461, 463, 466, 467, 469, 470, 471, 472, 473, 474, 475, 477, 479, 480, 481, 483, 484, 489, 490, 492, 493, 495, 499, 504, 506, 507, 509, 512, 518, 522, 524, 526, 529, 530, 531, 533, 535, 536, 540, 545, 546, 547, 548, 549, 568, 569, 570]
+			(total: 53)
+	- added preview as a role in viewassessment
+		> cancel view answer in preview
+	- modified to ensure only 1 email exists in database (***)
+	* add status assr_part_mark when save_assessment	
+	* show num of participants and assessors in activity and assessment
+	
+20170705
+	- sendnotificationtest
+		> fixed for yocle.net with a new legacy server key
+	- is it running chat.js and convert.php?
+		> systemd startup scripts
+			/lib/systemd/system/yocle_convert.service
+			/lib/systemd/system/yocle_chat.service
+		> https://www.freedesktop.org/software/systemd/man/systemd.service.html
+			- enable
+				- systemctl enable yocle_convert.service
+			- check status
+				- systemctl status yocle_chat.service
+			- added to _WEB/yocle_check.sh
+		> used absolute path	
+		> start/stop/enable/status
+			systemctl ? yocle_?
+		> check log files?
+			- used real time checking
+		
+20170704
+	- login issue
+		> added email validation rule
+		> disabled reset password for unconfirmed user
+		> kept the secret code for unconfirmed user
+
+20170704
+	yocle.net
+	- sendemailtest
+		> previously
+			- http://swiftmailer.org/docs/introduction.html
+		> failed ssmtp
+			> https://help.ubuntu.com/community/EmailAlerts
+			
+		> failed sendmail
+			> https://www.tutorialspoint.com/php/php_sending_emails.htm
+			
+		> using phpmailer
+			- https://github.com/Synchro/PHPMailer/blob/master/README.md
+			
+		> https://stackoverflow.com/questions/20337040/gmail-smtp-debug-error-please-log-in-via-your-web-browser
+			- https://www.google.com/settings/security/lesssecureapps
+			- https://accounts.google.com/DisplayUnlockCaptcha
+			
+		> install postfix on ubuntu
+			- blocked by sendmail port 25
+			
+		> check what is using 25
+			 lsof -i :25
+			 ps -fp 25
+			 netstat -peant | grep ":25"
+			 - https://askubuntu.com/questions/278448/how-to-know-what-program-is-listening-on-a-given-port
+			 
+		> sending a testing mail
+			echo "Test" | mail -s "subject" root
+			echo "Test" | mail -s "subject" alantypoon@gmail.com
+		
+		> install spf, dkim, rDNS, DMARC
+			> https://blog.tiger-workshop.com/ubuntu-postfix-mail-server-mta-outgoing-spf-dkim-rdns-dmarc/
+			> https://blog.whabash.com/posts/send-outbound-email-postfix-dkim-spf-ubuntu-16-04
+		
+
+20170704
+	- fixed index_method_pst.js uass.ass_id
+	- working on sendemail on yocle.net
+
+20170703
+	- added weighting among assessments in an activity
+
+20170702
+	- added edit_act_weight_imp/ass
+
+20170613
+	- merge login.php and index.php
+
+20170608
+	- updated yocle icon
+
+20170604
+	> used yyyymmdd-hh:mm in likes and whatsup
+
+20170604
+	> added likes and comments
+
+20170602
+	> reduced too rapid sender_typing
+	> fixed msg preview
+
+20170602
+	- fixed messenger issues
+		> wrong item_id client side
+		> wrong item_id server side
+		> moved status on top
+		> addeded handling for server.js disconnect event
+
+20170525
+	- added whatsup conversion to svrop_check
+			> set whatsup_ids for each user
+				- get whatsup_id and user_id (sender) from whatsup
+				- find networks from this user_id
+				- add whatsup_id to each user in networks
+
+20170523
+	- rename add friend to + peer and unfriend to - peer
+	- added activity peers in each activity
+	- added common activities in peers page
+		> https://videoboard.hk:8081/dev/svrop.php?type=check_users&users=-1&my_user_id=1&common_acts=1
+
+20170522
+	- added expandable/collpasible assessors and participants in activities and assessments
+
+20170520
+	- added getUserGroup($user_id, $group)
+		define('USRGRP_PUBLIC', 					1);
+		define('USRGRP_PRIVATE', 					2);
+		define('USRGRP_NETWORKS_MYSELF', 	3);
+		define('USRGRP_FRIENDS_MYSELF',		4);
+		define('USRGRP_NETWORKS', 				5);	// without myself
+		define('USRGRP_FRIENDS', 					6);	// without myself	
+	- added whatsup share to option
+
+20170519
+	- added peers
+	- added users.friends and users.networks
+
+20170517
+	- fixed vincent's save activity issue (act_id: 107)
+		> https://localhost:8081/dev/svrop.php
+		> "assessments" : {} -> []
+
+20170517
+	- added whatsup
+
+20170419
+	- adding mood and relationship
+	- fixed profile update issues
+
+20170411
+	- fixed republish activity reserve all the inputs
+	- fixed poster no display for coordinator or assessors
+
+20170407
+	- do not erase participants' items after republish
+	- fixed usses, mcq, participation
+
+20170406
+	- poster with text caption is added
+	- fixed missed marking issue
+
+20170406
+	- ul_media, a.uploader.js
+		- media_desc_arr to media_desc_hash
+		- support both report essay and activity		
+
+20170405
+	- added reedit activity
+
+20170401
+	- databaseInsertOrUpdate
+		if ($sets instanceof stdClass){
+			$sets->$index = $element;	// okay for signup?
+		} else {
+			$sets[$index] = $element;	// okay for upload_image, is it okay for signup?
+		}
+	- ACTIVITY: ENLARGE WITH CANVAS, PRESERVE ALL THE DETAILS
+
+20170329
+	- send notification after a message is saved
+
+20170326
+	- completed messenger server_multi.js
+	- cannot hanlde disconnect event?
+	- so far messenger is done
+
+20170315
+	- messenger
+		> added activity messenger and can be saved.
+		> fixed ff msg_input
+
+20170313
+	- messenger
+		> added saving to database
+
+20170305
+	- messenger
+		> http://blog.slatepeak.com/creating-a-real-time-chat-api-with-node-express-socket-io-and-mongodb/
+		
+		> https://www.codeproject.com/Articles/777640/Simple-chat-application-using-NodeJS-and-Socket-IO
+		> https://garydengblog.wordpress.com/2013/06/28/simple-chat-application-using-redis-socket-io-and-node-js/
+		> https://carlosazaustre.es/blog/websockets-como-utilizar-socket-io-en-tu-aplicacion-web/
+		> https://www.thepolyglotdeveloper.com/2016/01/create-a-real-time-chat-application-with-the-cean-stack-and-socket-io/
+		> https://www.quora.com/How-to-make-a-private-chat-app-with-Node-js
+		> https://coderwall.com/p/8o4nnq/a-simple-chat-server-using-nodejs-express-and-socket-io
+		> http://blog.slatepeak.com/creating-a-real-time-chat-api-with-node-express-socket-io-and-mongodb/
+		> http://huli.logdown.com/posts/261051-node-js-socketio-to-create-super-simple-chat-room
+		> http://floating-mesa-9431.herokuapp.com/
+		> https://github.com/aszx87410/nodejs_simple_chatroom
+		> http://stackabuse.com/node-js-websocket-examples-with-socket-io/
+
+20170302
+	- fixed changebodyview (goback)
+	- fixed wrong impression av calc (ignore unassessed data)
+
+20170301
+	- added get_actdesc for retriving desc from activity
+
+20170301
+	- fixed data default empty skills:[] to {}
+	- fixed adding scores and comments to impression
+
+20170301
+	- fixed no assessors markings
+	- fixed deleteactivity do not show checkloseinput
+	- fixed button of right arrow to  '<div class="div_but_special"><div data-toggle="tooltip"><i class="glyphicon glyphicon-chevron-right"></i></div></div>'
+
+20170222
+	- fixed no assessors in view activity
+	- fixed show marking without any assessees
+	- fixed plus/minus isse in impression makings
+
+20170221
+	- resumed asspage_open_answer autogrow
+		> http://stackoverflow.com/questions/15856700/how-to-make-a-div-autogrow-where-contenteditable-true
+
+20170220
+	- working at assessors of peer assessment
+	- problematic slider
+		> added left and right buttons
+		> fixed slide event that should take ui.value instead of option
+		> added for sliders in edit assessment weighting and view assessment markings
+	
+20170220
+	- fixed changebodyview returning to home in act or user page
+	- removed gethardwarespec
+	- fixed sendnotification_ios
+		> uri is title:::contents:::url
+			- or scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]?
+		> outstanding: when open the act page after clicking the notificatin, the page has no nativeapp signature so the nav. bar and logout cannot be hidden
+
+20170219
+	- ios and android notification is done
+		> svrop_notify.php
+		> svrop_notify.pem
+		> sendNotify_invitation($coor_name, $token_android, $token_ios, $user_types, $activity)
+		> tested
+		> but unable to launch the url in the app?
+
+20170218
+	- fixed setpeerassessment2 part 2
+	- changing to create/edit assessment for newer general(odd row)+specific(even row) assessment items
+
+201770217
+	- fixed impression expand/retract
+	- added progress and dialog for impression marking submission
+
+201770217
+	- fixed setpeerassessment2
+		> show message
+		> hide table when no need
+	- pst allowed save and submit separately
+	- fixed asst view under new ui revamp
+		> revamped x 7: ref, sur, pst, mcq, prt, abs, lcn
+	- added checkExpanded($(this)) for sametable and same index
+
+20170214
+	- added sticky header
+		>	http://stackoverflow.com/questions/10975268/position-fixed-header-in-html
+	- resumed and enhanced viewSkillBreakdown
+		> added getImgActTitle
+		> transformed into group of activities
+	- move user page to level 2
+		> revamped user page
+	- revamped changebodyview, which now controls
+		> actionbar, topmenu, tab, lvl-N bodyview, cmenu, etc
+	- fixed userpage language
+
+20170213
+	- added assessment_title back to edit_assessment
+
+20170212
+	- http://www.flaticon.com/free-icon/left-arrow_23798#term=left arrow&page=4&position=64
+		> white
+	- used actpage_header on act & asst's edit & view
+	- added hr under div_footer
+
+20170212
+	- fixed create/view/edit act/ass
+	- fixed cmenu
+
+20170211
+	- fixed viewActAsst_xxx error
+		> double creation by .my_datatable without dt_type
+		> close slideup
+
+20170211
+	- fixed xeditable outer padding: 10px
+	- fixed profile header and body
+
+20170211
+	- fixed checkloseinput()
+		> by adding openHome2()
+	- added reduceCountDown()
+
+20170211
+	- tidied up naming
+		> editActivity
+		> viewActivity
+		> editAssessment
+		> viewAssessment
+	- used back button for activity related pages		
+
+20170210
+	- changed assessment page from featherlight to bodyview
+	- edit assessement buttons
+		> remove all buttons from edit assessment buttons
+		> resume trash button in assessment list
+	- modified the activity list to be closer to mobile scrollview
+
+20170210
+	- interface.js
+		> added svrop_notify.php
+		> added notify_token for android and ios
+	- hide #div_topmenu	except it is web, home or profile
+	- same height for activities stat and gs score
+
+20170209
+	- changeBodyView
+		- instead of featherlight, use fadeOut & fadeIn to switch bodyview
+		- solved poster too narrow issue
+	- a.uploader.js
+		- may use featherlight as lightbox all the time for video/image display
+
+20170209
+	- poster
+		- changed data_type to poster2
+		- only save when submitting
+		- may save marks and comments now
+
+20170208
+	- disable autocapitalize in ios
+		 <input autocorrect="off" autocapitalize="off"/>
+	- fixed
+		<b>Warning</b>:  Invalid argument supplied for foreach() in <b>C:\Users\AlanPoon\Google Drive\___CETL\YOCLE\web\svrop_activity.php</b> on line <b>515</b><br />
+		- convertemailtouser
+	- period of assessment follows that of activity
+
+20170207
+	- added bootstrapDialog waiting for
+	- added bootstrapDialog confirm
+		- save/publish/submit
+		- close
+	- added assessment desc
+	- reorder assessment edit/view
+
+20170206
+	- fixed activity desc height
+			.wysihtml5-toolbar .btn{
+				height: 20px;
+			}
+			.input_wysihtml5{
+				height:200px;
+			}
+			.editable-buttons .btn{
+				min-width:50px;
+			}
+			.input_area2 .btn{
+				width:80px;
+			}
+	- fixed $(window).animate()
+
+20170203
+	- added left-arrow to return from popup page.
+		- http://www.flaticon.com/free-icon/left-arrow_23798#term=left arrow&page=4&position=65
+
+20170201
+	- enable or disable service
+		- http://askubuntu.com/questions/19320/how-to-enable-or-disable-services
+		- nano /var/log/mongodb/mongod.log
+		- nano /etc/mongod.conf
+			- YAML does not support tab characters for indentation: use spaces instead.
+			- storage:
+					mmapv1:
+						smallFiles: true
+		- chown -R mongodb:mongodb /var/lib/mongodb (http://stackoverflow.com/questions/6819852/cant-start-mongodb-as-sudo)
+		- service mongod start
+		- status mongod
+		
+
+20170118
+	- added and commented some missed files
+	- upgrade to bootstrap3.3.3.css
+	- fixed chart_userpage
+	- added changeprofile
+	- adding cmenu
+
+20170117
+- fixed xeditable user_id
+- fixed android xeditable wysihtml5
+- fixed manifest.json
+
+20170117
+- simplified activity list
+- fixed xeditable (web & ios)
+
+20170111
+- stopped using open_newwin
+- fixed impression_coor1
+- fixed mcq assr_asst_marks
+- fixed popup tables too wide: viewImpression_coor3
+- cancelled toolti for mobile platforms
+- stopped slideshow (bxslide) for mobile platforms
+- preparing cc's test cases
+
+20170110
+	- cannot use the part (skills of skills.Communication.usr_final_score) to traverse the element ({skills: []}) 
+		> change to skills: {}
+
+20170110
+	- repeated_perform
+	- repeated_mark
+	- toggle markings by expand
+	
+20170109
+	- resumed hacked database
+	- added delete button for shorter assessment table (in popup page)
+	- edit: save sur done
+	- view: save prt done
+
+20170104
+	- fixed view 6 methods
+	- fixed edit assessments	
+
+20161216
+	- fixed datatable responsive expand button for android by css
+
+20161216
+	- mobile layout
+		- act edit, list okay
+	- reorganize file names
+		- index_<object>_<action>.php/js
+		- index_method.php & index_method_<method>.php (consists of html and js code)
+
+20161215
+	- both newwin and rootwin are fitted with the html bootstrap grid
+
+20161209
+	- login page (login, signup) is ready for 3 versions
+
+20161208
+	- housekeeping cleaning
+	- copied dev_web for separate development for other platforms
+
+20161208
+	- added coordinator_username for get_activity query
+	- fixed activity_edit page width size issue
+		- setTokenfieldWidth: jobj.width(w - 60);
+
+20161208
+	- resume wysihtml5 in objectives
+	- show gs_score even with no skills
+	- uploader_convert.php running on the production server
+
+20161207
+	- used JSON.stringify(activity) saveactivity => can save empty object and array templates
+	- added timeout before saveactivity => allow save inline forms
+	- added setActImgSrc => show activity image instead of the user one
+	- working on publish_activity
+
+20161206
+	- fixed all checkLoseInput() for the return value
+	- added clearTokenfield() & setTokenfieldWidth()
+
+20161205
+	- fixed checkloseinput issues
+	- upgraded jquery-3.1.1.js and jquery-ui jquery-ui-1.12.1.js
+
+20161204
+	- solved skills breakdown issue
+	- fixed chartjs scale tick issues
+
+20161204
+	- apk path: C:\yocleapp\app\build\outputs\apk
+
+20161203
+	- fixed final_score calc
+
+20161202
+	- finished impression front-end, middleware and back-end
+
+20161201
+	- used better scheme on impression
+
+20161130
+	- fixed some layout issues on view assessment
+	
+20161130
+	- written submitAssessment(); (to be tested
+	- fixed xeditable wysihtml5-0.3.0-alan.js on Android browser
+		this._isCompatible    = 1;	// forced to be compatible by alantypoon 20161129
+	- italic xeditable input before save
+	- assessment save, perform, mark and review is done
+
+20161127
+	- added savePeerAssessors() in svrop.php for setPeerAssessment2() (tested)
+	- finished save & submit assessment ()
+	
+20161126
+	- fixed setPeerAssessment2 for selecting peer assessors by datatable instead of multiselect
+	- added div_error_msg for peer assessors selection
+
+20161124	
+	[to do]
+	- show a datatable for peer assessors so that panelists + peer_assessors = my_assessors
+	- add save peer assessment
+	- add save function
+	- add submit function
+	- add publish function
+
+
+20161124
+	- added activities samples for coordinator, assessor and participant
+	- showed weight of assessment and items
+	- created 3-role data for 6 activities
+	- moved delete to the activity view page
+
+20161122
+	- revised assessments and impression
+		- added header
+	- prepared everthing before featherlight
+
+20161120
+	- simplified assessment layout
+
+20161119
+	- split assessment view into 3 tables
+	- added datatables.responsive.js
+	- added datatable_test.php
+
+20161117
+	- fixed issues in splitting skills into 3 tables
+	- added getMyAssessor from panelists
+
+20161115
+	- split impression view into 3 tables
+		- coordinator
+		- assessors
+		- participants
+
+20161112
+	- removed RadarChart.js index_breadcrumb.js 
+	- added index_skills.js
+		- setSkillTable
+		- setSkillChart
+	- used stars instead of numbers in skill tables
+
+20161111
+	- work flow
+		- assessments
+				- preview
+				- perform
+				- mark
+					- open assessees
+					- review answer and marking
+				- review
+
+20161109
+	- http://seiyria.com/bootstrap-slider/
+	- working on assessment_methods.js
+
+20161107
+	- smaller uploader view prev and next button so video controls can be functioned
+	- fixed double videoplay by removing attribute autoplay and adding play() after fully loaded
+
+20161107
+	- show navigation bar always
+	- remove drop down buttons
+	- removed breadcrumb
+	- added support of multiple paths for uploader_convert.php
+
+20161009
+	- fixed bootstrap-editable-alan.js his to this 
+	- fixed svrop.php item_sort($a, $b) with other type of editable
+	- type to act_type
+
+20161001
+	- show the correct answer as a bootstrap tooltip
+		- http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_tooltip_methods&stacked=h
+		- http://www.cssarrowplease.com/
+
+20160928
+	- multiselect
+		- http://loudev.com/
+		- https://github.com/davidstutz/bootstrap-multiselect
+		- https://jqueryui.com/selectable/
+		- https://harvesthq.github.io/chosen/
+			- http://jsfiddle.net/MyRentals/2ZAgU/
+		- http://stackoverflow.com/questions/29314909/bootstrap-multi-select-adding-images-after-checkboxes
+		- bootstrap-multiselect.js https://github.com/davidstutz/bootstrap-multiselect
+			- http://jsfiddle.net/5b39tatu/3/
+
+20160927
+		- bootstrap-tokenfield.js
+			- isNaN(w) ? this.$input.width('100%') : this.$input.width(w-6); // alantypoon 20160928: -6 = avoid the width is changed to pixel automatically
+		- jquery.datetimepicker.full.js alantypoon 20160928: prevent Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.
+
+20160926
+	- jQuery Linked UI Sliders: http://keith-wood.name/linkedsliders.html
+	- jQuery Interconnected Sliders: https://github.com/gburtini/jquery-interconnected-sliders
+
+20160926
+	- generic skills added
+
+20160920
+	- added tokenfield to typeahead.js
+	- added tt-dropdown-menu min-width: 400px
+	- must be confirmed users
+
+20160919
+	- http://myscript.com/
+	- http://cat.prhlt.upv.es/mer/
+	- http://detexify.kirelabs.org/classify.html
+
+20160917
+	- find participants from database, with thumbnails
+		- select2
+			- http://stackoverflow.com/questions/12902010/twitter-bootstrap-autocomplete-dropdown-combobox-with-knockoutjs
+			- https://select2.github.io/examples.html#templating
+			- https://select2.github.io/examples.html#data-ajax
+			- http://stackoverflow.com/questions/28355083/how-to-load-json-data-to-use-it-with-select2-plugin
+		- bootstrap 3 typeahead
+			- https://twitter.github.io/typeahead.js/examples/
+
+20160911
+	- resumed chole in network
+	- looping for the activity
+
+20160910
+	- fixed radarchart unable to be shown in mobile
+
+20160909
+	- avoid overwriting the document.title
+	- show tooltip with bootstrap 3
+	- protect windows 7 apache by basic authentication
+		- C:\Apache24\bin\htpasswd.exe -c "C:\Users\alan2\Google Drive\___CETL\YOCLE\web\.htpasswd" cecilia
+		#
+		# http://wiki.apache.org/httpd/PasswordBasicAuth
+		#
+		#AuthType Basic
+		#AuthName "Authentication Required"
+		#AuthUserFile "C:/Users/alan2/Google Drive/___CETL/YOCLE/web/.htpasswd"
+		#Require valid-user
+		#Order allow,deny
+		#Allow from all
+
+20160901
+	- changed the button color from green to blue
+	- scroll2element: 
+			before the focus taking place (much more smoother)
+			only applied when it is not fully visible
+
+20160831
+	- added award, publication, language, interest
+
+20160830
+	- fixed remove profile item affecting position and location
+
+20160830
+	- scroll to editable
+	- load/save sortable order array to database
+	- load/save current location & position
+		- if any present is checked, edit that column
+		- otherwise, show text editing
+	- load/save latest present profile item (if any) to database position and location
+	- scroll the editable to the middle of screen when it is shown
+
+20160829
+	- added delete work item
+	- added client-side validation
+	- added sorting after update
+	- added other xeditable js & css
+
+20160826
+	- added work.js
+	- added trash button
+	- added corresponding database update for profile items
+	
+	- adding:
+		- checkbox: I currently work here
+		- sorting the date
+
+20160819
+	- added bsontest.php which can read write files to database
+
+20160817
+	- selecting inline editor
+		- https://vitalets.github.io/x-editable/demo-jqueryui.html?c=inline
+		- http://www.appelsiini.net/projects/jeditable
+		- http://www.codenothing.com/archives/2009/inline-text-edit/
+		- http://angularscript.com/linkedin-style-inline-editing-with-angularjs-editme/
+
+20160815
+	- added network, participated, coordinated
+	
+	-doing
+		- popup menu
+			- edit profile
+			- print profile
+			
+		- edit my profile
+		- upload my photo
+	
+20160613
+	- added chole pages
+	- added activity period
+	- fixed create activity video
+	
+20160611
+	- used data.js to fill tbl_search_activity
+	
+20160601
+	- added oclx assessor
+	- added open comments by textarea and autosize.js
+	- added stamper toggle by toggle.js
+	- added GS Skill rating by jquery.star-rating-svg
+	- added GS Status by gauge.js
+
+20160531
+	- added edit func on all olcx-yolox item pages
+	- change local video to youtube video
+
+20060523
+	- added abstract
+	- added blog
+	- added participation
+	- added reflective
+
+20160520
+	- added getSelectMethod
+	- added methods
+		- abstract
+		- blog
+		- mcq
+		- participation
+		- reflective piece
+		- survey
+		
+20160519
+	- toolbar
+		- added group
+		- added image
+

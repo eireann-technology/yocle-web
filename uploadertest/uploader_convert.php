@@ -24,11 +24,12 @@ function convert($src, $dst){
 
 ////////////////////////////////////////////////////////////////
 //$folder = '/videoboard/web/uploadertest/media/';
-$folder = 'D:\\GoogleDrive\\___CETL\\YOCLE\\web\\dev\\media\\';
+//$folder = 'D:\\GoogleDrive\\___CETL\\YOCLE\\web\\dev\\media\\';
 $folders = [
-	'/videoboard/web/uploadertest/media/',
+	//'D:\\GoogleDrive\\___CETL\\YOCLE\\web\\media\\',
 	'D:\\GoogleDrive\\___CETL\\YOCLE\\web\\dev\\media\\',
-	'X:\\videoboard\\web\\uploadertest\\media\\',
+	//'/videoboard/web/uploadertest/media/',
+	//'X:\\videoboard\\web\\uploadertest\\media\\',
 ];
 
 //convert($folder."21_.mp4", $folder."21__"); exit();	// testing only

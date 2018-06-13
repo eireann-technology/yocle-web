@@ -1,0 +1,50 @@
+.editable-interest {
+	font-weight:bold;
+	display: block;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+.editable-interest span {
+	display: inline-block;
+}
+.editable-interest input{
+	width:100%;
+	border-radius:4px;
+	border:1px solid gray;
+	padding: 4px;
+	font-size: 13px;
+}
+.editable-interest textarea{
+	width:100%;
+	height:80px;
+}
+.interest_title{
+	font-weight:bold;
+	font-size: 14px;
+	padding-bottom:6px;
+}
+.interest_company{
+	font-weight:normal;
+	font-size:14px;
+	color: #808080;
+}
+.interest_location{
+	font-weight:normal;
+	font-size:14px;
+	color: #808080;
+}
+.interest_period{
+	font-weight:normal;
+	padding-top:6px;
+	font-size:14px;
+	color: #808080;
+}
+.interest_desc{
+	font-weight:normal;
+	font-size: 13px;
+	padding:6px;
+}
+.interest_outer{
+	padding:4px;
+	font-size: 14px;
+}

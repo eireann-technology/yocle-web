@@ -1,0 +1,283 @@
+
+**********************************************
+* MONGODB
+**********************************************
+- auth
+	> https://docs.mongodb.com/manual/tutorial/enable-authentication/
+		db.createUser(
+			{
+				user: "admin",
+				pwd: "btrtmr624",
+				roles: [ { role: "userAdminAnyDatabase", db: "admin" }, {role: "readWrite", db: "yolofolio"} ]
+			}
+		)
+
+		use admin
+		db.auth('admin', 'btrtmr624')
+		
+		use yolofolio
+		db.createUser(
+			{
+				user: "yocle_user",
+				pwd: "yoloisgreat2017",
+				roles: [ { role: "readWrite", db: "yolofolio" } ]
+			}
+		)
+		
+	> http://php.net/manual/en/mongo.connecting.auth.php
+		- $m = new MongoClient("mongodb://${username}:${password}@localhost");
+		- $m = new MongoClient("mongodb://yocle_user:yoloisgreat2017@localhost:27017");
+		
+		- $m = new MongoClient("mongodb://localhost", array("username" => $username, "password" => $password));
+		- $m = new MongoClient("mongodb://localhost", ['username' => 'yocle_user', 'password' => 'yoloisgreat2017']);
+
+		
+MongoDB Compatibility
+https://docs.mongodb.com/ecosystem/drivers/driver-compatibility-reference/#reference-compatibility-language-php
+
+server
+- https://www.mongodb.com/download-center#community
+
+driver
+- http://pecl.php.net/package/mongodb
+- http://pecl.php.net/package/mongo/1.6.14
+- http://pecl.php.net/package/mongodb/1.1.7/windows (recommended)
+
+install
+-http://www.thegeekstuff.com/2015/10/php-mongodb-for-xampp/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheGeekStuff+(The+Geek+Stuff)
+
+tutorial
+- http://php.net/manual/en/class.mongodb-driver-manager.php
+- http://www.tutorialspoint.com/mongodb/pdf/mongodb_quick_guide.pdf
+- http://blog.mongodb.org/post/87200945828/6-rules-of-thumb-for-mongodb-schema-design-part-1
+- http://blog.mongodb.org/post/87892923503/6-rules-of-thumb-for-mongodb-schema-design-part-2
+- http://blog.mongodb.org/post/88473035333/6-rules-of-thumb-for-mongodb-schema-design-part-3
+- MONGODB_AND_PHP_OREILLY.pdf
+	http://img105.job1001.com/upload/adminnew/2015-04-07/1428400393-GQUZFY0.pdf
+- PHP_and_MongoDB_WebDevelopment
+	http://img105.job1001.com/upload/adminnew/2015-04-07/1428398776-AAI3MVO.pdf
+
+php5.6 & 7 under ubuntu
+- http://askubuntu.com/questions/761713/how-can-i-downgrade-from-php-7-to-php-5-6-on-ubuntu-16-04
+- http://askubuntu.com/questions/59886/how-to-compelety-remove-php
+	sudo apt-get -y purge php.*
+	
+---------------------------------------------------------------------------	
+mongodb on windows
+install 64bit VC11 (php 5.6 does not support VC14 yet)
+---------------------------------------------------------------------------	
+How-to
+	- http://lifeofageekadmin.com/how-install-apache-2-4-php-5-6-and-mysql-5-6-26-on-windows-10/
+
+=================================
+- httpd.conf
+- http://www.apachehaus.com/cgi-bin/download.plx
+- http://www.apachehaus.com/cgi-bin/download.plx?dli=gUwokWXNVWz0ERZ9iTERmRJVlUGRVYStUTV1kM
+=================================
+#
+# added by alantypoon20160921
+# placed on top of httpd.conf
+#
+Define SRVROOT "/x64Apache24"
+ServerRoot "${SRVROOT}"
+
+#LISTENING PORT
+Listen 192.168.0.100:8442
+ServerName dev.adiai.com:8442
+
+#ROOT DIRECTORY
+#DocumentRoot "C:/Users/pong2/Google Drive/___CETL/YOCLE/web"
+#<Directory "C:/Users/pong2/Google Drive/___CETL/YOCLE/web">
+#		Options Indexes FollowSymLinks
+#		AllowOverride None
+#		Require all granted
+#</Directory>
+DocumentRoot "C:/mars171"
+<Directory "C:/mars171">
+	Options Indexes FollowSymLinks
+	AllowOverride None
+	Require all granted
+</Directory>
+#
+# php5.5
+#
+LoadModule php5_module C:/x64php55/php5apache2_4.dll
+<IfModule php5_module>
+		DirectoryIndex index.html index.php
+		AddHandler application/x-httpd-php .php
+		PHPIniDir "c:/x64php55"
+</IfModule>
+
+- start service
+c:\x64apache24\bin\httpd -k install
+	
+=================================
+php.ini
+http://windows.php.net/download/
+http://windows.php.net/downloads/releases/php-5.6.26-Win32-VC11-x64.zip
+=================================
+extension_dir = "c:\x64php56\ext"
+
+[general]
+extension=php_openssl.dll
+extension=php_fileinfo.dll
+
+[mongodb]
+extension=c:\x64php56\ext\mongo\php_mongo.dll
+extension=c:\x64php56\ext\mongo\php_mongodb.dll
+
+[imagick]
+extension=c:\x64php56\ext\imagick\php_imagick.dll
+
+- unzip php_ext.zip with corel files
+==================================
+mongodb
+==================================
+- download
+https://www.mongodb.com/download-center#community
+https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.2.9-signed.msi?_ga=1.202456533.513287409.1463659716
+
+- install
+mongod --remove
+mongod --dbpath="C:\Program Files\MongoDB\Server\3.2\bin" --logpath="C:\Program Files\MongoDB\Server\3.2\bin\log.txt" --install
+services.msc
+net start mongodb
+
+- dump and restore
+mongodump -h mongodb -d yolofolio -o ./yolofolio_xxxxx
+chmod 777 -R ./yolofolio_xxxxx
+
+[open shell]
+use yolofolio;
+db.dropDatabase();
+  _xxxxx
+
+---------------------------------------------------------------------------	
+mongodb on ubuntu
+---------------------------------------------------------------------------	
+intall
+- https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/
+- https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+steps
+- apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+- echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list	(ubuntu 14.04)
+- apt-get install -y mongodb-org
+- service mongod start
+- nano /var/log/mongodb/mongod.log (checking)
+- netstat -peanut | grep 27017 (checking)
+- nano /etc/mongod.conf (edit)
+- service mongod restart
+
+-dump/restore
+- alan: mongodump -h 192.168.1.40 -d yolofolio -o mongo_yolofolio
+- pong: mongorestore -h 192.168.0.40 -d yolofolio ./mongo_yolofolio/yolofolio
+- pong: mongorestore -h 192.168.0.100 -d yolofolio ./mongo_yolofolio/yolofolio
+- alan: mongorestore -h mongodb -d yolofolio yolofolio
+- alan: mongorestore -h localhost -d yolofolio ./yocle_
+
+php5.6 & 7 under ubuntu
+- http://askubuntu.com/questions/761713/how-can-i-downgrade-from-php-7-to-php-5-6-on-ubuntu-16-04
+- http://askubuntu.com/questions/59886/how-to-compelety-remove-php
+	sudo apt-get -y purge php.*
+
+**********************************************
+* IMAGICK(WINDOWS)
+**********************************************
+	
+	1. general installation
+	- http://stackoverflow.com/questions/18375092/imagick-php-windows
+			Install WAMP 32bit (even if you running 64bit system you must use 32bit version of WAMP)
+			Install ImageMagick to C:/imagemagick, use this file: https://www.dropbox.com/s/i2mhrhd7sp0ilzk/ImageMagick-6.8.0-3-Q16-windows-dll.exe
+			Put DLL with Imagick into extension folder of PHP, e.g. D:\wamp32\bin\php\php5.4.16\ext, I used this file: https://www.dropbox.com/s/ayankf850l08rm2/php_imagick.dll
+
+			Step 1) Gather information
+				First of all you should gather some information of your PHP environment.
+				You can easily see your PHP information with the function phpinfo()
+				The information you need:
+					Architecture: x86(32-bit) or x64(64-bit)
+					PHP-version: you can find this in the header of the phpinfo() output.
+					PHP Extension Build: This string contains 2 important parts:
+					NTS or TS
+					VCx (like VC11)
+				Loaded Configuration File: the path to your used php.ini file.
+				
+			Step 2) Download Binary
+				You can download the binary from the official site of ImageMagick.
+					- http://www.imagemagick.org/script/binary-releases.php#windows
+				I recommend you to read the small introduction under the "Windows Binary Release" to be certain which "bits-per-pixel" to choose from(8 or 16). Downloading the latest version should be just fine. Make sure this binary is the same architecture as your PHP architecture that you have gathered in step 1.
+
+			Step 3) Install Binary***
+				Install the binary to your phpx.x.xx\bin file. For example: C:\wamp64\bin\php\php5.6.16\bin. (This can be any folder, but for the convenience I put in here)
+				Make sure "Add application directory to your system path" is checked. Should be checked by default though.
+
+			Step 4) Download PHP extension
+				The DLL PHP extension is available through the windows pecl php site:
+					http://windows.php.net/downloads/pecl/releases/imagick/
+					
+				Again, you can just click the latest version.
+				Next of, choose the right version based on the gathered information. 
+				For example: php_imagick-3.4.1-5.6-nts-vc11-x64.zip
+				This can be stripped into components:
+					php_imagick-3.4.1 - This is the php imagick extension with the version. This is not important.
+					5.6 - This is your PHP version and should be equal to the PHP-version you are using, which you have determed in step 1.
+					NTS - This should be equal to the information of your PHP Extension Build that you have gathered in step 1.
+					VC11 - This should also be equal to the information of your PHP Extension Build that you have gathered in step 1.
+					x64 - This the architecture of the extension and should be equal to your PHP architecture that you have gathered in step 1.
+				
+			Step 5) Extract PHP Extension
+				After you have downloaded the file, you should open the .zip file and look for a file named: php_imagick.dll. Extract this file to phpx.x.xx\ext.
+				Make sure the .dll file is fully accessable by you. Sometimes you need to explicity unblock the file.
+				Unblock file
+			
+			Step 6) Activate PHP extension
+
+				To activate the extension in PHP, you should state in your php.ini file that you want to use this extension. You have gathered the path to your used php.ini file in step 1.
+					Add the line 
+						extension=php_imagick.dll
+					to your php.ini PHP.ini Imagick line
+
+			Step 7) Restart your PC
+				Just to make sure, restart your PC so all Environment Paths will be correctly loaded.
+				
+				
+	2. The program can't start because CORE_RL_wand_.dll is missing from your computer. Try reinstalling the program to fix this problem. 
+		https://github.com/WPN-XM/WPN-XM/issues/222				
+		* Without setting ENV PATH to php/ext , the files must go into different folders,
+		* when unzipping the extension archive, e.g. "php_imagick-3.2.0b2-5.4-nts-vc9-x86.zip".
+		* php_imagick.dll goes into the PHP extensions folder /php/ext/
+		* all other dll files *.dll go in to the main PHP folder /php
+			- CORE_RL_bzlib_.dll
+			- CORE_RL_glib_.dll
+			- ...
+			
+	3. number-of-supported-formats = 0
+	http://stackoverflow.com/questions/32764011/imagemagick-number-of-supported-formats-has-showing-value-0
+	This is a common problem when you have downloaded a version of Imagick that was compiled against a different version of ImageMagick than the one you are trying to run it with.
+	Try downloading both Imagick and ImageMagick from the same place e.g.
+	http://windows.php.net/downloads/pecl/deps/
+	http://windows.php.net/downloads/pecl/releases/imagick/
+	
+	4. NoDecodeDelegateForThisImageFormat
+		- previously
+			ImageMagick-6.9.3-7-vc11-x64.zip
+			php_imagick-3.4.2-5.6-ts-vc11-x64
+		- as php upgraded to 5.6.26
+			http://windows.php.net/downloads/pecl/deps/ImageMagick-6.9.3-7-vc11-x64.zip
+			http://windows.php.net/downloads/pecl/releases/imagick/3.4.3rc1/php_imagick-3.4.3rc1-5.6-ts-vc11-x64.zip
+			
+		- copy the unzipped folder:
+				.\ImageMagick-6.9.3-7-vc11-x64
+		to
+				c:\imagick6937
+		*** AND THEN "Add application directory to your system path"
+				c:\imagick6937\bin
+
+- mongoimport --db yolofolio --collection images --file images.json
+- mongoexport --db yolofolio --collection images --file images.json		
+
+
+setup of ffmpeg & php on windows
+- https://ffmpeg.org/download.html
+- http://www.wikihow.com/Install-FFmpeg-on-Windows
+

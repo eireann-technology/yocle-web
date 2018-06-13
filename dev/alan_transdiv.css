@@ -1,0 +1,12 @@
+.div_transdiv {
+    position: relative;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    /* margin-right: 10px; */
+}
+.div_transdiv > div {
+    position: relative;
+}
+.div_transdiv > div > div{
+    position: absolute;
+}

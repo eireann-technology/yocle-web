@@ -1,0 +1,1155 @@
+2018-05-26 21:44:16 *****
+2018-05-26 21:44:16 METHOD='POST'
+2018-05-26 21:44:16 GET=array (
+)
+2018-05-26 21:44:16 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '156',
+  'resumableTotalSize' => '156',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '156-june4_assrs2txt',
+  'resumableFilename' => 'june4_assrs2.txt',
+  'resumableRelativePath' => 'june4_assrs2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-26 21:44:16 *****
+2018-05-26 21:44:16 uploadByResumable
+2018-05-26 21:44:16 uploadByResumable: 156-june4_assrs2txt june4_assrs2.txt 1 1048576 156 text/plain
+2018-05-26 21:44:16 temp_dir=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-26 21:44:16 dest_file=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1
+2018-05-26 21:44:16 mkdir: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-26 21:44:16 move_uploaded_file: /tmp/phpRiXZP3,/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1...success=1
+2018-05-26 21:44:16 foreach: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1 size=156 file=1 total_file_size=156
+2018-05-26 21:44:16 writing chunk 1
+2018-05-26 21:44:16 createFileFromChunks: size=156 files=1
+2018-05-26 21:44:16 rename and remove folder: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt_UNUSED
+2018-05-26 21:44:16 output_file: /gdrive/_WEB/yocle/import/media/june4_assrs2.txt...existed=1
+2018-05-26 22:55:24 *****
+2018-05-26 22:55:24 METHOD='POST'
+2018-05-26 22:55:24 GET=array (
+)
+2018-05-26 22:55:24 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '156',
+  'resumableTotalSize' => '156',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '156-june4_assrs2txt',
+  'resumableFilename' => 'june4_assrs2.txt',
+  'resumableRelativePath' => 'june4_assrs2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-26 22:55:24 *****
+2018-05-26 22:55:24 uploadByResumable
+2018-05-26 22:55:24 uploadByResumable: 156-june4_assrs2txt june4_assrs2.txt 1 1048576 156 text/plain
+2018-05-26 22:55:24 temp_dir=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-26 22:55:24 dest_file=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1
+2018-05-26 22:55:24 mkdir: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-26 22:55:24 move_uploaded_file: /tmp/phpAttkho,/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1...success=1
+2018-05-26 22:55:24 foreach: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1 size=156 file=1 total_file_size=156
+2018-05-26 22:55:24 writing chunk 1
+2018-05-26 22:55:24 createFileFromChunks: size=156 files=1
+2018-05-26 22:55:24 rename and remove folder: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt_UNUSED
+2018-05-26 22:55:24 output_file: /gdrive/_WEB/yocle/import/media/june4_assrs2.txt...existed=1
+2018-05-26 22:55:34 *****
+2018-05-26 22:55:34 METHOD='POST'
+2018-05-26 22:55:34 GET=array (
+)
+2018-05-26 22:55:34 POST=array (
+  'file_name' => 'june4_assrs2.txt',
+  'apply' => '1',
+)
+2018-05-26 22:55:34 *****
+2018-05-26 22:55:34 generate new user_id=1066 on yolofolio users
+2018-05-26 22:55:34 generate new user_id=1067 on yolofolio users
+2018-05-26 22:55:34 generate new user_id=1068 on yolofolio users
+2018-05-26 22:55:47 *****
+2018-05-26 22:55:47 METHOD='POST'
+2018-05-26 22:55:47 GET=array (
+)
+2018-05-26 22:55:47 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '1536',
+  'resumableTotalSize' => '1536',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '1536-june4_parts2txt',
+  'resumableFilename' => 'june4_parts2.txt',
+  'resumableRelativePath' => 'june4_parts2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-26 22:55:47 *****
+2018-05-26 22:55:47 uploadByResumable
+2018-05-26 22:55:47 uploadByResumable: 1536-june4_parts2txt june4_parts2.txt 1 1048576 1536 text/plain
+2018-05-26 22:55:47 temp_dir=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-26 22:55:47 dest_file=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1
+2018-05-26 22:55:47 mkdir: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-26 22:55:47 move_uploaded_file: /tmp/phpB5xDn7,/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1...success=1
+2018-05-26 22:55:47 foreach: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1 size=1536 file=1 total_file_size=1536
+2018-05-26 22:55:47 writing chunk 1
+2018-05-26 22:55:47 createFileFromChunks: size=1536 files=1
+2018-05-26 22:55:47 rename and remove folder: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt_UNUSED
+2018-05-26 22:55:47 output_file: /gdrive/_WEB/yocle/import/media/june4_parts2.txt...existed=1
+2018-05-26 22:55:51 *****
+2018-05-26 22:55:51 METHOD='POST'
+2018-05-26 22:55:51 GET=array (
+)
+2018-05-26 22:55:51 POST=array (
+  'file_name' => 'june4_parts2.txt',
+  'apply' => '1',
+)
+2018-05-26 22:55:51 *****
+2018-05-26 22:55:51 generate new user_id=1069 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1070 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1071 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1072 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1073 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1074 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1075 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1076 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1077 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1078 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1079 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1080 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1081 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1082 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1083 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1084 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1085 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1086 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1087 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1088 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1089 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1090 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1091 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1092 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1093 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1094 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1095 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1096 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1097 on yolofolio users
+2018-05-26 22:55:51 generate new user_id=1098 on yolofolio users
+2018-05-26 23:05:10 *****
+2018-05-26 23:05:10 METHOD='POST'
+2018-05-26 23:05:10 GET=array (
+)
+2018-05-26 23:05:10 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '156',
+  'resumableTotalSize' => '156',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '156-june4_assrs2txt',
+  'resumableFilename' => 'june4_assrs2.txt',
+  'resumableRelativePath' => 'june4_assrs2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-26 23:05:10 *****
+2018-05-26 23:05:10 uploadByResumable
+2018-05-26 23:05:10 uploadByResumable: 156-june4_assrs2txt june4_assrs2.txt 1 1048576 156 text/plain
+2018-05-26 23:05:10 temp_dir=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-26 23:05:10 dest_file=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1
+2018-05-26 23:05:10 mkdir: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-26 23:05:10 move_uploaded_file: /tmp/phpkxXikD,/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1...success=1
+2018-05-26 23:05:10 foreach: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1 size=156 file=1 total_file_size=156
+2018-05-26 23:05:10 writing chunk 1
+2018-05-26 23:05:10 createFileFromChunks: size=156 files=1
+2018-05-26 23:05:10 rename and remove folder: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt_UNUSED
+2018-05-26 23:05:10 output_file: /gdrive/_WEB/yocle/import/media/june4_assrs2.txt...existed=1
+2018-05-26 23:05:25 *****
+2018-05-26 23:05:25 METHOD='POST'
+2018-05-26 23:05:25 GET=array (
+)
+2018-05-26 23:05:25 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '1536',
+  'resumableTotalSize' => '1536',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '1536-june4_parts2txt',
+  'resumableFilename' => 'june4_parts2.txt',
+  'resumableRelativePath' => 'june4_parts2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-26 23:05:25 *****
+2018-05-26 23:05:25 uploadByResumable
+2018-05-26 23:05:25 uploadByResumable: 1536-june4_parts2txt june4_parts2.txt 1 1048576 1536 text/plain
+2018-05-26 23:05:25 temp_dir=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-26 23:05:25 dest_file=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1
+2018-05-26 23:05:25 mkdir: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-26 23:05:25 move_uploaded_file: /tmp/phpFPBtyx,/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1...success=1
+2018-05-26 23:05:25 foreach: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1 size=1536 file=1 total_file_size=1536
+2018-05-26 23:05:25 writing chunk 1
+2018-05-26 23:05:25 createFileFromChunks: size=1536 files=1
+2018-05-26 23:05:25 rename and remove folder: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt_UNUSED
+2018-05-26 23:05:25 output_file: /gdrive/_WEB/yocle/import/media/june4_parts2.txt...existed=1
+2018-05-26 23:05:36 *****
+2018-05-26 23:05:36 METHOD='POST'
+2018-05-26 23:05:36 GET=array (
+)
+2018-05-26 23:05:36 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '156',
+  'resumableTotalSize' => '156',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '156-june4_assrs2txt',
+  'resumableFilename' => 'june4_assrs2.txt',
+  'resumableRelativePath' => 'june4_assrs2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-26 23:05:36 *****
+2018-05-26 23:05:36 uploadByResumable
+2018-05-26 23:05:36 uploadByResumable: 156-june4_assrs2txt june4_assrs2.txt 1 1048576 156 text/plain
+2018-05-26 23:05:36 temp_dir=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-26 23:05:36 dest_file=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1
+2018-05-26 23:05:36 mkdir: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-26 23:05:36 move_uploaded_file: /tmp/phppAGKl4,/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1...success=1
+2018-05-26 23:05:36 foreach: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1 size=156 file=1 total_file_size=156
+2018-05-26 23:05:36 writing chunk 1
+2018-05-26 23:05:36 createFileFromChunks: size=156 files=1
+2018-05-26 23:05:36 rename and remove folder: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt_UNUSED
+2018-05-26 23:05:36 output_file: /gdrive/_WEB/yocle/import/media/june4_assrs2.txt...existed=1
+2018-05-27 00:07:01 *****
+2018-05-27 00:07:01 METHOD='POST'
+2018-05-27 00:07:01 GET=array (
+)
+2018-05-27 00:07:01 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '2654',
+  'resumableTotalSize' => '2654',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '2654-june4_assrstxt',
+  'resumableFilename' => 'june4_assrs.txt',
+  'resumableRelativePath' => 'june4_assrs.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-27 00:07:01 *****
+2018-05-27 00:07:01 uploadByResumable
+2018-05-27 00:07:01 uploadByResumable: 2654-june4_assrstxt june4_assrs.txt 1 1048576 2654 text/plain
+2018-05-27 00:07:01 temp_dir=/gdrive/_WEB/yocle/import/media/2654-june4_assrstxt
+2018-05-27 00:07:01 dest_file=/gdrive/_WEB/yocle/import/media/2654-june4_assrstxt/1
+2018-05-27 00:07:01 mkdir: /gdrive/_WEB/yocle/import/media/2654-june4_assrstxt
+2018-05-27 00:07:01 move_uploaded_file: /tmp/php1ecLMG,/gdrive/_WEB/yocle/import/media/2654-june4_assrstxt/1...success=1
+2018-05-27 00:07:01 foreach: /gdrive/_WEB/yocle/import/media/2654-june4_assrstxt/1 size=2654 file=1 total_file_size=2654
+2018-05-27 00:07:01 writing chunk 1
+2018-05-27 00:07:01 createFileFromChunks: size=2654 files=1
+2018-05-27 00:07:01 rename and remove folder: /gdrive/_WEB/yocle/import/media/2654-june4_assrstxt_UNUSED
+2018-05-27 00:07:01 output_file: /gdrive/_WEB/yocle/import/media/june4_assrs.txt...existed=1
+2018-05-27 10:58:50 *****
+2018-05-27 10:58:50 METHOD='POST'
+2018-05-27 10:58:50 GET=array (
+)
+2018-05-27 10:58:50 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '156',
+  'resumableTotalSize' => '156',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '156-june4_assrs2txt',
+  'resumableFilename' => 'june4_assrs2.txt',
+  'resumableRelativePath' => 'june4_assrs2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-27 10:58:50 *****
+2018-05-27 10:58:50 uploadByResumable
+2018-05-27 10:58:50 uploadByResumable: 156-june4_assrs2txt june4_assrs2.txt 1 1048576 156 text/plain
+2018-05-27 10:58:50 temp_dir=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-27 10:58:50 dest_file=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1
+2018-05-27 10:58:50 mkdir: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-27 10:58:50 move_uploaded_file: /tmp/phpgPzf8T,/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1...success=1
+2018-05-27 10:58:50 foreach: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1 size=156 file=1 total_file_size=156
+2018-05-27 10:58:50 writing chunk 1
+2018-05-27 10:58:50 createFileFromChunks: size=156 files=1
+2018-05-27 10:58:50 rename and remove folder: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt_UNUSED
+2018-05-27 10:58:50 output_file: /gdrive/_WEB/yocle/import/media/june4_assrs2.txt...existed=1
+2018-05-27 10:59:38 *****
+2018-05-27 10:59:38 METHOD='POST'
+2018-05-27 10:59:38 GET=array (
+)
+2018-05-27 10:59:38 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '1536',
+  'resumableTotalSize' => '1536',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '1536-june4_parts2txt',
+  'resumableFilename' => 'june4_parts2.txt',
+  'resumableRelativePath' => 'june4_parts2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-27 10:59:38 *****
+2018-05-27 10:59:38 uploadByResumable
+2018-05-27 10:59:38 uploadByResumable: 1536-june4_parts2txt june4_parts2.txt 1 1048576 1536 text/plain
+2018-05-27 10:59:38 temp_dir=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-27 10:59:38 dest_file=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1
+2018-05-27 10:59:38 mkdir: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-27 10:59:38 move_uploaded_file: /tmp/phpSLZXuX,/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1...success=1
+2018-05-27 10:59:38 foreach: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1 size=1536 file=1 total_file_size=1536
+2018-05-27 10:59:38 writing chunk 1
+2018-05-27 10:59:38 createFileFromChunks: size=1536 files=1
+2018-05-27 10:59:38 rename and remove folder: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt_UNUSED
+2018-05-27 10:59:38 output_file: /gdrive/_WEB/yocle/import/media/june4_parts2.txt...existed=1
+2018-05-27 11:00:48 *****
+2018-05-27 11:00:48 METHOD='POST'
+2018-05-27 11:00:48 GET=array (
+)
+2018-05-27 11:00:48 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '156',
+  'resumableTotalSize' => '156',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '156-june4_assrs2txt',
+  'resumableFilename' => 'june4_assrs2.txt',
+  'resumableRelativePath' => 'june4_assrs2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-27 11:00:48 *****
+2018-05-27 11:00:48 uploadByResumable
+2018-05-27 11:00:48 uploadByResumable: 156-june4_assrs2txt june4_assrs2.txt 1 1048576 156 text/plain
+2018-05-27 11:00:48 temp_dir=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-27 11:00:48 dest_file=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1
+2018-05-27 11:00:48 mkdir: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-27 11:00:48 move_uploaded_file: /tmp/php3lVAnU,/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1...success=1
+2018-05-27 11:00:48 foreach: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1 size=156 file=1 total_file_size=156
+2018-05-27 11:00:48 writing chunk 1
+2018-05-27 11:00:48 createFileFromChunks: size=156 files=1
+2018-05-27 11:00:48 rename and remove folder: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt_UNUSED
+2018-05-27 11:00:48 output_file: /gdrive/_WEB/yocle/import/media/june4_assrs2.txt...existed=1
+2018-05-27 22:46:32 *****
+2018-05-27 22:46:32 METHOD='POST'
+2018-05-27 22:46:32 GET=array (
+)
+2018-05-27 22:46:32 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '156',
+  'resumableTotalSize' => '156',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '156-june4_assrs2txt',
+  'resumableFilename' => 'june4_assrs2.txt',
+  'resumableRelativePath' => 'june4_assrs2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-27 22:46:32 *****
+2018-05-27 22:46:32 uploadByResumable
+2018-05-27 22:46:32 uploadByResumable: 156-june4_assrs2txt june4_assrs2.txt 1 1048576 156 text/plain
+2018-05-27 22:46:32 temp_dir=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-27 22:46:32 dest_file=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1
+2018-05-27 22:46:32 mkdir: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-27 22:46:32 move_uploaded_file: /tmp/phpCB2wdI,/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1...success=1
+2018-05-27 22:46:32 foreach: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1 size=156 file=1 total_file_size=156
+2018-05-27 22:46:32 writing chunk 1
+2018-05-27 22:46:32 createFileFromChunks: size=156 files=1
+2018-05-27 22:46:32 rename and remove folder: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt_UNUSED
+2018-05-27 22:46:32 output_file: /gdrive/_WEB/yocle/import/media/june4_assrs2.txt...existed=1
+2018-05-27 22:46:41 *****
+2018-05-27 22:46:41 METHOD='POST'
+2018-05-27 22:46:41 GET=array (
+)
+2018-05-27 22:46:41 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '1536',
+  'resumableTotalSize' => '1536',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '1536-june4_parts2txt',
+  'resumableFilename' => 'june4_parts2.txt',
+  'resumableRelativePath' => 'june4_parts2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-27 22:46:41 *****
+2018-05-27 22:46:41 uploadByResumable
+2018-05-27 22:46:41 uploadByResumable: 1536-june4_parts2txt june4_parts2.txt 1 1048576 1536 text/plain
+2018-05-27 22:46:41 temp_dir=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-27 22:46:41 dest_file=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1
+2018-05-27 22:46:41 mkdir: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-27 22:46:41 move_uploaded_file: /tmp/phprHFiD6,/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1...success=1
+2018-05-27 22:46:41 foreach: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1 size=1536 file=1 total_file_size=1536
+2018-05-27 22:46:41 writing chunk 1
+2018-05-27 22:46:41 createFileFromChunks: size=1536 files=1
+2018-05-27 22:46:41 rename and remove folder: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt_UNUSED
+2018-05-27 22:46:41 output_file: /gdrive/_WEB/yocle/import/media/june4_parts2.txt...existed=1
+2018-05-28 12:31:56 *****
+2018-05-28 12:31:56 METHOD='POST'
+2018-05-28 12:31:56 GET=array (
+)
+2018-05-28 12:31:56 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '1536',
+  'resumableTotalSize' => '1536',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '1536-june4_parts2txt',
+  'resumableFilename' => 'june4_parts2.txt',
+  'resumableRelativePath' => 'june4_parts2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-28 12:31:56 *****
+2018-05-28 12:31:56 uploadByResumable
+2018-05-28 12:31:56 uploadByResumable: 1536-june4_parts2txt june4_parts2.txt 1 1048576 1536 text/plain
+2018-05-28 12:31:56 temp_dir=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-28 12:31:56 dest_file=/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1
+2018-05-28 12:31:56 mkdir: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt
+2018-05-28 12:31:56 move_uploaded_file: /tmp/phpd6mOkP,/gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1...success=1
+2018-05-28 12:31:56 foreach: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt/1 size=1536 file=1 total_file_size=1536
+2018-05-28 12:31:56 writing chunk 1
+2018-05-28 12:31:56 createFileFromChunks: size=1536 files=1
+2018-05-28 12:31:56 rename and remove folder: /gdrive/_WEB/yocle/import/media/1536-june4_parts2txt_UNUSED
+2018-05-28 12:31:56 output_file: /gdrive/_WEB/yocle/import/media/june4_parts2.txt...existed=1
+2018-05-28 12:32:12 *****
+2018-05-28 12:32:12 METHOD='POST'
+2018-05-28 12:32:12 GET=array (
+)
+2018-05-28 12:32:12 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '156',
+  'resumableTotalSize' => '156',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '156-june4_assrs2txt',
+  'resumableFilename' => 'june4_assrs2.txt',
+  'resumableRelativePath' => 'june4_assrs2.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-05-28 12:32:12 *****
+2018-05-28 12:32:12 uploadByResumable
+2018-05-28 12:32:12 uploadByResumable: 156-june4_assrs2txt june4_assrs2.txt 1 1048576 156 text/plain
+2018-05-28 12:32:12 temp_dir=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-28 12:32:12 dest_file=/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1
+2018-05-28 12:32:12 mkdir: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt
+2018-05-28 12:32:12 move_uploaded_file: /tmp/phpTzphDv,/gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1...success=1
+2018-05-28 12:32:12 foreach: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt/1 size=156 file=1 total_file_size=156
+2018-05-28 12:32:12 writing chunk 1
+2018-05-28 12:32:12 createFileFromChunks: size=156 files=1
+2018-05-28 12:32:12 rename and remove folder: /gdrive/_WEB/yocle/import/media/156-june4_assrs2txt_UNUSED
+2018-05-28 12:32:12 output_file: /gdrive/_WEB/yocle/import/media/june4_assrs2.txt...existed=1
+2018-05-29 16:08:08 *****
+2018-05-29 16:08:08 METHOD='POST'
+2018-05-29 16:08:08 GET=array (
+)
+2018-05-29 16:08:08 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '4133',
+  'resumableTotalSize' => '4133',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '4133-YOCLEStudentGroupNo_v11_mentorscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v1.1_mentors.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v1.1_mentors.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-05-29 16:08:08 *****
+2018-05-29 16:08:08 uploadByResumable
+2018-05-29 16:08:08 uploadByResumable: 4133-YOCLEStudentGroupNo_v11_mentorscsv YOCLE Student Group No_v1.1_mentors.csv 1 1048576 4133 application/vnd.ms-excel
+2018-05-29 16:08:08 temp_dir=/gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv
+2018-05-29 16:08:08 dest_file=/gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv/1
+2018-05-29 16:08:08 mkdir: /gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv
+2018-05-29 16:08:08 move_uploaded_file: /tmp/phpK2ueyh,/gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv/1...success=1
+2018-05-29 16:08:08 foreach: /gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv/1 size=4133 file=1 total_file_size=4133
+2018-05-29 16:08:08 writing chunk 1
+2018-05-29 16:08:08 createFileFromChunks: size=4133 files=1
+2018-05-29 16:08:08 rename and remove folder: /gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv_UNUSED
+2018-05-29 16:08:08 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v1.1_mentors.csv...existed=1
+2018-05-29 16:08:18 *****
+2018-05-29 16:08:18 METHOD='POST'
+2018-05-29 16:08:18 GET=array (
+)
+2018-05-29 16:08:18 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '13795',
+  'resumableTotalSize' => '13795',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '13795-YOCLEStudentGroupNo_v11_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v1.1_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v1.1_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-05-29 16:08:18 *****
+2018-05-29 16:08:18 uploadByResumable
+2018-05-29 16:08:18 uploadByResumable: 13795-YOCLEStudentGroupNo_v11_partscsv YOCLE Student Group No_v1.1_parts.csv 1 1048576 13795 application/vnd.ms-excel
+2018-05-29 16:08:18 temp_dir=/gdrive/_WEB/yocle/import/media/13795-YOCLEStudentGroupNo_v11_partscsv
+2018-05-29 16:08:18 dest_file=/gdrive/_WEB/yocle/import/media/13795-YOCLEStudentGroupNo_v11_partscsv/1
+2018-05-29 16:08:18 mkdir: /gdrive/_WEB/yocle/import/media/13795-YOCLEStudentGroupNo_v11_partscsv
+2018-05-29 16:08:18 move_uploaded_file: /tmp/phpMOsAkI,/gdrive/_WEB/yocle/import/media/13795-YOCLEStudentGroupNo_v11_partscsv/1...success=1
+2018-05-29 16:08:18 foreach: /gdrive/_WEB/yocle/import/media/13795-YOCLEStudentGroupNo_v11_partscsv/1 size=13795 file=1 total_file_size=13795
+2018-05-29 16:08:18 writing chunk 1
+2018-05-29 16:08:18 createFileFromChunks: size=13795 files=1
+2018-05-29 16:08:18 rename and remove folder: /gdrive/_WEB/yocle/import/media/13795-YOCLEStudentGroupNo_v11_partscsv_UNUSED
+2018-05-29 16:08:18 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v1.1_parts.csv...existed=1
+2018-05-29 16:09:07 *****
+2018-05-29 16:09:07 METHOD='POST'
+2018-05-29 16:09:07 GET=array (
+)
+2018-05-29 16:09:07 POST=array (
+  'file_name' => 'YOCLE Student Group No_v1.1_mentors.csv',
+  'apply' => '1',
+)
+2018-05-29 16:09:07 *****
+2018-05-29 16:09:11 *****
+2018-05-29 16:09:11 METHOD='POST'
+2018-05-29 16:09:11 GET=array (
+)
+2018-05-29 16:09:11 POST=array (
+  'file_name' => 'YOCLE Student Group No_v1.1_parts.csv',
+  'apply' => '1',
+)
+2018-05-29 16:09:11 *****
+2018-05-29 16:09:11 generate new user_id=1107 on yolofolio users
+2018-05-29 16:09:11 generate new user_id=1108 on yolofolio users
+2018-05-30 11:51:05 *****
+2018-05-30 11:51:05 METHOD='POST'
+2018-05-30 11:51:05 GET=array (
+)
+2018-05-30 11:51:05 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '4133',
+  'resumableTotalSize' => '4133',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '4133-YOCLEStudentGroupNo_v11_mentorscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v1.1_mentors.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v1.1_mentors.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-05-30 11:51:05 *****
+2018-05-30 11:51:05 uploadByResumable
+2018-05-30 11:51:05 uploadByResumable: 4133-YOCLEStudentGroupNo_v11_mentorscsv YOCLE Student Group No_v1.1_mentors.csv 1 1048576 4133 application/vnd.ms-excel
+2018-05-30 11:51:05 temp_dir=/gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv
+2018-05-30 11:51:05 dest_file=/gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv/1
+2018-05-30 11:51:05 mkdir: /gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv
+2018-05-30 11:51:05 move_uploaded_file: /tmp/phpUZfsv4,/gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv/1...success=1
+2018-05-30 11:51:05 foreach: /gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv/1 size=4133 file=1 total_file_size=4133
+2018-05-30 11:51:05 writing chunk 1
+2018-05-30 11:51:05 createFileFromChunks: size=4133 files=1
+2018-05-30 11:51:05 rename and remove folder: /gdrive/_WEB/yocle/import/media/4133-YOCLEStudentGroupNo_v11_mentorscsv_UNUSED
+2018-05-30 11:51:05 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v1.1_mentors.csv...existed=1
+2018-06-01 18:49:46 *****
+2018-06-01 18:49:46 METHOD='POST'
+2018-06-01 18:49:46 GET=array (
+)
+2018-06-01 18:49:46 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26961',
+  'resumableTotalSize' => '26961',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26961-YOCLEStudentGroupNo_v25_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:49:46 *****
+2018-06-01 18:49:46 uploadByResumable
+2018-06-01 18:49:46 uploadByResumable: 26961-YOCLEStudentGroupNo_v25_partscsv YOCLE Student Group No_v2.5_parts.csv 1 1048576 26961 application/vnd.ms-excel
+2018-06-01 18:49:46 temp_dir=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:49:46 dest_file=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1
+2018-06-01 18:49:46 mkdir: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:49:46 move_uploaded_file: /tmp/phpPLF2eT,/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1...success=1
+2018-06-01 18:49:46 foreach: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1 size=26961 file=1 total_file_size=26961
+2018-06-01 18:49:46 writing chunk 1
+2018-06-01 18:49:46 createFileFromChunks: size=26961 files=1
+2018-06-01 18:49:46 rename and remove folder: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv_UNUSED
+2018-06-01 18:49:46 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_parts.csv...existed=1
+2018-06-01 18:51:54 *****
+2018-06-01 18:51:54 METHOD='POST'
+2018-06-01 18:51:54 GET=array (
+)
+2018-06-01 18:51:54 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26961',
+  'resumableTotalSize' => '26961',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26961-YOCLEStudentGroupNo_v25_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:51:54 *****
+2018-06-01 18:51:54 uploadByResumable
+2018-06-01 18:51:54 uploadByResumable: 26961-YOCLEStudentGroupNo_v25_partscsv YOCLE Student Group No_v2.5_parts.csv 1 1048576 26961 application/vnd.ms-excel
+2018-06-01 18:51:54 temp_dir=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:51:54 dest_file=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1
+2018-06-01 18:51:54 mkdir: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:51:54 move_uploaded_file: /tmp/phpnnWEji,/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1...success=1
+2018-06-01 18:51:54 foreach: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1 size=26961 file=1 total_file_size=26961
+2018-06-01 18:51:54 writing chunk 1
+2018-06-01 18:51:54 createFileFromChunks: size=26961 files=1
+2018-06-01 18:51:54 rename and remove folder: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv_UNUSED
+2018-06-01 18:51:54 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_parts.csv...existed=1
+2018-06-01 18:52:53 *****
+2018-06-01 18:52:53 METHOD='POST'
+2018-06-01 18:52:53 GET=array (
+)
+2018-06-01 18:52:53 POST=array (
+  'file_name' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'apply' => '1',
+)
+2018-06-01 18:52:53 *****
+2018-06-01 18:52:53 generate new user_id=1110 on yolofolio users
+2018-06-01 18:52:53 generate new user_id=1111 on yolofolio users
+2018-06-01 18:52:54 generate new user_id=1112 on yolofolio users
+2018-06-01 18:52:54 generate new user_id=1113 on yolofolio users
+2018-06-01 18:53:19 *****
+2018-06-01 18:53:19 METHOD='POST'
+2018-06-01 18:53:19 GET=array (
+)
+2018-06-01 18:53:19 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '8944',
+  'resumableTotalSize' => '8944',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '8944-YOCLEStudentGroupNo_v25_mentorscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_mentors.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_mentors.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:53:19 *****
+2018-06-01 18:53:19 uploadByResumable
+2018-06-01 18:53:19 uploadByResumable: 8944-YOCLEStudentGroupNo_v25_mentorscsv YOCLE Student Group No_v2.5_mentors.csv 1 1048576 8944 application/vnd.ms-excel
+2018-06-01 18:53:19 temp_dir=/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv
+2018-06-01 18:53:19 dest_file=/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1
+2018-06-01 18:53:19 mkdir: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv
+2018-06-01 18:53:19 move_uploaded_file: /tmp/php4dE9eH,/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1...success=1
+2018-06-01 18:53:19 foreach: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1 size=8944 file=1 total_file_size=8944
+2018-06-01 18:53:19 writing chunk 1
+2018-06-01 18:53:19 createFileFromChunks: size=8944 files=1
+2018-06-01 18:53:19 rename and remove folder: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv_UNUSED
+2018-06-01 18:53:19 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_mentors.csv...existed=1
+2018-06-01 18:54:40 *****
+2018-06-01 18:54:40 METHOD='POST'
+2018-06-01 18:54:40 GET=array (
+)
+2018-06-01 18:54:40 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '8944',
+  'resumableTotalSize' => '8944',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '8944-YOCLEStudentGroupNo_v25_mentorscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_mentors.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_mentors.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:54:40 *****
+2018-06-01 18:54:40 uploadByResumable
+2018-06-01 18:54:40 uploadByResumable: 8944-YOCLEStudentGroupNo_v25_mentorscsv YOCLE Student Group No_v2.5_mentors.csv 1 1048576 8944 application/vnd.ms-excel
+2018-06-01 18:54:40 temp_dir=/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv
+2018-06-01 18:54:40 dest_file=/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1
+2018-06-01 18:54:40 mkdir: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv
+2018-06-01 18:54:40 move_uploaded_file: /tmp/phpyVCVlj,/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1...success=1
+2018-06-01 18:54:40 foreach: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1 size=8944 file=1 total_file_size=8944
+2018-06-01 18:54:40 writing chunk 1
+2018-06-01 18:54:40 createFileFromChunks: size=8944 files=1
+2018-06-01 18:54:40 rename and remove folder: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv_UNUSED
+2018-06-01 18:54:40 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_mentors.csv...existed=1
+2018-06-01 18:56:42 *****
+2018-06-01 18:56:42 METHOD='POST'
+2018-06-01 18:56:42 GET=array (
+)
+2018-06-01 18:56:42 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26961',
+  'resumableTotalSize' => '26961',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26961-YOCLEStudentGroupNo_v25_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:56:42 *****
+2018-06-01 18:56:42 uploadByResumable
+2018-06-01 18:56:42 uploadByResumable: 26961-YOCLEStudentGroupNo_v25_partscsv YOCLE Student Group No_v2.5_parts.csv 1 1048576 26961 application/vnd.ms-excel
+2018-06-01 18:56:42 temp_dir=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:56:42 dest_file=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1
+2018-06-01 18:56:42 mkdir: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:56:42 move_uploaded_file: /tmp/phpCbZPat,/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1...success=1
+2018-06-01 18:56:42 foreach: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1 size=26961 file=1 total_file_size=26961
+2018-06-01 18:56:42 writing chunk 1
+2018-06-01 18:56:42 createFileFromChunks: size=26961 files=1
+2018-06-01 18:56:42 rename and remove folder: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv_UNUSED
+2018-06-01 18:56:42 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_parts.csv...existed=1
+2018-06-01 18:57:50 *****
+2018-06-01 18:57:50 METHOD='POST'
+2018-06-01 18:57:50 GET=array (
+)
+2018-06-01 18:57:50 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26961',
+  'resumableTotalSize' => '26961',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26961-YOCLEStudentGroupNo_v25_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:57:50 *****
+2018-06-01 18:57:50 uploadByResumable
+2018-06-01 18:57:50 uploadByResumable: 26961-YOCLEStudentGroupNo_v25_partscsv YOCLE Student Group No_v2.5_parts.csv 1 1048576 26961 application/vnd.ms-excel
+2018-06-01 18:57:50 temp_dir=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:57:50 dest_file=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1
+2018-06-01 18:57:50 mkdir: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:57:50 move_uploaded_file: /tmp/php3tXlqk,/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1...success=1
+2018-06-01 18:57:50 foreach: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1 size=26961 file=1 total_file_size=26961
+2018-06-01 18:57:50 writing chunk 1
+2018-06-01 18:57:50 createFileFromChunks: size=26961 files=1
+2018-06-01 18:57:50 rename and remove folder: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv_UNUSED
+2018-06-01 18:57:50 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_parts.csv...existed=1
+2018-06-01 18:58:08 *****
+2018-06-01 18:58:08 METHOD='POST'
+2018-06-01 18:58:08 GET=array (
+)
+2018-06-01 18:58:08 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26961',
+  'resumableTotalSize' => '26961',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26961-YOCLEStudentGroupNo_v25_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:58:08 *****
+2018-06-01 18:58:08 uploadByResumable
+2018-06-01 18:58:08 uploadByResumable: 26961-YOCLEStudentGroupNo_v25_partscsv YOCLE Student Group No_v2.5_parts.csv 1 1048576 26961 application/vnd.ms-excel
+2018-06-01 18:58:08 temp_dir=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:58:08 dest_file=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1
+2018-06-01 18:58:08 mkdir: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:58:08 move_uploaded_file: /tmp/phpAY3efv,/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1...success=1
+2018-06-01 18:58:08 foreach: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1 size=26961 file=1 total_file_size=26961
+2018-06-01 18:58:08 writing chunk 1
+2018-06-01 18:58:08 createFileFromChunks: size=26961 files=1
+2018-06-01 18:58:08 rename and remove folder: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv_UNUSED
+2018-06-01 18:58:08 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_parts.csv...existed=1
+2018-06-01 18:58:31 *****
+2018-06-01 18:58:31 METHOD='POST'
+2018-06-01 18:58:31 GET=array (
+)
+2018-06-01 18:58:31 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '8944',
+  'resumableTotalSize' => '8944',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '8944-YOCLEStudentGroupNo_v25_mentorscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_mentors.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_mentors.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:58:31 *****
+2018-06-01 18:58:31 uploadByResumable
+2018-06-01 18:58:31 uploadByResumable: 8944-YOCLEStudentGroupNo_v25_mentorscsv YOCLE Student Group No_v2.5_mentors.csv 1 1048576 8944 application/vnd.ms-excel
+2018-06-01 18:58:31 temp_dir=/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv
+2018-06-01 18:58:31 dest_file=/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1
+2018-06-01 18:58:31 mkdir: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv
+2018-06-01 18:58:31 move_uploaded_file: /tmp/phpcEEbP4,/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1...success=1
+2018-06-01 18:58:31 foreach: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1 size=8944 file=1 total_file_size=8944
+2018-06-01 18:58:31 writing chunk 1
+2018-06-01 18:58:31 createFileFromChunks: size=8944 files=1
+2018-06-01 18:58:31 rename and remove folder: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv_UNUSED
+2018-06-01 18:58:31 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_mentors.csv...existed=1
+2018-06-01 18:58:42 *****
+2018-06-01 18:58:42 METHOD='POST'
+2018-06-01 18:58:42 GET=array (
+)
+2018-06-01 18:58:42 POST=array (
+  'file_name' => 'YOCLE Student Group No_v2.5_mentors.csv',
+  'apply' => '1',
+)
+2018-06-01 18:58:42 *****
+2018-06-01 18:58:52 *****
+2018-06-01 18:58:52 METHOD='POST'
+2018-06-01 18:58:52 GET=array (
+)
+2018-06-01 18:58:52 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '8944',
+  'resumableTotalSize' => '8944',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '8944-YOCLEStudentGroupNo_v25_mentorscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_mentors.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_mentors.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:58:52 *****
+2018-06-01 18:58:52 uploadByResumable
+2018-06-01 18:58:52 uploadByResumable: 8944-YOCLEStudentGroupNo_v25_mentorscsv YOCLE Student Group No_v2.5_mentors.csv 1 1048576 8944 application/vnd.ms-excel
+2018-06-01 18:58:52 temp_dir=/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv
+2018-06-01 18:58:52 dest_file=/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1
+2018-06-01 18:58:52 mkdir: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv
+2018-06-01 18:58:52 move_uploaded_file: /tmp/php01yaqN,/gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1...success=1
+2018-06-01 18:58:52 foreach: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv/1 size=8944 file=1 total_file_size=8944
+2018-06-01 18:58:52 writing chunk 1
+2018-06-01 18:58:52 createFileFromChunks: size=8944 files=1
+2018-06-01 18:58:52 rename and remove folder: /gdrive/_WEB/yocle/import/media/8944-YOCLEStudentGroupNo_v25_mentorscsv_UNUSED
+2018-06-01 18:58:52 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_mentors.csv...existed=1
+2018-06-01 18:59:06 *****
+2018-06-01 18:59:06 METHOD='POST'
+2018-06-01 18:59:06 GET=array (
+)
+2018-06-01 18:59:06 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26961',
+  'resumableTotalSize' => '26961',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26961-YOCLEStudentGroupNo_v25_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.5_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-01 18:59:06 *****
+2018-06-01 18:59:06 uploadByResumable
+2018-06-01 18:59:06 uploadByResumable: 26961-YOCLEStudentGroupNo_v25_partscsv YOCLE Student Group No_v2.5_parts.csv 1 1048576 26961 application/vnd.ms-excel
+2018-06-01 18:59:06 temp_dir=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:59:06 dest_file=/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1
+2018-06-01 18:59:06 mkdir: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv
+2018-06-01 18:59:06 move_uploaded_file: /tmp/php67Ibqx,/gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1...success=1
+2018-06-01 18:59:06 foreach: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv/1 size=26961 file=1 total_file_size=26961
+2018-06-01 18:59:06 writing chunk 1
+2018-06-01 18:59:06 createFileFromChunks: size=26961 files=1
+2018-06-01 18:59:06 rename and remove folder: /gdrive/_WEB/yocle/import/media/26961-YOCLEStudentGroupNo_v25_partscsv_UNUSED
+2018-06-01 18:59:06 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.5_parts.csv...existed=1
+2018-06-04 15:42:28 *****
+2018-06-04 15:42:28 METHOD='POST'
+2018-06-04 15:42:28 GET=array (
+)
+2018-06-04 15:42:28 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '8773',
+  'resumableTotalSize' => '8773',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '8773-YOCLEStudentGroupNo_v27_mentorscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.7_mentors.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.7_mentors.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-04 15:42:28 *****
+2018-06-04 15:42:28 uploadByResumable
+2018-06-04 15:42:28 uploadByResumable: 8773-YOCLEStudentGroupNo_v27_mentorscsv YOCLE Student Group No_v2.7_mentors.csv 1 1048576 8773 application/vnd.ms-excel
+2018-06-04 15:42:28 temp_dir=/gdrive/_WEB/yocle/import/media/8773-YOCLEStudentGroupNo_v27_mentorscsv
+2018-06-04 15:42:28 dest_file=/gdrive/_WEB/yocle/import/media/8773-YOCLEStudentGroupNo_v27_mentorscsv/1
+2018-06-04 15:42:28 mkdir: /gdrive/_WEB/yocle/import/media/8773-YOCLEStudentGroupNo_v27_mentorscsv
+2018-06-04 15:42:28 move_uploaded_file: /tmp/phpuVN8lf,/gdrive/_WEB/yocle/import/media/8773-YOCLEStudentGroupNo_v27_mentorscsv/1...success=1
+2018-06-04 15:42:28 foreach: /gdrive/_WEB/yocle/import/media/8773-YOCLEStudentGroupNo_v27_mentorscsv/1 size=8773 file=1 total_file_size=8773
+2018-06-04 15:42:28 writing chunk 1
+2018-06-04 15:42:28 createFileFromChunks: size=8773 files=1
+2018-06-04 15:42:28 rename and remove folder: /gdrive/_WEB/yocle/import/media/8773-YOCLEStudentGroupNo_v27_mentorscsv_UNUSED
+2018-06-04 15:42:28 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.7_mentors.csv...existed=1
+2018-06-04 15:43:04 *****
+2018-06-04 15:43:04 METHOD='POST'
+2018-06-04 15:43:04 GET=array (
+)
+2018-06-04 15:43:04 POST=array (
+  'file_name' => 'YOCLE Student Group No_v2.7_mentors.csv',
+  'apply' => '1',
+)
+2018-06-04 15:43:04 *****
+2018-06-04 15:43:09 *****
+2018-06-04 15:43:09 METHOD='POST'
+2018-06-04 15:43:09 GET=array (
+)
+2018-06-04 15:43:09 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26386',
+  'resumableTotalSize' => '26386',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26386-YOCLEStudentGroupNo_v27_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.7_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.7_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-04 15:43:09 *****
+2018-06-04 15:43:09 uploadByResumable
+2018-06-04 15:43:09 uploadByResumable: 26386-YOCLEStudentGroupNo_v27_partscsv YOCLE Student Group No_v2.7_parts.csv 1 1048576 26386 application/vnd.ms-excel
+2018-06-04 15:43:09 temp_dir=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v27_partscsv
+2018-06-04 15:43:09 dest_file=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v27_partscsv/1
+2018-06-04 15:43:09 mkdir: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v27_partscsv
+2018-06-04 15:43:09 move_uploaded_file: /tmp/phpgJPHkW,/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v27_partscsv/1...success=1
+2018-06-04 15:43:09 foreach: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v27_partscsv/1 size=26386 file=1 total_file_size=26386
+2018-06-04 15:43:09 writing chunk 1
+2018-06-04 15:43:09 createFileFromChunks: size=26386 files=1
+2018-06-04 15:43:09 rename and remove folder: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v27_partscsv_UNUSED
+2018-06-04 15:43:09 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.7_parts.csv...existed=1
+2018-06-04 15:48:17 *****
+2018-06-04 15:48:17 METHOD='POST'
+2018-06-04 15:48:17 GET=array (
+)
+2018-06-04 15:48:17 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '8594',
+  'resumableTotalSize' => '8594',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '8594-YOCLEStudentGroupNo_v28_mentorscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.8_mentors.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.8_mentors.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-04 15:48:17 *****
+2018-06-04 15:48:17 uploadByResumable
+2018-06-04 15:48:17 uploadByResumable: 8594-YOCLEStudentGroupNo_v28_mentorscsv YOCLE Student Group No_v2.8_mentors.csv 1 1048576 8594 application/vnd.ms-excel
+2018-06-04 15:48:17 temp_dir=/gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv
+2018-06-04 15:48:17 dest_file=/gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv/1
+2018-06-04 15:48:17 mkdir: /gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv
+2018-06-04 15:48:17 move_uploaded_file: /tmp/phpZx2WZX,/gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv/1...success=1
+2018-06-04 15:48:17 foreach: /gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv/1 size=8594 file=1 total_file_size=8594
+2018-06-04 15:48:17 writing chunk 1
+2018-06-04 15:48:17 createFileFromChunks: size=8594 files=1
+2018-06-04 15:48:17 rename and remove folder: /gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv_UNUSED
+2018-06-04 15:48:17 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.8_mentors.csv...existed=1
+2018-06-04 15:48:44 *****
+2018-06-04 15:48:44 METHOD='POST'
+2018-06-04 15:48:44 GET=array (
+)
+2018-06-04 15:48:44 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26386',
+  'resumableTotalSize' => '26386',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26386-YOCLEStudentGroupNo_v28_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.8_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.8_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-04 15:48:44 *****
+2018-06-04 15:48:44 uploadByResumable
+2018-06-04 15:48:44 uploadByResumable: 26386-YOCLEStudentGroupNo_v28_partscsv YOCLE Student Group No_v2.8_parts.csv 1 1048576 26386 application/vnd.ms-excel
+2018-06-04 15:48:44 temp_dir=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv
+2018-06-04 15:48:44 dest_file=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv/1
+2018-06-04 15:48:44 mkdir: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv
+2018-06-04 15:48:44 move_uploaded_file: /tmp/phpmuAPv7,/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv/1...success=1
+2018-06-04 15:48:44 foreach: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv/1 size=26386 file=1 total_file_size=26386
+2018-06-04 15:48:44 writing chunk 1
+2018-06-04 15:48:44 createFileFromChunks: size=26386 files=1
+2018-06-04 15:48:44 rename and remove folder: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv_UNUSED
+2018-06-04 15:48:44 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.8_parts.csv...existed=1
+2018-06-04 15:59:52 *****
+2018-06-04 15:59:52 METHOD='POST'
+2018-06-04 15:59:52 GET=array (
+)
+2018-06-04 15:59:52 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26386',
+  'resumableTotalSize' => '26386',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26386-YOCLEStudentGroupNo_v28_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.8_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.8_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-04 15:59:52 *****
+2018-06-04 15:59:52 uploadByResumable
+2018-06-04 15:59:52 uploadByResumable: 26386-YOCLEStudentGroupNo_v28_partscsv YOCLE Student Group No_v2.8_parts.csv 1 1048576 26386 application/vnd.ms-excel
+2018-06-04 15:59:52 temp_dir=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv
+2018-06-04 15:59:52 dest_file=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv/1
+2018-06-04 15:59:52 mkdir: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv
+2018-06-04 15:59:52 move_uploaded_file: /tmp/phpZCBkVl,/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv/1...success=1
+2018-06-04 15:59:52 foreach: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv/1 size=26386 file=1 total_file_size=26386
+2018-06-04 15:59:52 writing chunk 1
+2018-06-04 15:59:52 createFileFromChunks: size=26386 files=1
+2018-06-04 15:59:52 rename and remove folder: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv_UNUSED
+2018-06-04 15:59:52 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.8_parts.csv...existed=1
+2018-06-04 16:02:49 *****
+2018-06-04 16:02:49 METHOD='POST'
+2018-06-04 16:02:49 GET=array (
+)
+2018-06-04 16:02:49 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26386',
+  'resumableTotalSize' => '26386',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '26386-YOCLEStudentGroupNo_v28_partscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.8_parts.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.8_parts.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-04 16:02:49 *****
+2018-06-04 16:02:49 uploadByResumable
+2018-06-04 16:02:49 uploadByResumable: 26386-YOCLEStudentGroupNo_v28_partscsv YOCLE Student Group No_v2.8_parts.csv 1 1048576 26386 application/vnd.ms-excel
+2018-06-04 16:02:49 temp_dir=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv
+2018-06-04 16:02:49 dest_file=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv/1
+2018-06-04 16:02:49 mkdir: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv
+2018-06-04 16:02:49 move_uploaded_file: /tmp/phpnMk4fO,/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv/1...success=1
+2018-06-04 16:02:49 foreach: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv/1 size=26386 file=1 total_file_size=26386
+2018-06-04 16:02:49 writing chunk 1
+2018-06-04 16:02:49 createFileFromChunks: size=26386 files=1
+2018-06-04 16:02:49 rename and remove folder: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partscsv_UNUSED
+2018-06-04 16:02:49 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.8_parts.csv...existed=1
+2018-06-04 16:03:10 *****
+2018-06-04 16:03:10 METHOD='POST'
+2018-06-04 16:03:10 GET=array (
+)
+2018-06-04 16:03:10 POST=array (
+  'file_name' => 'YOCLE Student Group No_v2.8_parts.csv',
+  'apply' => '1',
+)
+2018-06-04 16:03:10 *****
+2018-06-04 16:03:18 *****
+2018-06-04 16:03:18 METHOD='POST'
+2018-06-04 16:03:18 GET=array (
+)
+2018-06-04 16:03:18 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '8594',
+  'resumableTotalSize' => '8594',
+  'resumableType' => 'application/vnd.ms-excel',
+  'resumableIdentifier' => '8594-YOCLEStudentGroupNo_v28_mentorscsv',
+  'resumableFilename' => 'YOCLE Student Group No_v2.8_mentors.csv',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.8_mentors.csv',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'application/vnd.ms-excel',
+  'type' => 'ul_media',
+)
+2018-06-04 16:03:18 *****
+2018-06-04 16:03:18 uploadByResumable
+2018-06-04 16:03:18 uploadByResumable: 8594-YOCLEStudentGroupNo_v28_mentorscsv YOCLE Student Group No_v2.8_mentors.csv 1 1048576 8594 application/vnd.ms-excel
+2018-06-04 16:03:18 temp_dir=/gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv
+2018-06-04 16:03:18 dest_file=/gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv/1
+2018-06-04 16:03:18 mkdir: /gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv
+2018-06-04 16:03:18 move_uploaded_file: /tmp/phphsgIN1,/gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv/1...success=1
+2018-06-04 16:03:18 foreach: /gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv/1 size=8594 file=1 total_file_size=8594
+2018-06-04 16:03:18 writing chunk 1
+2018-06-04 16:03:18 createFileFromChunks: size=8594 files=1
+2018-06-04 16:03:18 rename and remove folder: /gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorscsv_UNUSED
+2018-06-04 16:03:18 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.8_mentors.csv...existed=1
+2018-06-05 10:53:49 *****
+2018-06-05 10:53:49 METHOD='POST'
+2018-06-05 10:53:49 GET=array (
+)
+2018-06-05 10:53:49 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '8594',
+  'resumableTotalSize' => '8594',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '8594-YOCLEStudentGroupNo_v28_mentorstxt',
+  'resumableFilename' => 'YOCLE Student Group No_v2.8_mentors.txt',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.8_mentors.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-06-05 10:53:49 *****
+2018-06-05 10:53:49 uploadByResumable
+2018-06-05 10:53:49 uploadByResumable: 8594-YOCLEStudentGroupNo_v28_mentorstxt YOCLE Student Group No_v2.8_mentors.txt 1 1048576 8594 text/plain
+2018-06-05 10:53:49 temp_dir=/gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorstxt
+2018-06-05 10:53:49 dest_file=/gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorstxt/1
+2018-06-05 10:53:49 mkdir: /gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorstxt
+2018-06-05 10:53:49 move_uploaded_file: /tmp/phpqt9CIz,/gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorstxt/1...success=1
+2018-06-05 10:53:49 foreach: /gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorstxt/1 size=8594 file=1 total_file_size=8594
+2018-06-05 10:53:49 writing chunk 1
+2018-06-05 10:53:49 createFileFromChunks: size=8594 files=1
+2018-06-05 10:53:49 rename and remove folder: /gdrive/_WEB/yocle/import/media/8594-YOCLEStudentGroupNo_v28_mentorstxt_UNUSED
+2018-06-05 10:53:49 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.8_mentors.txt...existed=1
+2018-06-05 10:54:03 *****
+2018-06-05 10:54:03 METHOD='POST'
+2018-06-05 10:54:03 GET=array (
+)
+2018-06-05 10:54:03 POST=array (
+  'resumableChunkNumber' => '1',
+  'resumableChunkSize' => '1048576',
+  'resumableCurrentChunkSize' => '26386',
+  'resumableTotalSize' => '26386',
+  'resumableType' => 'text/plain',
+  'resumableIdentifier' => '26386-YOCLEStudentGroupNo_v28_partstxt',
+  'resumableFilename' => 'YOCLE Student Group No_v2.8_parts.txt',
+  'resumableRelativePath' => 'YOCLE Student Group No_v2.8_parts.txt',
+  'resumableTotalChunks' => '1',
+  'resumableFileMime' => 'text/plain',
+  'type' => 'ul_media',
+)
+2018-06-05 10:54:03 *****
+2018-06-05 10:54:03 uploadByResumable
+2018-06-05 10:54:03 uploadByResumable: 26386-YOCLEStudentGroupNo_v28_partstxt YOCLE Student Group No_v2.8_parts.txt 1 1048576 26386 text/plain
+2018-06-05 10:54:03 temp_dir=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partstxt
+2018-06-05 10:54:03 dest_file=/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partstxt/1
+2018-06-05 10:54:03 mkdir: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partstxt
+2018-06-05 10:54:03 move_uploaded_file: /tmp/php07USxJ,/gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partstxt/1...success=1
+2018-06-05 10:54:03 foreach: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partstxt/1 size=26386 file=1 total_file_size=26386
+2018-06-05 10:54:03 writing chunk 1
+2018-06-05 10:54:03 createFileFromChunks: size=26386 files=1
+2018-06-05 10:54:03 rename and remove folder: /gdrive/_WEB/yocle/import/media/26386-YOCLEStudentGroupNo_v28_partstxt_UNUSED
+2018-06-05 10:54:03 output_file: /gdrive/_WEB/yocle/import/media/YOCLE Student Group No_v2.8_parts.txt...existed=1

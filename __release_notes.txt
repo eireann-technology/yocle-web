@@ -1,0 +1,1602 @@
+new configobj
+- global
+- local
+
+* only audio without video will cause feedback audio
+* no accurate videocam pos when beginning?
+* wrong camera, coordinating... goes on without any error message
+* camera position
+
+
+20171231
+	- fixed topmenu_obj pinch for text
+	- fixing camera pinch for square...
+	- fixing drawmode_camera: the receiver cannot show this mode in toolbar
+
+20171230
+	- fixed 2-user remote desktop
+	- fixed slide toolbar
+	- fixed draw line
+	- merged move to select
+
+20171228
+  - resumed playback during playback slideshow back
+  - fixed logged in myremember and check_more_sizes
+  - save whiteboard includes camera settings
+  - back buttons when slide show
+	- pinch instead of drag can move the editnodes?
+
+20171226
+  - camera focus mode doesn't work
+    - cannot show one as background and others
+    - hide the canvas
+  - added checkShowToolbar2() in all return cases
+  - fixed wrong movement when editing
+    > wrong resize
+    > wrong movement
+      - text
+  - fixed keyboard navigation
+
+20171225
+  - fixed text insert and edit
+
+20171224
+  - fixed rmt no screen
+  - simplifed rmt toolbar
+  - fixed configobj.square/rotate/chroma saveConfig to cookie
+
+20171221
+  - resuming camera mode
+  - adding video buffer when playback
+
+20171220
+  if (!g_playbackAll){
+    openToolbarMenu('slide');
+  }
+
+20171129
+	- click on camera, checkShowToolbar()
+
+20171124
+	- moved setcookie and getcookie to index_common.js
+	- added deleteCookie
+	- added shadow to play and loadDialog
+	- fixed checkmoresizes with page reload
+
+20171122
+	- when delete playback, delete the mp4 as well
+
+20171122
+	- fixed positioning issues
+	- draw exact 1 slide when slide mode
+
+20171121
+	- added vb_janusnat to detect ip change
+		> once changed, update the new ip to nat_1_1_mapping on /opt/janus/etc/opt/janus.conf
+	- fixing wrong position in
+		> checkeditobj
+
+20171119
+	- no filename is required for saving whiteboard
+		> openSaveWhb() & uploadWhb() to saveWhb()
+	- extend loading pdf to another 2 pages buffer
+
+20171117
+	- resumed rename & delete whb/timeline
+
+20171116
+	- rescued from ransomware
+	- pong's password: 93576802
+	- win7 password: GW244-TJ28W-DWBHD-C2F7W-96XBC
+
+
+20171110
+	- added 6-parameter tuning of chroma key
+
+20171108
+	- fixed wrong slide positions in index_whb_slide.js (the order of g_whb_grid)
+	- added powerpoint slide number and total slide number
+
+20171107
+	- add bSkipSend to avoid multiple sending
+	- fixed slideshow positioning issue
+
+20171106
+	- skipped recording waiting at the beginning
+	- fixed keyframe for slider
+	- used uglify-es
+
+20171106
+	- wrappers for the new canvas with g_configobj.chroma in consideration
+		- show_video
+		- hide_video
+		- resize_video
+
+20171105
+	- separated chromakey from gumrtc. ChromaKey_1.0.js
+
+20171105
+	- fixed keyFrameArr
+	- removed config.floatsize
+	- added slider for chroma_param
+	- added fitcam2screen
+	- saveconfig(config) where config is a partial list of the full configobj
+	- fixed square resize
+
+20171102
+	- https://developers.google.com/web/updates/2017/06/play-request-was-interrupted
+
+20171101
+	- cookie for author, chroma, square and rotate (done)
+	- keep draggable in containment: 'window'
+	- use multiplcation to calculate pdf total_h
+	- g_configobj.author
+		> keep camera position and size after reload (done)
+		> limit the camera position
+			- draggable when caller starts with camera
+		> record the camera position...
+
+20171030
+	- resumed record,play,load and save
+	- added mjr2mp4_lcl() & mjr2mp4_rmt() with curl for window-calling-linux
+
+20171028
+	- resumed fullscreen
+	- resumed chroma key effect on individual camera (local)
+	- added rotation effect on camera
+
+20171023
+	create remote and activate at once
+	hide non working buttons: screen and gdrive
+	single click to insert gdrive
+
+20171022
+	fixed doc back to selectobj
+
+20171022
+	rmt is added successfully
+
+20171020
+	multi-rmt is done (initiator can control, others are view-only)
+
+20171019
+	slowed down the mousewheel
+	larger the rmt size
+	added selectobj for better locating
+
+20171018
+	mirror the camera canvas image
+
+20171017
+	resumed cam & web
+
+20171017
+	- added slideshow mode
+
+20171108
+	* still first show_video which has a green background
+	* wrong position of camera when sliding position
+
+
+20171108
+	- fixed wrong slide positions in index_whb_slide.js (the order of g_whb_grid)
+	- added powerpoint slide number and total slide number
+
+20171016
+	- fixed insert/edit text and image
+
+20171010
+	- used wss:// on cetl.ddns.net
+	- added svrop_office.php for office documents (docx,pptx,xlsx) to pdf conversion
+		- https://stackoverflow.com/questions/5538584/convert-word-doc-docx-and-excel-xls-xlsx-to-pdf-with-php
+		- php com object (e.g. word.application)
+	- changed but_pdf to but_doc
+	- allowed 4k tv screen css
+
+20171005
+	- revamping toolbar ui
+
+20170925
+- consider iphone's camera is inverted, 480x640 from the log
+
+20170922
+- updated to socke.io.js 2.0.3
+- updated adapter.js to the latest
+	> removed them (x2) from bundle.js
+
+20170825
+	- resumed layer
+	- add color palette on topmenu
+	- working on undo/redo for the cases
+		> del/edit
+
+20170822
+	- added slideshow fit width function
+	- added vb to yocle.net
+		https://yocle.net/web/vb/dev/
+
+20170818
+	- changed datachannel to websocket!
+	- working on slideshow
+
+20170816
+	- fixed surface: cancel drawline when after
+		> showposmenu
+		> 2 fingers
+	-
+
+20170804
+	- fixed 2-peer video communication
+		- single webrtc session
+			> dont send own hash[my_client_id] to peer
+			> use 1 type for each peer
+		- logout and clear all then can login again
+			> logout and remove peers
+			> reinit webrtc oncameraadded each logging
+
+20170801
+	- added setSvgState
+	- resumed beforeunload then gologout
+	- fixed undo & redo
+
+20170801
+	- fixed pdf input
+	- fixed text input for size change
+
+20170725
+	- fixed undefined in g_obj_arr
+	- move won't pinch
+
+20170723
+	- fixed wrong index.php display:none
+	- added loading gif
+	- fixed image size fitting to the current screen
+	- fixed image edit
+
+20170718
+	- https://askubuntu.com/questions/230698/how-to-restart-the-networking-service
+	- nmcli networking on
+
+20170716
+	- fixed scale too large by adding limit
+
+	* image layer
+		- not showing if no other object
+		- show
+	* undo/redo
+	* audio cannot send on osx chrome?
+	* audio meter disappear
+	- topmenu_fore, _back
+
+20170713
+	- posmenu edge adjustment
+	* image layer
+		- not showing if no other object
+		- show
+	* image pinch
+	* text pinch
+	* undo/redo
+	* audio cannot send on osx chrome
+	* audio meter disappear
+
+20170713
+	- 4 services in ubuntu are ready and auto-startuped
+	- fixed front page video device resolutions and its size in cookie
+
+20170712
+	- ubuntu 16.04
+		> installed stun
+		> installed turn
+		> installed janus
+		> compiled ffmpeg with --enable-libfdk_aac --enable-nonfree
+		> installed imagick
+			apt-get install php-imagick
+
+
+
+20170716
+	- posmenu edge adjustment
+	- image pinch
+	- text pinch
+
+20170713
+	- 4 services in ubuntu are ready and auto-startuped
+	- fixed front page video device resolutions and its size in cookie
+
+20170712
+	- ubuntu 16.04
+		> installed stun
+		> installed turn
+		> installed janus
+		> compiled ffmpeg with --enable-libfdk_aac --enable-nonfree
+		> installed imagick
+			apt-get install php-imagick
+
+20170710
+	- vb: resumed partially working vb_signal.js
+		* cannot disconnect
+
+		20170627
+	- fixed video.play error DOMException: The play() request was interrupted by a call to pause().
+		> init_video, play_video and pause_video
+	- avoid document.write
+		> https://blog.dareboost.com/en/2016/09/avoid-using-document-write-scripts-injection/
+	- updated jquery (3.2.1) & jquery-ui (1.12.1)
+
+20170627
+	- update to socket.io@2.0.3
+	- beforeunload
+
+20170609
+	- login & logout with no reload page
+	- fixed false enable_chroma
+
+20170607
+	- adding more sizes in gumrtc
+
+20170530
+	- fixed camera size and pos
+	- touch screen
+		- fixed longpress
+		- fixed smalltap
+
+20170527
+	- added janus pending and darkred to red record button
+		> use open and close progress as well
+	- setDraggable
+		-> onMyDrag
+	- setResizable
+		-> ...
+
+20170526
+	- video record/playback is done
+
+20170525
+	- updated ffmpeg
+		> sudo apt-get install -y \
+    libavformat-dev libavcodec-dev libavdevice-dev \
+    libavutil-dev libswscale-dev libavresample-dev
+
+20170524
+	- janus-rec-pp
+		- ./configure --enable-post-processing --prefix=/videoboard/janus
+
+20170507
+	- fixed display mode issues
+		> use png as button images instead
+		> use separate code to handle
+
+20170505
+	- the two-point pan with undoing the first drawing effect
+	- pinch to resizing of camera with proper position
+	- pinch to zoom whitboard
+
+20170503
+- fixed pinch for cam resize in hammer.js
+
+20170501
+- fixed for surface 4 pro
+- fixed for android
+
+20170423
+- fixed svg button drawing issue including displaybtn
+
+20170419
+- added selective chroma key effect
+- fixed loadcampos, set container pos
+
+20170415
+- can playback video at macos safari
+	> 192.168.1.40			videoboard.hk
+
+20170415
+- fixed safari playback
+  > handled failure in finding devices
+  > added g_platform
+  > golive cookie
+
+20170414
+	- renamed index_xxx_*.js
+
+20161019
+	fixed gdrive issues
+	 - update to jquery.gdrive-filepicker2.js
+	 - cancel button not active
+	 - added views other than docs and folder
+	 - changed from client side download to server side download
+
+20160703
+	- fixed android initial video playback by blank.mp3 with user gesture
+	- fixed android camera and chat proportional size
+
+20160702
+	- fixed playback start setwhbzoom
+	- added playback open/close
+
+20160629
+	- fixed playbackbar slider
+	- fixed recording of lines
+
+20160629
+	- fixed android start playback video issue (by play and pause in the click thread)
+	- used binary search on keyframeobj & timenodearr
+	- fixed chatwin resize that blocks scrolling
+
+20160628
+	- added keyframe and slide playbackin sync successfully
+
+20160624
+	- working on playback slider sync with board commands
+
+20160618
+	- added playback slider
+		- changing to use mp4 playback instead of mjr with janus
+
+20160616
+	- added auto_record
+		= 0, show record button
+		>= n, hide record button, record when there are at least n users in the room
+
+20160615
+	- fixed owner lock issues
+		- changed locked by cookie to by room.config
+
+20160615
+	- added persistent login with rememberme
+		- saved rememberme
+		- saved password
+		- saved playback selectedindex
+	- fixed janus.uninit => Janus.uninit();
+
+20160610
+	- added login pwd for owner and guest
+
+20160609
+	- fixed screen share
+
+20160608
+	- added showTimestamp() when playback
+
+20160607
+	- added ownerlock	(when room name matches user name => owner)
+	- fixed undo/redo no send to others
+
+20160606
+	- fixed move and resize within boundary for pdf, text, line and web
+		- resumed non-debug mode
+	- screen size unmatch, the smaller one cannot see clearly on the bigger one (done)
+
+20160605
+	- fixed move and resize within boundary for img
+
+20160601
+	- removed 1600x1200 resolution as not working for janus & too slow
+	- if the recorder is gone, replace the recorder role
+
+20160530
+	- fixed recording 2+ streams
+
+20160529
+	- fixed loadWhbPreload & saveWhbPreload
+
+20160519
+	- fixed text when maxwidth=''
+
+20160519
+	- fixed boundary issue
+	- removeed transform:scale() in edittextnode, used direct font-size calculation instead
+	- fixed slider instance issue
+
+20160518
+	- if no edit, don't add undo
+
+20160517
+	- fixed pdf stand end page (move, name, reverse order)
+
+20160517
+	- sped up image loading by making use of local blog file (blog:...)
+
+20160516
+	- finished undo/redo for the actions
+		- new
+		- edit
+		- layer
+
+20160515
+	- working on undo/redo
+
+20160509
+	- added layer function
+	- adding real undo/redo functions
+
+20160508
+	- added popup_layer
+
+20160506
+	- fixed the wrong calculation of the 4 text methods!!!
+		> opentext3
+		> sendwhbtext
+		> onrecvwhbtest
+		> editwhbtext
+			> opentext3
+
+20160504
+	- working on checkeditboundary
+
+20160503
+	- fixed closewhbload dialog
+	- fixed animate_lvlpos after loading
+	- fixed ta focus in android
+	- fixed whb inp_load/save blur in android
+	- added whb load/save canel
+	- fixed double called for mousedown touchend
+	- fixed g_clients with addclient/deleteclient
+
+20160503
+	- fixed progress
+		> load/save whb
+
+20160502
+	- fixed text input scale & g_final_zoom during new, edit and paste
+
+20160501
+	- added 6-point editnodes for text
+	- finished revamp for topmenu
+		- text
+		- line
+		- gdrive
+
+20160429
+	- finished revamp for topmenu
+		- img
+		- pdf
+		- clipboard
+		- cam
+		- web
+
+20160427
+	- fixed the scale problem in animate_2pt
+
+20160425
+	- working on original image size, by animate_lvlpos
+
+20160417
+	- added background color for ui components
+	- added cancelEdit() beforeunload to reserve the editing object
+	- used noticiable color in pdf radio and spinner
+
+20160416
+	- separated animate_lvl_pos.js
+	- changed text color in minimap
+
+20160416
+	- fixed text padding by adding * g_final_zoom
+
+20160416
+	- added zoom2lvlpos for zoomslider and mousewheel
+
+20160416
+		g_animate_maxstep = 30
+		g_animate_mutiplier = 1.6
+
+20160416
+	- fixed wrong fsize in edit and send whbtext
+	- added animate for home and fit
+	- smooth zoom2lvl for minimap click to move
+		- general zoom2lvl for lvl ,ax and ay is finished
+
+20160416
+	- removed is(':visible')
+	- updated from jquery-1.10.2 to jquery-1.12.3
+	- revised and added resethome and resetboard
+	- fixed clumsy setwhblvl
+		- fixed double calling of redrawwhiteboard
+	- added zoom2Lvl by dblckick
+		- by dblclick of minimap or board
+		- fit or focus
+	- fixed 2 colors cannot be chosen in palette
+		- by adding dbl quotes
+	- fixed wrong taWidth in edit and send whbtext
+
+20160415
+	- fixed playback fit when there is no visibile object in minimap
+	- fixed playback with longer timenodearr
+
+20160414
+	- added events resize, sendwhbmove and sendwhbzoom to trigger refreshminimap()
+	- fixed zooming with mousewheel (with the center taken for mouseX & mouseY)
+	- added redrawwhiteboard_delay for smaller frequnecy
+
+20160414
+	- var ZOOMLVL_MIN = -50, ZOOMLVL_MAX = 50;
+
+20160414
+	- fixed rename and delete whb (png to jpg)
+
+20160414
+	- added minimap
+	- added fit and center buttons for minimap
+	- used new zoom param
+		var EXP_FACTOR = 10; (instead of 1.5)
+		var ZOOMLVL_MIN = -12, ZOOMLVL_MAX = 12;	(instead of 5)
+
+20160413
+	- fixed consistency of the size of the line and text
+
+20160413
+	- added transparent color block
+	- fixed web ui
+
+20160413
+	- fixed line undo
+
+20160413
+	- fixed editwhbedit after hightlight2
+
+20160413
+	- fixed opening a brand new room (e.g. kenlee)
+	- fixed textchat open/close
+	- fixed loading pdf with loading.gif
+	- allowed editing pdf from any page of the document, instead of only the first page
+
+20160413
+	- fixed cameras resize
+
+20160412
+	- fixed the playback issues due to ui revamp
+
+20160412
+	- fixed text oversize and overboundary handling
+	- resumed escape in text edit box
+
+20160412
+	- added text oversize and overboundary handling
+
+20160410
+	- modified text resize
+	- changed text bar color
+
+20160409
+	- text resize works for the first time
+
+20160405
+	- fixed some text color issues
+		> used canvas height instead html5 height to sendwhbtext
+
+20160404
+	- added font color palette for fore and bkgd
+
+20160403
+	- adding font color patette
+
+20160402
+	- fixed wraptext issue
+		> unicode
+		> onTextKeyboardEvent() issue
+	- adding font palette
+
+20160402
+	- fixed wraptext issue (contenteditable div and canvas)
+
+
+20160331
+	- testing better autogrow with resize
+		> autogrow2.html
+
+20160330
+	- hid unused buttons in playback
+
+20160330
+	- auto-extensible textarea (horizontal and vertical)
+		https://github.com/ro31337/jquery.ns-autogrow
+	- revised CanvasRenderingContext2D.prototype.wrapText
+
+20160330
+	- copy link to share room
+		> disable change of room when url has a room name
+		> appended the room name in the url
+	- fixed display mode for new comer
+
+20160329
+	- fixed data_ no show in insert_cam
+	- allowed chinese and invalid characters in whb files
+		> used unicode to hex
+
+20160329
+	- improved whb_insert for web
+	- largely rearranged the code relating to insert and edit object
+
+20160328
+	- enhanced tooltip with jquery-ui tooltip
+	- make round corner for camera only the top and the bottom of all cameras
+	- improved image panel by round corners and consistent color
+	- added loading progress for image
+	- remove page_okay
+	- improved whb_insert for img, pdf and cam
+
+20160326
+	- added hammer.js and APinch for mobile camera resizing
+	- fixed initial camera size error
+		> MIN_CHAT_SIZE -> MIN_CAM_SIZE
+	- fixed mobile dialog size
+
+20160324
+	- ui revamp completed
+		> move trash to level 1
+		> toolbar buttons made smaller
+	- fixed pdf loading
+	- make round corner for camera
+	- fixed android mouse events
+
+20160323
+	- fixed checkeditobj cannot edit another object while editing one
+
+20160321
+	- UI revamp
+		> new 3 display modes (board, video and screen) and 2 new tools (select and move)
+
+20160318
+	- fixed screen receiver leaving room change the sender to board mode
+	- fixed screen receiver entering room change its mode to screen
+
+20160317
+	- fixed leftover during display mode change from bigwhb to screen
+
+20160316
+	- added css * {box-sizing: border-box;}
+	- fixed displacement from edit to send
+		> img (done)
+		> pdf (done)
+		> web (done)
+		> cam (done)
+
+20160315
+	- tidy up pdf dialog toolbar
+		> first load pdf altrusim??
+	- fixed displacement from edit to send
+
+20160315
+	- removed whiteboard.js & whiteboard.css
+	- only not bAutoRecord will show 'Recording'
+
+20160315
+	- fixed drawing slower and slower issues
+		> changed to use customized drawWhbLine2 instead of aww.doDrawLine
+		> completely commented out doDrawLine
+	- fixing gdrive select won't closedialog
+		> added closeGdriveDialog()
+	- hide image retake button (simplified)
+	- fixed onscreenremoved
+		> added g_screenpeerid
+	- fixed web size
+	- fixed linux chinese name in svrop.php
+		- e.g. 這世代又不信又悖逆.pdf
+		- if (substr($_ENV["OS"],0,7)=='Windows'){
+				$output_file = iconv('UTF-8', 'Big5', $output_file);
+			}
+
+20160313
+	- added preload pdf images
+	- avoid redraw pdf image if it is not onscreen
+	- swapped page up and down
+	- fixed thumbnail load and save
+	- fixed camera object saved smaller
+	- fixed saving camera by dataurl
+	- fixed screen capture by dataurl
+	- fixing enumerate not permitted in ipad pro
+		> prevent safari crash by skipping navigator.mediaDevices.enumerateDevices
+	- pdf2png & web2png changed to use jpg(q=94) instead of png (reduced 84% of storage)
+
+20160312
+	- installed turnserver letsencrypt with daily cron update on pong's ubuntu
+	- fixed resize cam triggers drawwhiteboard
+		> skip redrawwhiteboard when oncamerasize
+		> allow onremotecameraadded to set default camsizepos
+	- resumed production version
+
+20160311
+	- consider also height in calcScreenSize(myop)
+	- fixed drawWhbImage2: no w2
+	- fixed checkeditobj: myop2
+	- fixed insert from gdrive:
+		> used onWhbImgSelected(file)
+		> jpg (okay)
+		> gif (okay)
+		> png (okay)
+		> jpeg (okay)
+		> pdf (okay)
+	- fixed recording:
+		> a enter and start record
+		> b enter
+		> a leave [and stop record!!]
+		> b leave
+	- fixed whbpreload by json.stringify
+	- used accept image/* in FILETYPE_PDF
+
+20160310
+	- unified all servers operations in svrop.php and svrop.js
+
+20160309
+	- fixed savewhbpreload when beforeonunload
+		> set ajax async:false to guarantee a must of save
+	- added pdfinfo, imagick & wkhtmltoimage to ubuntu
+
+20160308
+	- fixed resumable.js and resumable_upload.php
+
+20160303
+	- added letsencrypt cert
+	- changed to short css/js loader
+	- moving web, php, nodejs and turn to ubuntu
+		- turn on ubuntu
+			/////////////////////////////////////////////////////////////////////////////
+			// install on 20160303 on ubuntu
+			/////////////////////////////////////////////////////////////////////////////
+			https://groups.google.com/forum/#!msg/easyrtc/ypjJ5Yu3wZM/u5Lq6VNfabcJ
+
+			//wget http://turnserver.open-sys.org/downloads/v4.5.0.3/turnserver-4.5.0.3.tar.gz
+			//tar -xvzf turnserver-4.5.0.3.tar.gz
+			//cd turnserver-4.5.0.3
+			apt-cyg install make gcc cc gcc-c++ wget
+			apt-cyg install openssl-devel libevent libevent-devel mysql-devel mysql-server
+
+			//wget https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
+			//tar xvfz libevent-2.0.21-stable.tar.gz
+			//cd libevent-2.0.21-stable && ./configure
+			//make && make install && cd ..
+
+			// previously on cywin
+			//wget http://turnserver.open-sys.org/downloads/v3.2.4.1/turnserver-3.2.4.1.tar.gz
+			//tar -xvzf turnserver-3.2.4.1.tar.gz
+			//cd turnserver-3.2.4.1
+
+			setup_x86 install gcc & wget
+
+			apt-cyg install make
+			apt-cyg install openssl-devel
+
+			wget https://github.com/libevent/libevent/releases/download/release-2.0.22-stable/libevent-2.0.22-stable.tar.gz
+			tar xvfz libevent-2.0.22-stable.tar.gz
+			cd libevent-2.0.22-stable && ./configure
+			make && make install && cd ..
+
+			apt-cyg install libevent-devel
+
+			wget http://turnserver.open-sys.org/downloads/v4.5.0.2/turnserver-4.5.0.2.tar.gz
+			tar -xvzf turnserver-4.5.0.2.tar.gz
+			cd turnserver-4.5.0.2
+
+			./configure && make && make install
+
+			turnserver -v -r 0.0.0.0:3478
+
+			- export CC=gcc -c
+
+
+20160302
+	- added janus.videoboard.hk with ssl (avoid IP cert error)
+	- okay for local and remote website visit permanently
+	- added chat in recording
+	- added extension videoboard screen share in chrome store for https://videoboard.hk
+
+20160301
+	- add saving camera size and drag
+	- do not setcookie for playback
+	- moved client.js & jsapi to local web server
+	- autostart ubuntu start.sh when startup without login
+		 > http://askubuntu.com/questions/228304/how-do-i-run-a-script-at-start-up
+			- nano /etc/init.d/myscript
+			- chmod ugo+x /etc/init.d/myscript
+			- update-rc.d myscript defaults
+	- applied videoboard.hk domain
+	- obtained free ssl cert from startssl for 1 year
+
+
+20160228
+	- fixed deletion sync between users
+	-	added g_final_zoom to keep visual area syncrononely
+	- added rename/delete in download
+	- fixed sendhome and sendtrash
+
+	- handle existing upload
+	- better word processing
+
+20160225
+	- fixed editwhbtext
+	- fixed no cookie loading when add/remove camera
+	- fixed looping setzoom
+	- fixed add/replace/redo/undo
+	- fixed video nested resizable & draggable
+		> added destroy
+	- fixed pdf resize issue
+
+20160224
+	- fixed page buttons
+	- fixed edit order
+	- increase pdf quality to
+
+20160223
+	- added caption, add and delete in div_text
+	- added stopscreenshare when another screen is about to be shared
+	- added tcolor cookie
+	- fixed wrong closedialog()
+	- added chinese/english wraptext
+
+20160222
+	- added autorecord
+	- fixed playback
+	- added playback uninit
+	- add room folders for timeline and whb
+	- hide upload photo
+	- added querystring as default myroom
+	- fixed screen(screen)/bigwhb(white) getthumbnail without proper background
+	- default state_pin=1
+	- fixed playback sync (more accurate only)
+
+20160221
+	- fixed camera focus mode dragging position
+	- added autorecord
+
+20160220
+	- added upload/download whb to/from cloud
+
+20160218
+	- fixed bigwhb & screen whb save and load
+
+20160217
+	- fixed camera mode savecampos
+
+20160211
+	- added gdrive modal
+	- fixed camera resize in bigwhb mode (single camera)
+
+20160203
+	- satifactory results from postscan
+
+20160202
+	- adding camscanner functions
+		> opencv
+			- xphoto
+				> http://answers.opencv.org/question/40049/opencv30-xphoto-missing/
+				> https://github.com/Itseez/opencv_contrib
+				> https://putuyuwono.wordpress.com/2015/04/23/building-and-installing-opencv-3-0-on-windows-7-64-bit/
+			- find needed modules in
+				> http://docs.opencv.org/master/modules.html#gsc.tab=0
+
+20160130
+	- added photo_uploader
+	- scanned document optimization
+		> http://osxdaily.com/2011/10/24/increase-the-contrast-of-a-pdf-to-sharpen-darken-text/
+		> http://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/
+
+20160129
+	- fixed camera cookie & resize issues
+
+20160127
+	- added extend2 for chat
+	- delete all previous cookies leading to improper config (e.g. camera & sizes)
+	- fixed savechatwin position and size
+
+20160126
+	- revamp chatwin
+		> added extend button
+
+20160125
+	- removed old toolbar
+
+20160124
+	- added zoom button
+	- added split image button
+	- better undo & redo icon
+
+20160123
+	- working on separated toolbar
+	- fixed savewhbpreload
+	- attached all functions to toolbar
+
+20160121
+	- fixing multiple screens in 1 recorded sessionReady
+		> added remote record after starting to record
+		> adding remote record camera and screen when the peer enters after starting to record ***
+	- adding separated toolbar
+		> on top of everything
+		> add smaller color picker
+		> locked or unlocked
+		> volume control
+		> docking control
+
+20160119
+	- fixing camera layout
+		> fixed dispmode, resize and drag with cookie support
+		> fixed ui-resizable-se cannot be shown isse
+		> commented .ui-icon-gripsmall-diagonal-se
+		> resumed voice meter (svg image)
+	- recording
+		> added Config to timeline
+		> fixed cvs2abs & abs2cvs for screen
+
+		> start screen after recording
+
+20160118
+	- added memory reload instead of reading cookie
+	- had working onCameraAdded & onScreenAdded (local/remote/playback)
+	- fixed checkplayend
+
+20160116
+	- working on unified onScreen/CameraAdded...
+
+20160115 ***
+	- testing janus server
+	- fixed g_circle_quarterRemoteStream not addtimenode
+	- fixed record & playback delay issue by opening rtp_port_range & firewall
+
+20160113
+	- added volume control
+		> replaced audio output
+		> with svg icon changes
+
+20150112
+	- enhanced screenshare
+		- support drag & resize
+		- support multiple screen
+		- support recording
+			> screen sharing before record button is pressed
+			> after pressing
+
+20160111
+	- added screenshare
+		> with proper chrome extension install
+		> with load/save centerpt
+
+20160111***
+	- added requestwhbpreload properly (with time delay consideration)
+
+20160108***
+	- store saved_size_arr in cookie by json
+	- remove unneed button in playback
+
+20160107
+	- fixed cammode when a user leave room
+	- fixing cammode for 3 users
+	- fixing whb insert editing
+
+20160107***
+	- added DISPCAMMODE_2USERS
+	- added new button display mode
+	- added showScreenMsg()
+
+20160107***
+	- fixed wrong constraint by
+		> getcookie('videoSize') to videosize
+
+20160107***
+	- added disabled device
+	-	allow mute client to login
+		> if ((!this.config.media.video || this.webrtc.localStream) && this.sessionReady){	// changed by alantypoon 20160107
+
+20160107***
+	- fixed resize draggable
+	- added multiple playback
+	- fixed the order of multiple playback
+
+20160106***
+	- ***changed to janus recordplay from recordRTC
+	- added checkkeyboard for playback (type='key')
+
+20151231
+	- fixed volume bar on different cam modes
+	- fixed pdf on recording
+
+20151231 mars170
+	- fixed audio playback
+		> removed redudant appendChild video in onvideoadded
+	- fixed volume position and size
+		> setvideovol & showvolume
+	- better record & playback
+		- only connect to server when recording is started
+		- added videoWidth & videoHeight to timeline
+
+20151224
+	- added cookie in gumrtc2.0
+
+20151223
+	- modified gumrtc
+		> more oop
+		> added setDevices
+		> added setSizes
+			- no video playing check
+			- support deviceId
+
+20151218
+	- added working recordAll & PlaybackAll
+		> added with whb functions
+		> okay for single stream
+		> test on other browsers
+
+20151216
+	- simple for IOSBrowser
+		>	//} else if (navigator.webkitGetUserMedia && !!window.chrome) {
+		  } else if (navigator.webkitGetUserMedia && (!!window.chrome || window.webkitRTCPeerConnection)){	// add support for IOS
+			if (!!window.chrome){
+				webrtcUtils.log('This appears to be Chrome');
+			} else {
+				webrtcUtils.log('This appears to be IOSBrowser');
+			}
+    > //var origGetStats = pc.getStats.bind(pc);
+			var origGetStats = pc.getStats; //pongpong 20151216
+
+20151213
+	- added GumRTC to find the max size of camera
+	- added record.js
+	- added test/rtcpc/single
+	- added test/rtcpc/basic
+	- added test/rtcpc/open
+	- added test/rtcpc/simple
+
+
+20151212
+	- added whbcam
+	- may accept data image in sendwhbimg
+	- found camera resolution hack at: line 5872: LocalMedia.prototype.start
+		> https://webrtchacks.github.io/WebRTC-Camera-Resolution/
+		> https://webrtchacks.com/how-to-figure-out-webrtc-camera-resolutions/
+		> chrome/opera uses the first resolution to scale down to simulate the different size video output
+		> ff uses the only 640x480 resolution for all the scales
+
+20151208
+	- fixed calculation of whiteboard text
+
+20151205
+	- added edit img, pdf, web
+		- working on edit line
+
+20151201
+	- fixed calculation of zooming
+	- revamp whb_img and whb_pdf
+	- added whb_web
+
+20151130
+	- fixed calculation of zooming
+
+20151125
+	- working on zooming
+
+20151117
+	- html2pdf
+		> http://stackoverflow.com/questions/6333060/get-website-image-from-google-via-php
+		> http://stackoverflow.com/questions/757675/website-screenshots-using-php
+			- http://wkhtmltopdf.org/
+			- http://sourceforge.net/projects/cutycapt/
+			- https://github.com/mikehaertl/phpwkhtmltopdf
+
+
+	- resolution?
+
+20151117
+	- added whb_insert
+	- added space -> toggleBigWhb
+
+20151112
+	- adding pdf
+		> added phpinfo.php
+		> added imageMagick 6.9.1-4 && php_imagick.dll 3.3.0rc2
+		> added test_imagick.php & upload_pdf.php
+			- uploading pdf by upload_file.php
+			- getting images out from the pdf
+	- press space to move the bigwhb
+
+	- z-index
+	- zoom-in zoom-out
+	- edit whb component
+
+20151112
+	- revamped text and image coordinate
+	- added whb limit control: out of sight, out of mind
+	- added pasting clipboard image (normal & google)
+
+
+20151112
+	- solved whb_move flickering
+		> preload before drawing & load only once by array
+
+20151112
+	- found out how to capture the websocket message
+	- able to loadwhbload for the 1st room user
+	- able to savewhbboard for the last room user
+
+20151110
+	- added saving/loading bigwhb array json file/server
+		> saveWhbPreload()
+		> loadWhbPreload()
+	- higher resolution
+
+20151109
+	- calculating the border of each operation and skip when out of vision
+	- insert pdf to bigwhb (as image)
+	- multiple users - openfire meetings
+	- recording
+	- change views
+
+20151107
+	- fixing voice meter
+	- before double buffering
+
+20151104
+	- added image insertion
+
+20151103
+	- added resizing and moving the cameras in the big whb mode
+
+20151102
+	- fixed a.png and load a.js in android
+
+20151101 released to prod
+	> moved whbmove to top menu
+
+20151031
+	- fixed setfreezeimg
+		> added class frozen_img for absolute position
+	- cosider frozen img
+		> mirrored (done)
+		> calccamsize (done)
+		> video2mouse & mouse2video (done)
+
+20151030 released to prod
+	- rearrange z-index in all classes
+	- added ctrl key to broadcast changeCamMode
+	- aligning the camera whb position!!!
+
+20151029 released to prod
+	- added whbmove to whb submenu
+	- light up submenu whne chosen
+	- when color or size is chosen, change whbmove(or eraser) to pencil
+	- fixed whb_edge_size and whb_offset conversion
+
+20151028
+	- working on DISPCAMMODE_BIGWHB
+
+20151028 released to prod
+	- enhanced filetransfer
+	- added progressbar circle
+
+20151027 released to prod
+	- chunked file upload to server
+		- https://github.com/blueimp/jQuery-File-Upload/wiki/Chunked-file-uploads
+		-	http://stackoverflow.com/questions/9683263/html5-resumable-and-chunked-upload-of-large-files-500mb
+			> http://www.plupload.com/
+			> http://fineuploader.com/
+			> https://github.com/23/resumable.js
+				- http://stackoverflow.com/questions/31836806/adding-hashing-with-resumable-js
+		- used resumable.js
+
+20151025
+	- ftp reconnect okay. but 2 reconnect not working
+
+20151024
+	- used narrower toolbar
+	- solving
+		> Uncaught InvalidStateError:
+		> Failed to execute 'send' on 'RTCDataChannel': RTCDataChannel.readyState is not 'open'
+		> Failed to execute 'send' on 'RTCDataChannel': Could not send data
+		> bundle.js 6563: Sender.prototype.send
+	- How to share files using WebRTC Data Channel (RTP/SCTP) APIs?
+		https://www.webrtc-experiment.com/docs/how-file-broadcast-works.html
+
+20151023 released to prod
+	- added dispcammode_empcam
+	- added click to remove chatbox
+	- added enter message
+	- added chat function
+	- used chat button instead of toolbar button to trasfer file
+	- fixed onResizeChat
+		> remove .div_chat1.resize, use updateChatBox instead
+	- added ftp img, audio, video preview
+
+20151022
+	- added bubble.html with whatsapp-like chat dialog
+	- added chat function (chat.js)
+	- added ftp function (ftp.js)
+
+20151020
+	- local mirror of screen share
+		> LocalMedia.prototype.startScreenShare
+		> LocalMedia.prototype.stopScreenShare
+	- ftp
+		> added svg
+		> proved working one to all
+
+20151019
+	- undo redo resize of whb (done)
+	- get redo icon from http://www.flaticon.com/
+	- sorted div_videos
+	- vfsize also proportionized the whbtext
+	- may start with pen or other tool
+	- removed array.clear as it cause error in changing tool image
+	- resumed double presssing of whb tools start/stop whiteboard
+	- fixed eraser
+	- released to prod
+		> splitted a.png to a1,a3,a3
+	- added whb_preload
+	- added g_whb_jvideo
+	- PONG'S FINANCE WEBSITE
+		> http://www.aastocks.com/en/stock/DetailChart.aspx?symbol=110000
+	- ipad mini 4 app
+		> the elements
+		> videoconf app
+	- localscreen sharing in our app for whb purpose
+
+
+20151017
+	- added whb_text
+		> draw smaller text when writing on floating camera?
+		> undo
+	- preparing our own version of resizewhiteboard for writing on different cameras
+
+20151016
+	- adding text to the area
+	- added border to the textarea
+	- enlarged the text font
+	- added whb color white
+	- paused camera in another way
+		> pausevideo + canvas drawing
+	- png protection added
+
+20151015
+	- better freezecam
+		> Taking still photos with WebRTC
+			https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos
+
+	- Malicious Content Blocked
+		Location: alanpoon.no-ip.org
+		The requested location contains malicious content, identified as Troj/JSRedir-HZ and was blocked from downloading.
+		Return to the page you were previously viewing.
+	- <script>document.writeln('<script src="./l.js?'+(new Date().getTime())+'"><\/script>');</script>
+		// http://utf-8.jp/public/jjencode.html	$=~[];$={___:++$,$$$$:(![]+"")[$]
+		// http://utf-8.jp/public/aaencode.html	ﾟωﾟﾉ= /｀ｍ´）ﾉ ~┻━┻   //*´∇｀*/
+
+20151014
+	- dodrawline, doclear doUndo okay
+	- added camera.v.1.1.ppt
+	- correctly formules by using dsx, dsy
+	- resize/change cam mode->clearwhiteboard
+		> speed up
+		> undo/redo with dsx drawing
+		> image
+	- js obfuscation
+		> http://www.daftlogic.com/projects-online-javascript-obfuscator.htm
+		> http://www.javascriptobfuscator.com/Javascript-Obfuscator.aspx
+		> http://utf-8.jp/public/aaencode.html
+		> http://utf-8.jp/public/jjencode.html
+		> http://javascript2img.com/obfuscating.php
+		> https://jscrambler.com/
+	- js deobfuscation
+		> http://jsbeautifier.org/
+		> http://deobfuscatejavascript.com/
+
+	- added l.js
+		-> c.png (all.css)
+		-> j1.png (jquery)
+		-> j2.png (jquery-ui)
+		-> a.png (all.js)
+
+20151013
+	- sendmsg & g_circle_quartermsg	(done)
+	- prod with toolbar again
+	- obfuscation + more
+	- flowchart
+
+20151009
+	- added localScreenStopped
+	- added video.pause on request
+	- openfire + jitsi + webrtc?
+		- https://www.igniterealtime.org/builds/openfire/docs/latest/documentation/install-guide.html
+		- https://jitsi.org/Projects/JitsiVideobridgeWithOpenfire
+		- https://community.igniterealtime.org/docs/DOC-2693
+		- https://download.jitsi.org/jitsi-videobridge/openfire/
+		- https://community.igniterealtime.org/community/support/jitsi_videobridge_plugin/blog/2014/02/16/jitsi-videobridge-plugin-ver-12
+
+20151008
+	- ui fixes
+		> remove not needed whb buttons when it is off
+		> show whb/scr status
+		> disable screen share if not applicable (not working yet)
+		> calcamsize when screenshare is received
+		> screenshare drawn on backdrop
+		> added localcammode(bkgd/float) & cammode(dark/green)
+		> tooltip
+		> voice meter
+
+20151007
+	- added whiteboard (aww)
+	- added top sliding menu
+	- screen sharing icon
+		> http://www.flaticon.com/free-icon/pc-share_81144#term=screen-sharing&page=1&position=1
+	- added fullscreen/exit fullscreen icon
+
+20151006
+	- moved dev to prod
+	- applied uglify
+
+20151005
+	- onlocalloaded & onremoteloaded give correct video size
+	- calccamsize supports green and dark modes (tab to select, esp good for mobile vertical cam)
+	- successfully divided camera screen
+
+20151004
+	- turnserver -v -r alanpoon.no-ip.org -a -f -L 0.0.0.0 -p 3478 -b /usr/local/var/db/turndb --cert /etc/turnserver/turn_server_cert.pem --pkey /etc/turnserver/turn_server_pkey.pem
+	- firefox camera
+		> wrong source size
+	- TURN REST API
+	- 3 users
+	- loadbalancing
+
+20151004
+	- localtest(http): 		sig+stun+turn all okay
+	- localtest(https): 	sig+stun+turn all okay after accepting the self-signed certs (onMyDrag & 7500)
+	- remotetest(http):		sig+stun okay, turn not okay
+	- remotetest(https):	sig+stun okay, turn not okay
+	* turnserver -v -r alanpoon.no-ip.org -a -f -L 0.0.0.0 -p 3478 -u alan:1234;pong:1234 --cert /etc/turnserver/turn_server_cert.pem --pkey- /etc/turnserver/turn_server_pkey.pem
+		- use it on sepeare LAN from users
+		- webrtc uses turn with auth
+
+20151003
+	- coturn (actually, it is)
+		https://github.com/coturn/coturn
+
+	- {"iceServers":[
+			{"url":"stun:turn02.uswest.xirsys.com"},
+			{"url":"turn:turn02.uswest.xirsys.com:443?transport=udp","username":"1_d12774f6-69f0-11e5-9098-1209498d5817","credential":"d127758c-69f0-11e5-8524-2a4aafa99d67"},
+			{"url":"turn:turn02.uswest.xirsys.com:443?transport=tcp","username":"1_d12774f6-69f0-11e5-9098-1209498d5817","credential":"d127758c-69f0-11e5-8524-2a4aafa99d67"},
+			{"url":"turn:turn02.uswest.xirsys.com:5349?transport=udp","username":"1_d12774f6-69f0-11e5-9098-1209498d5817","credential":"d127758c-69f0-11e5-8524-2a4aafa99d67"},
+			{"url":"turn:turn02.uswest.xirsys.com:5349?transport=tcp","username":"1_d12774f6-69f0-11e5-9098-1209498d5817","credential":"d127758c-69f0-11e5-8524-2a4aafa99d67"}
+		]}
+	- turnserver
+		> cygwin gcc
+
+	- server.js
+		> Access-Control-Allow-Origin
+
+	- cygwin yum + turn server
+		> http://mirror.pkill.info/cygwin (hk)
+		> http://cygwin.mirror.constant.com/
+		> http://mirrors.163.com/cygwin/
+		> http://mirrors.kernel.org/sourceware/cygwin/
+		> http://ftp.iij.ad.jp/pub/cygwin/
+
+		> wget raw.github.com/transcode-open/apt-cyg/master/apt-cyg
+			chmod +x apt-cyg
+			mv apt-cyg /usr/local/bin
+
+			apt-cyg install make gcc cc gcc-c++ wget
+			apt-cyg install openssl-devel libevent libevent-devel mysql-devel mysql-server
+
+			//wget https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
+			//tar xvfz libevent-2.0.21-stable.tar.gz
+			//cd libevent-2.0.21-stable && ./configure
+			//make && make install && cd ..
+
+			// previously on cywin
+			//wget http://turnserver.open-sys.org/downloads/v3.2.4.1/turnserver-3.2.4.1.tar.gz
+			//tar -xvzf turnserver-3.2.4.1.tar.gz
+			//cd turnserver-3.2.4.1
+
+			setup_x86 install gcc & wget
+
+			apt-cyg install make
+			apt-cyg install openssl-devel
+
+			wget https://github.com/libevent/libevent/releases/download/release-2.0.22-stable/libevent-2.0.22-stable.tar.gz
+			tar xvfz libevent-2.0.22-stable.tar.gz
+			cd libevent-2.0.22-stable && ./configure
+			make && make install && cd ..
+
+			apt-cyg install libevent-devel
+
+			wget http://turnserver.open-sys.org/downloads/v4.5.0.2/turnserver-4.5.0.2.tar.gz
+			tar -xvzf turnserver-4.5.0.2.tar.gz
+			cd turnserver-4.5.0.2
+
+			./configure && make && make install
+
+			turnserver -v -r 0.0.0.0:3478
+
+	- export CC=gcc -c
+
+	- TURN server
+		> https://www.webrtc-experiment.com/docs/TURN-server-installation-guide.html
+			- cygwin
+			- cplau001@gmail.com/u...
+			- cplau.no-ip.org/cplau001/u...
+
+	- resiprocate
+		> http://www.resiprocate.org/files/pub/reSIProcate/releases/
+		> http://code.qtuba.com/article-7242.html
+		> can't compile
+
+	- restund
+		> export LD_LIBRARY_PATH=/usr/local/lib/
+		> echo $LD_LIBRARY_PATH
+		> ps -ef | grep restund
+		> kill -9 <pid>
+		> 3478 UDP/TCP
+		> http://zeng-yang.blogspot.hk/2006/01/howto-stun.html
+		> not working
+
+ - stun+turn server
+	> https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT
+	> http://rtcquickstart.org/guide/multi/turn.html
+		> reTurnServer
+			- http://www.resiprocate.org/ReTurn_Overview
+
+		> CoTurn
+			- https://github.com/coturn/coturn
+
+		> TurnServer
+			- http://turnserver.sourceforge.net/
+			- https://www.webrtc-experiment.com/docs/TURN-server-installation-guide.html
+
+		> restund
+			- http://www.creytiv.com/restund.html
+			- http://nil.uniza.sk/sip/installing-and-configuring-restund-stunturn-server
+			- http://stackoverflow.com/questions/19943961/error-on-setting-up-stun-turn-server-by-restund
+				> restund: error while loading shared libraries: libre.so: cannot open shared object file: No such file or directory
+
+		> rfc5766-turn-server
+			- https://code.google.com/p/rfc5766-turn-server/
+			- https://groups.google.com/forum/#!topic/easyrtc/ypjJ5Yu3wZM
+
+	> testing turn server
+		- http://rtcquickstart.org/guide/multi/turn-testing.html
+	> linux vmware image
+		- http://www.osboxes.org/centos/
+				Credentials & Info
+				Username: osboxes
+				Password: osboxes.org
+				Root Account Password: osboxes.org
+				VB Guest Additions & VMware Tools: Not Installed
+		- http://www.osboxes.org/debian/
+	> stun server and client (with win32)
+		- http://sourceforge.net/projects/stun/files/stun-win32/0.96/
+		- http://sourceforge.net/projects/stuntman/files/?source=navbar
+	> var peerConnectionConfig = {"iceServers":[{"url":"stun:turn01.uswest.xirsys.com"},{"username":"1_a0d55a04-693a-11e5-b2a3-24c5dc27af3d","url":"turn:turn01.uswest.xirsys.com:443?transport=udp","credential":"a0d55aa4-693a-11e5-b0f0-f42a07aa6db5"},{"username":"1_a0d55a04-693a-11e5-b2a3-24c5dc27af3d","url":"turn:turn01.uswest.xirsys.com:443?transport=tcp","credential":"a0d55aa4-693a-11e5-b0f0-f42a07aa6db5"},{"username":"1_a0d55a04-693a-11e5-b2a3-24c5dc27af3d","url":"turn:turn01.uswest.xirsys.com:5349?transport=udp","credential":"a0d55aa4-693a-11e5-b0f0-f42a07aa6db5"},{"username":"1_a0d55a04-693a-11e5-b2a3-24c5dc27af3d","url":"turn:turn01.uswest.xirsys.com:5349?transport=tcp","credential":"a0d55aa4-693a-11e5-b0f0-f42a07aa6db5"}]};
+
+20151001
+	- INSTALL DNS SERVER for WiFi Android to access my server
+		> https://alex.charrett.com/bind-on-windows
+		> http://www.isc.org/downloads/
+		> Service account name: named (password=godislove)
+		> C:\Program Files\ISC BIND 9
+	- fullscreen on android chrome
+		> http://html5-demos.appspot.com/static/fullscreen.html
+		> http://updates.html5rocks.com/2011/10/Let-Your-Content-Do-the-Talking-Fullscreen-API
+		> http://html5-demos.appspot.com/static/fullscreen.html (working example)
+		> http://stackoverflow.com/questions/7836204/chrome-fullscreen-api (cool all-in-one function)
+		> http://stackoverflow.com/questions/8016021/programmatically-put-google-chrome-into-full-screen-mode-with-javascript (core api explained)
+
+20150930
+	1. alantypoon@gmail.com/alantypoon/u.../83838e10-6757-11e5-a6d2-287017c8d6d1
+		> alanpoon.no-ip.org/alantypoon@gmail.com/u..
+	2. alan829@gmail.com/alantypoontwo/u.../0269892e-6761-11e5-b988-f210bcceadc7
+		> alanpoon3.no-ip.org/alan829@gmail.com/u..8..
+	3. alantypoon3@gmail.com/alantypoonthree/u../46433d02-6784-11e5-878d-f67bcd981fc8
+		> alanpoon3.no-ip.org/alantypoon3@gmail.com/u..8..
+	4. cplau001@gmail.com/u...
+		https://service.xirsys.com/ice?ident=alantypoonthree&secret=46433d02-6784-11e5-878d-f67bcd981fc8&domain=alanpoon3.no-ip.org&application=default&room=alanpong&secure=1
+			> turn01.uswest.xirsys.com
+			> turn02.uswest.xirsys.com
+
+	- signal master
+			> https://github.com/andyet/signalmaster
+				- https://www.npmjs.com/package/browserify
+
+	- remember allow camera and audio permanently in chrome
+			> C:\Users\%USERNAME%\AppData\Local\Google\Chrome\User Data\Default\Preferences
+			> http://www.forensicswiki.org/wiki/Google_Chrome#Configuration
+			> http://stackoverflow.com/questions/16835421/how-to-allow-chrome-to-access-my-camera-on-localhost
+				 - "profile":
+			> http://stackoverflow.com/questions/25102207/chrome-37-not-able-to-allow-camera-and-microphone-in-webrtc
+			> http://rubayathasan.com/tutorial/apache-ssl-on-windows/
+				> passphrase: un....
+
+	- big and small camera size
+	- good release with nice presentation of cameras

@@ -1,0 +1,136 @@
+1. Change the logo of the system (3 days) [done]
+- web version (top bar)
+- mobile versions (installation package / app icon / icons inside the app) (x 2 for iOS and Android)
+- notifications (in HTML version)
+
+2. Send whatsup to users in a specific activity (3 days) [done]
+- add a choice of specific activity
+- add a menu to select from a list activity
+- may select multiple activities
+- users in the selected activities will receive the whatsup items​
+
+3. Use a new domain: https://www.yocle.net (5 days) [done]
+- move to new hosting server
+- install required software, e.g. MongoDB,PHP libraries.
+- install free SSL certificate
+- add auto startup scripts
+
+4. Publication to mobile market (3 days) [done]
+	- AppStore
+	- Google Play
+
+5. Add assessment results to generic skill ratings (10 days) [80%]
+- assume equal weighting among each activity
+- add fully customized weighting among each assessment
+- add fully customized weighting for each item in assessment method 
+- calculated the generic skill ratings and total score based on impression and assessment of each activity for each user
+
+6. Drift bottle (6 days)
+- add new bottle
+- throw away bottle
+- stop drifting
+- reply to bottle
+- new user interface design
+- database collection design
+- middle-ware interface implementation
+
+7. Enhancing the assessment method participation (3 days).
+- allow customised weighting for each row
+- equal weighting for each column.
+- calculate total marks for each assessment.
+
+8. Replace OCLX to Participated and YOLOX to Self-initiated (half day)
+
+9. Users may show / hide activity results to others in profile for the following items. (8 days)
+- the statistics
+- the breakdown page of GS rating.
+- the calculation of the final GS score.
+
+10. Request to resubmit assessment after submission (3 days)
+- notification to assessor when receiving the request
+- assessors accept or reject with reasons
+- notification to participant when receiving the result
+
+11. Add notification to mood and relationship (3 days)
+- allow to choose receiver from 4 user groups (public, myself, my peers, activity peers [all or some])
+
+12. Notifications to participants after assessment is marked (1-2 day)
+
+13. Notifications of birthday (5 days)
+- add month and day to user preview page for others to know.
+- add selection to add item of whatsup when it is one's birthday.
+- may choose only visible to a specific user group (public / myself / activity peers / my peers)
+- new user interface, database scheme and middleware.
+
+14. New year me (6 days)
+- similar to time capsule
+- add to notification history
+- count down timer
+- may send to peer
+- new user interface design
+- database collection design
+- middle-ware interface implementation
+
+15. resume activity photos in profile page. (2 days)
+
+16. Filtering before sending  notifications (2 days)
+- notification to avoid sending duplicated message to the same device. 
+
+17. notification history (6 days)
+- any notifications sent to mobile
+- new year me
+- user interface design (view and deletion)
+- database scheme
+- middleware
+
+New Items
+18. Registration – I will think of an alternative approach.
+	- Just a suggestion, we may import the email address before the first day of the activities. Then they may sign in themselves. This may be your original idea. Right?
+
+19. At the moment only coordinator can edit so hard to add photos and videos during the activities – all assessors/coordinators/participants are allowed to upload photos/videos (1-2 hours)
+	- Okay. Actually, this function was there previously.
+
+20. Poster add two retitled Media Files(Poster/Video/Audio/Pdf)
+	- Okay for the title change. We may need more time for the Pdf 
+
+21. It would be good if the comments can be seen while scrolling the photos (2 days)
+	- That would do. 
+
+22. If students accidentally submitted want to resubmit, possible before the deadline?
+	- Request to resubmit will would solve this issue. i.e. item 10
+
+23. Too complicated view for marking, statistics and assessment. (8 days?)
+	- I have thought a maybe simpler approach. i.e. the activities will only show on the activity page once instead of three times. after clicking the activity row, it will have a three tabs for the three roles: coordinator, assessors and participant. We can even show a filter and number of users submitted/marked on the top. What would you think? We would discuss more about this when you come back. perhaps with some screenshots first.
+
+24. Add status (submitted, marked, saved, request to resubmit) in Markings. (5 days)
+	- That would do and make marking and statistics easier. It involves a bit change in the database but it is possible.
+
+25. Needs a total mark for that activity for the generic skills as overview. (4 days)
+	- Yes. Better show how the calculation is done for the skills as well.
+
+26. The assessment % sometimes after editing changes
+	- Would you explain a bit more about this one?
+	
+27. Needs settings for password, email addresses and also birthday (can hide Year)
+	- Okay
+
+28. Don't know who has submitted their assignments, overall submission
+	- Yes. Item 23 and 24 would do this.
+
+29. Marking % does not make sense, best to show how many out of many have been marked and by whom
+	- Yes. Item 23 would do this.
+
+30. Print profile, assessment %, feedback and activity (5 days)
+	- Will do.
+
+31. Messages cannot see old messages Cannot see old messages try SHK
+	- Need some investigations here.
+
+32. Can duplicate activity easy (4 days)
+	- Need to create another image id and activity id.
+
+33. View activity back button does not go back to previous (forget this at the moment)
+	- Will observe.
+
+34. For some reasons, vincent s message is alsways sent as undefined
+	- Solved already.

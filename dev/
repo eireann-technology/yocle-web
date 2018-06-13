@@ -1,0 +1,160 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Apr29 ?        00:01:06 /lib/systemd/systemd --system --deserialize 20
+root         2     0  0 Apr29 ?        00:00:00 [kthreadd]
+root         3     2  0 Apr29 ?        00:00:08 [ksoftirqd/0]
+root         5     2  0 Apr29 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 Apr29 ?        00:16:34 [rcu_sched]
+root         8     2  0 Apr29 ?        00:00:00 [rcu_bh]
+root         9     2  0 Apr29 ?        00:00:02 [migration/0]
+root        10     2  0 Apr29 ?        00:00:13 [watchdog/0]
+root        11     2  0 Apr29 ?        00:00:12 [watchdog/1]
+root        12     2  0 Apr29 ?        00:00:03 [migration/1]
+root        13     2  0 Apr29 ?        00:00:08 [ksoftirqd/1]
+root        15     2  0 Apr29 ?        00:00:00 [kworker/1:0H]
+root        16     2  0 Apr29 ?        00:00:11 [watchdog/2]
+root        17     2  0 Apr29 ?        00:00:02 [migration/2]
+root        18     2  0 Apr29 ?        00:00:28 [ksoftirqd/2]
+root        20     2  0 Apr29 ?        00:00:00 [kworker/2:0H]
+root        21     2  0 Apr29 ?        00:00:11 [watchdog/3]
+root        22     2  0 Apr29 ?        00:00:04 [migration/3]
+root        23     2  0 Apr29 ?        00:00:10 [ksoftirqd/3]
+root        25     2  0 Apr29 ?        00:00:00 [kworker/3:0H]
+root        26     2  0 Apr29 ?        00:00:00 [kdevtmpfs]
+root        27     2  0 Apr29 ?        00:00:00 [netns]
+root        28     2  0 Apr29 ?        00:00:00 [perf]
+root        29     2  0 Apr29 ?        00:00:01 [khungtaskd]
+root        30     2  0 Apr29 ?        00:00:00 [writeback]
+root        31     2  0 Apr29 ?        00:00:00 [ksmd]
+root        32     2  0 Apr29 ?        00:01:21 [khugepaged]
+root        33     2  0 Apr29 ?        00:00:00 [crypto]
+root        34     2  0 Apr29 ?        00:00:00 [kintegrityd]
+root        35     2  0 Apr29 ?        00:00:00 [bioset]
+root        36     2  0 Apr29 ?        00:00:00 [kblockd]
+root        37     2  0 Apr29 ?        00:00:00 [ata_sff]
+root        38     2  0 Apr29 ?        00:00:00 [md]
+root        39     2  0 Apr29 ?        00:00:00 [devfreq_wq]
+root        45     2  0 Apr29 ?        00:00:04 [kswapd0]
+root        46     2  0 Apr29 ?        00:00:00 [vmstat]
+root        47     2  0 Apr29 ?        00:00:00 [fsnotify_mark]
+root        48     2  0 Apr29 ?        00:00:00 [ecryptfs-kthrea]
+root        64     2  0 Apr29 ?        00:00:00 [kthrotld]
+root        65     2  0 Apr29 ?        00:00:00 [acpi_thermal_pm]
+root        66     2  0 Apr29 ?        00:02:25 [vballoon]
+root        67     2  0 Apr29 ?        00:00:00 [bioset]
+root        68     2  0 Apr29 ?        00:00:00 [bioset]
+root        69     2  0 Apr29 ?        00:00:00 [bioset]
+root        70     2  0 Apr29 ?        00:00:00 [bioset]
+root        71     2  0 Apr29 ?        00:00:00 [bioset]
+root        72     2  0 Apr29 ?        00:00:00 [bioset]
+root        73     2  0 Apr29 ?        00:00:00 [bioset]
+root        75     2  0 Apr29 ?        00:00:00 [bioset]
+root        76     2  0 Apr29 ?        00:00:00 [bioset]
+root        77     2  0 Apr29 ?        00:00:00 [scsi_eh_0]
+root        78     2  0 Apr29 ?        00:00:00 [scsi_tmf_0]
+root        79     2  0 Apr29 ?        00:00:00 [scsi_eh_1]
+root        80     2  0 Apr29 ?        00:00:00 [scsi_tmf_1]
+root        86     2  0 Apr29 ?        00:00:00 [ipv6_addrconf]
+root        99     2  0 Apr29 ?        00:00:00 [deferwq]
+root       100     2  0 Apr29 ?        00:00:00 [charger_manager]
+root       150     2  0 Apr29 ?        00:00:00 [bioset]
+root       151     2  0 Apr29 ?        00:00:00 [bioset]
+root       152     2  0 Apr29 ?        00:00:00 [bioset]
+root       153     2  0 Apr29 ?        00:00:00 [bioset]
+root       154     2  0 Apr29 ?        00:00:00 [bioset]
+root       155     2  0 Apr29 ?        00:00:00 [bioset]
+root       156     2  0 Apr29 ?        00:00:00 [bioset]
+root       157     2  0 Apr29 ?        00:00:00 [bioset]
+root       160     2  0 Apr29 ?        00:00:00 [kpsmoused]
+root       264     2  0 Apr29 ?        00:00:00 [raid5wq]
+root       290     2  0 Apr29 ?        00:00:00 [bioset]
+root       315     2  0 Apr29 ?        00:00:05 [kworker/3:1H]
+root       316     2  0 Apr29 ?        00:01:25 [jbd2/vda1-8]
+root       317     2  0 Apr29 ?        00:00:00 [ext4-rsv-conver]
+root       318     2  0 Apr29 ?        00:00:05 [kworker/1:1H]
+root       389     2  0 Apr29 ?        00:00:12 [kworker/2:1H]
+root       411     1  0 Apr29 ?        00:09:09 /lib/systemd/systemd-journald
+root       424     2  0 Apr29 ?        00:00:00 [kauditd]
+root       425     2  0 Apr29 ?        00:00:00 [iscsi_eh]
+root       438     2  0 Apr29 ?        00:00:00 [ib_addr]
+root       449     2  0 Apr29 ?        00:00:00 [ib_mcast]
+root       450     2  0 Apr29 ?        00:00:00 [ib_nl_sa_wq]
+root       452     2  0 Apr29 ?        00:00:00 [ib_cm]
+root       456     2  0 Apr29 ?        00:00:00 [iw_cm_wq]
+root       460     2  0 Apr29 ?        00:00:00 [rdma_cm]
+root       492     1  0 Apr29 ?        00:00:00 /sbin/lvmetad -f
+root      1038     1  0 Apr29 ?        00:01:27 /sbin/iscsid
+root      1039     1  0 Apr29 ?        00:07:08 /sbin/iscsid
+root      1042     1  0 Apr29 ?        00:03:01 /usr/lib/accountsservice/accounts-daemon
+root      1045     1  0 Apr29 ?        00:00:26 /usr/bin/node /gdrive/_WEB/vb/vb_signal/vb_signal.js videoboard.hk-0002
+root      1047     1  0 Apr29 ?        00:00:11 /usr/sbin/cron -f
+syslog    1049     1  0 Apr29 ?        00:02:52 /usr/sbin/rsyslogd -n
+message+  1051     1  0 Apr29 ?        00:00:06 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1059     1  0 Apr29 ?        00:00:21 /usr/bin/lxcfs /var/lib/lxcfs/
+root      1070     1  0 Apr29 ?        00:01:40 /usr/sbin/sshd -D
+nagios    1074     1  0 Apr29 ?        00:04:46 /usr/local/nagios/bin/nagios /usr/local/nagios/etc/nagios.cfg
+daemon    1077     1  0 Apr29 ?        00:00:00 /usr/sbin/atd -f
+root      1082     1  0 Apr29 ?        00:00:05 /lib/systemd/systemd-logind
+mongodb   1093     1  0 Apr29 ?        06:12:43 /usr/bin/mongod --config /etc/mongod.conf
+root      1095     1  0 Apr29 ?        00:00:00 /usr/sbin/acpid
+nobody    1097     1  0 Apr29 ?        00:25:52 /usr/sbin/openvpn --daemon ovpn-server --status /run/openvpn/server.status 10 --cd /etc/openvpn --script-security 2 --config /etc/openvpn/server.conf --writepid /run/openvpn/server.pid
+root      1106     1  0 Apr29 ?        00:07:05 /opt/janus/bin/janus --debug-level=3 -C /opt/janus/etc/janus/janus.cfg -L /var/log/_janus.log
+nagios    1131  1074  0 Apr29 ?        00:00:07 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+nagios    1133  1074  0 Apr29 ?        00:00:07 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+nagios    1138  1074  0 Apr29 ?        00:00:07 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+nagios    1139  1074  0 Apr29 ?        00:00:08 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+nagios    1140  1074  0 Apr29 ?        00:00:07 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+nagios    1141  1074  0 Apr29 ?        00:00:07 /usr/local/nagios/bin/nagios --worker /usr/local/nagios/var/rw/nagios.qh
+mysql     1143     1  0 Apr29 ?        00:36:44 /usr/sbin/mysqld
+root      1161     2  0 Apr29 ?        00:00:09 [kworker/0:1H]
+nagios    1169  1074  0 Apr29 ?        00:03:43 /usr/local/nagios/bin/nagios /usr/local/nagios/etc/nagios.cfg
+root      1190     1  0 Apr29 ?        00:00:00 /sbin/mdadm --monitor --pid-file /run/mdadm/monitor.pid --daemonise --scan --syslog
+root      1191     1  0 Apr29 ?        00:00:01 /usr/lib/policykit-1/polkitd --no-debug
+root      1251     2  0 Jun10 ?        00:00:00 [kworker/2:0]
+nagios    1290     1  0 Apr29 ?        00:00:00 /usr/sbin/nrpe -c /etc/nagios/nrpe.cfg -d
+root      1319     1  0 Apr29 ?        00:01:38 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root      1348     1  0 Apr29 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root      1366     1  0 Apr29 ?        00:00:00 /usr/sbin/xinetd -pidfile /run/xinetd.pid -stayalive -inetd_compat -inetd_ipv6
+openldap  1397     1  0 Apr29 ?        00:00:00 /usr/sbin/slapd -h ldap:/// ldapi:/// -g openldap -u openldap -F /etc/ldap/slapd.d
+root      1763     1  0 Apr29 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      2176     2  0 Jun10 ?        00:00:00 [kworker/3:1]
+root      3135     1  0 Apr30 ?        00:00:03 /lib/systemd/systemd-udevd
+root      4048     2  0 Apr30 ?        00:00:00 [xfsalloc]
+root      4049     2  0 Apr30 ?        00:00:00 [xfs_mru_cache]
+uuidd     4845     1  0 Apr30 ?        00:00:00 /usr/sbin/uuidd --socket-activation
+ntp       4957     1  0 Apr30 ?        00:03:25 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 119:125
+root      5199     1  0 Apr30 ?        00:02:28 /usr/lib/snapd/snapd
+snmp      6052     1  0 Apr30 ?        00:17:46 /usr/sbin/snmpd -Lsd -Lf /dev/null -u snmp -g snmp -I -smux mteTrigger mteTriggerConf -p /run/snmpd.pid
+root      8518     2  0 Jun10 ?        00:00:00 [kworker/0:0]
+root      9294     1  0 Jun09 ?        00:00:00 /bin/bash /gdrive/backup/yocle/yocle_backup.sh
+root     11577     2  0 Jun10 ?        00:00:01 [kworker/2:1]
+root     12343     1  0 Jun09 ?        00:00:12 /usr/bin/php /gdrive/_WEB/yocle/yl_convertvideo/yl_convertvideo.php
+root     16428     1  0 Jun02 ?        00:00:49 /usr/sbin/apache2 -k start
+root     16492     1  0 Jun02 ?        00:09:23 /usr/bin/node /gdrive/_WEB/yocle/yl_chat/yl_chat.js
+root     17235     2  0 00:34 ?        00:00:00 [kworker/1:0]
+root     18503     2  0 01:29 ?        00:00:00 [kworker/1:1]
+turnser+ 21144     1  0 May14 ?        00:01:41 /usr/local/sbin/turnserver -c /etc/turnserver/turnserver.conf
+root     22035     2  0 06:16 ?        00:00:00 [kworker/3:0]
+root     22252     2  0 06:25 ?        00:00:00 [kworker/0:1]
+www-data 22253 16428  0 06:25 ?        00:00:01 /usr/sbin/apache2 -k start
+www-data 22255 16428  0 06:25 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 22402 16428  0 06:28 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 22404 16428  0 06:28 ?        00:00:00 /usr/sbin/apache2 -k start
+root     22774     2  0 07:05 ?        00:00:00 [kworker/u8:1]
+www-data 23472 16428  0 07:54 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 24853 16428  0 09:54 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 24872 16428  0 09:56 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 24880 16428  0 09:57 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data 25150 16428  0 10:20 ?        00:00:00 /usr/sbin/apache2 -k start
+root     25235  9294  0 10:29 ?        00:00:00 sleep 1h
+www-data 25439 16428  0 10:49 ?        00:00:00 /usr/sbin/apache2 -k start
+root     25585     2  0 11:01 ?        00:00:00 [kworker/u8:2]
+root     25797  1070  0 11:17 ?        00:00:00 sshd: root@pts/0
+root     25806     2  0 11:18 ?        00:00:00 [kworker/3:2]
+root     25863 25797  0 11:18 pts/0    00:00:00 -bash
+root     25864     2  0 11:18 ?        00:00:00 [kworker/u8:0]
+root     25917  1070  0 11:19 ?        00:00:00 sshd: root@pts/1
+root     25957 25917  0 11:20 pts/1    00:00:00 -bash
+root     25980 25957  0 11:21 pts/1    00:00:00 ps -efa
+root     25981 25957  0 11:21 pts/1    00:00:00 less
+root     28253     1  0 May18 ?        00:00:00 /lib/systemd/systemd --user
+root     28260 28253  0 May18 ?        00:00:00 (sd-pam)

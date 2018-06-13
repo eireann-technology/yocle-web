@@ -1,0 +1,4932 @@
+{
+    "_id" : ObjectId("579377fad3d4430968001e0c"),
+    "user_id" : 2,
+    "img_id" : 2,
+    "email" : "cecilia.chan@cetl.hku.hk",
+    "pwd" : "cetl1234",
+    "username" : "Cecilia Chan",
+    "gender" : "1",
+    "birthday" : "1975-04-01",
+    "confirmed_email" : 1.0,
+    "secret_token" : "",
+    "last_send_confirm" : "2016-08-12 11:08:24",
+    "network" : 16,
+    "coordinated" : 2,
+    "participated" : 7,
+    "position" : "Head of Professional Development",
+    "location" : "Centre for the Enhancement of Teaching and Learning (CETL), The University of Hong Kong",
+    "skills" : {
+        "Creativity" : {
+            "usr_final_score" : 4.5,
+            "show" : 1
+        },
+        "Critical thinking" : {
+            "usr_final_score" : 4.0,
+            "show" : 1
+        },
+        "Teamwork" : {
+            "usr_final_score" : 1.2,
+            "show" : 0
+        },
+        "Communication" : {
+            "usr_final_score" : 2.3,
+            "show" : 0
+        },
+        "Consideration" : {
+            "usr_final_score" : 2.5,
+            "show" : 0
+        },
+        "Collaboration" : {
+            "usr_final_score" : 4.0,
+            "show" : 1
+        },
+        "Problem solving" : {
+            "usr_final_score" : 5.0,
+            "show" : 1
+        },
+        "Appreciation" : {
+            "usr_final_score" : 4.5,
+            "show" : 1
+        }
+    },
+    "photo" : 1,
+    "profile" : {
+        "order" : [ 
+            "activity", 
+            "objectives", 
+            "education", 
+            "award", 
+            "work", 
+            "language", 
+            "publication", 
+            "interest", 
+            "media"
+        ],
+        "work" : [ 
+            {
+                "item_id" : 0,
+                "company" : "Dublin Institute of Technology",
+                "title" : "Engineering Lecturer/Programme Coordinator",
+                "location" : "Dublin, Ireland",
+                "start" : "2003-9",
+                "end" : "2008-4",
+                "desc" : ""
+            }
+        ],
+        "education" : [ 
+            {
+                "item_id" : 0,
+                "school" : "Trinity College Dublin",
+                "degree" : "Doctor of Philosophy (Ph.D.)",
+                "field" : "Engineering (DSP, Computer and Machine Vision)",
+                "start" : "2016",
+                "end" : "2016",
+                "desc" : ""
+            }, 
+            {
+                "item_id" : 1,
+                "school" : "Trinity College Dublin",
+                "degree" : "Bachelor’s Degree",
+                "field" : "Engineering",
+                "start" : "2016",
+                "end" : "2016",
+                "desc" : ""
+            }
+        ],
+        "publication" : [],
+        "language" : [ 
+            {
+                "item_id" : 0,
+                "language" : "Cantonese",
+                "spoken" : "fluent",
+                "written" : "intermediate",
+                "remarks" : ""
+            }
+        ],
+        "award" : [ 
+            {
+                "item_id" : 0,
+                "title" : "Outstanding Young Researcher Award 2015",
+                "issuer" : "The University of Hong Kong",
+                "date" : "2016-5",
+                "desc" : ""
+            }
+        ],
+        "activity" : [ 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "ref",
+                        "title" : "A reflective short journal in point-form",
+                        "weight" : 0,
+                        "start" : "2016-12-10 09:00",
+                        "end" : "2017-12-31 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 2,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }
+                        ],
+                        "likert" : 3
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "MC questions testing the knowledge of students in taking care of Giant Pandas.",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-12-31 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 2,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }, 
+                            {
+                                "ass_item_id" : 2
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "prt",
+                        "title" : "The participation of students counts in hours for the whole activity",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-12-31 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 2,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }
+                        ],
+                        "likert" : 3
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "abs",
+                        "title" : "Abstract",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-12-31 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 2,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }
+                        ],
+                        "likert" : 3
+                    }, 
+                    {
+                        "ass_id" : 5,
+                        "method" : "lcn",
+                        "title" : "Learning contract",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-12-31 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 2,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }, 
+                            {
+                                "ass_item_id" : 2
+                            }, 
+                            {
+                                "ass_item_id" : 3
+                            }
+                        ],
+                        "likert" : 3
+                    }, 
+                    {
+                        "ass_id" : 6,
+                        "method" : "sur",
+                        "title" : "Group Survey",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-12-31 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 2,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }, 
+                            {
+                                "ass_item_id" : 2
+                            }, 
+                            {
+                                "ass_item_id" : 3
+                            }, 
+                            {
+                                "ass_item_id" : 4
+                            }, 
+                            {
+                                "ass_item_id" : 5
+                            }, 
+                            {
+                                "ass_item_id" : 6
+                            }, 
+                            {
+                                "ass_item_id" : 7
+                            }
+                        ]
+                    }
+                ],
+                "impression" : {
+                    "skills" : {}
+                },
+                "published" : 1,
+                "act_id" : 58,
+                "title" : "Residential Education: Giving Love and Appreciating Nature",
+                "act_type" : "OCL-X",
+                "start" : "2016-12-28 14:00",
+                "end" : "2017-12-31 18:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 0
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "ref",
+                        "title" : "Reflection on Knots of Hearts Distribution as Team Mentors",
+                        "weight" : 0,
+                        "start" : "2017-02-03 09:00",
+                        "end" : "2017-02-28 18:00",
+                        "skills" : {
+                            "Consideration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Initiative" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Perseverance" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Respect" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Teamwork" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : 0
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }, 
+                            {
+                                "ass_item_id" : 2
+                            }, 
+                            {
+                                "ass_item_id" : 3
+                            }, 
+                            {
+                                "ass_item_id" : 4
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "prt",
+                        "title" : "Participation of Team Mentors",
+                        "weight" : 0,
+                        "start" : "2017-02-03 09:00",
+                        "end" : "2017-02-05 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 0,
+                            "self" : 0,
+                            "peers" : 3,
+                            "others" : 0
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }, 
+                            {
+                                "ass_item_id" : 2
+                            }
+                        ],
+                        "likert" : 4
+                    }
+                ],
+                "impression" : {
+                    "skills" : {}
+                },
+                "published" : 1,
+                "act_id" : 53,
+                "title" : "Knots of Hearts Programme",
+                "act_type" : "OCL-X",
+                "start" : "2017-01-12 09:00",
+                "end" : "2017-02-28 18:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 0
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "ref",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-01-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-01-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "prt",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-01-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }
+                        ],
+                        "likert" : null
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "abs",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-01-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 5,
+                        "method" : "lcn",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-01-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }
+                        ]
+                    }, 
+                    {
+                        "ass_id" : 6,
+                        "method" : "sur",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-01-12 09:00",
+                        "end" : "2017-01-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                22
+                            ]
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1
+                            }
+                        ]
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Appreciation" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Consideration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Creativity" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        }
+                    }
+                },
+                "published" : 1,
+                "act_id" : 57,
+                "title" : "Residential Hall Photo Competition",
+                "act_type" : "OCL-X",
+                "start" : "2016-12-09 09:00",
+                "end" : "2017-02-24 20:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 0
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "ref",
+                        "title" : "My Reflection",
+                        "weight" : 0,
+                        "start" : "2017-02-23 09:00",
+                        "end" : "2017-02-24 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 1,
+                            "peers" : 1,
+                            "others" : [ 
+                                22
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "I m Cecilia. 8888",
+                                "assessors" : {}
+                            }
+                        ],
+                        "desc" : "The description of My Reflection.",
+                        "saved" : "2017-02-23 21:30:50"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Communication" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {
+                                "2" : {
+                                    "usr_assr_score" : "0.0",
+                                    "comments" : "Thh",
+                                    "date" : "2017-02-23 15:41:17"
+                                }
+                            }
+                        },
+                        "Consideration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {
+                                "2" : {
+                                    "usr_assr_score" : "0.0",
+                                    "comments" : "Hhhh",
+                                    "date" : "2017-02-23 21:31:17"
+                                }
+                            }
+                        }
+                    },
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 77,
+                "title" : "Testing Activity 2",
+                "act_type" : "OCL-X",
+                "start" : "2017-02-23 09:00",
+                "end" : "2017-02-24 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "pst",
+                        "title" : "Photo Competition",
+                        "weight" : 0,
+                        "start" : "2017-03-23 09:00",
+                        "end" : "2017-03-24 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [],
+                        "desc" : "<div>\n\n<span>\n <span><span>\n  <span>\n  On completing the workshop, students will be able to:\n  <br><span>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  To raise students’ awareness of people around the community.</span>\n  <br><span>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  To provide opportunity for students to focus on the interaction between\n  ordinary citizens on the street.<br></span>\n  <span>3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  To strengthen students’ consideration and appreciation for others.</span>\n  </span>\n </span>\n</span></span>\n\n</div>\n\n4) &nbsp; &nbsp; &nbsp;To enhance students’\npresentation skills while they express their ideas in the workshop."
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Appreciation for others" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Communication" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Consideration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        }
+                    },
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 84,
+                "title" : "Capture the Community",
+                "act_type" : "OCL-X",
+                "start" : "2017-03-22 09:00",
+                "end" : "2017-03-30 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "abs",
+                        "title" : "Human Scavenger Hunt",
+                        "weight" : 0,
+                        "start" : "2017-03-23 09:00",
+                        "end" : "2017-03-24 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "question" : "Which year did HKU officially open in?",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 11
+                            }, 
+                            {
+                                "question" : "What were the first 3 faculties of HKU?&nbsp;",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 11
+                            }, 
+                            {
+                                "question" : "Can you spell the motto of HKU?&nbsp;",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 11
+                            }, 
+                            {
+                                "question" : "<span>\n <span>\n  \n  Find 6 people of\n  different ethnicities and ask</span></span>&nbsp;them what they like most about\n       their culture",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 11
+                            }, 
+                            {
+                                "question" : "<div>\n\n<span>\n <span><span>\n  \n  Do you know any 3 popular graduates of HKU? What are they doing right\n  now?\n  \n </span>\n</span></span>\n\n</div>",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 11
+                            }, 
+                            {
+                                "question" : "<div>\n\n<span>\n <span><span>\n  <span>\n  Go to the\n  following places in HKU and answer questions at the specific places\n  <ul>\n   <li>Sun Yet Sen Park</li>\n   <li>Main library</li>\n   <li>Main building</li>\n   <li>Global lounge</li>\n  </ul>\n  </span>\n </span>\n</span></span>\n\n</div>",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 11
+                            }, 
+                            {
+                                "question" : "<div>\n\n<span>\n <span>\n  <span>\n  Find a hall\n  resident on campus and ask him/her the following questions:\n  <ul>\n   <li>Can you name 3 different\n       nationalities of hall residents at your hall?</li>\n   <li>What hall activity do/did you enjoy\n       the most?</li><li>Why did you choose the hall you are staying in?</li></ul></span></span></span></div>",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 11
+                            }, 
+                            {
+                                "question" : "<div>\n\n<span>\n <span><span>\n  <span>\n  Find students\n  from the following faculties and ask them what they want to do after\n  graduating:\n  <ul>\n   <li>Arts faculty student</li>\n   <li>Architecture student</li>\n   <li>BBA student</li>\n   <li>Social Science student</li>\n  </ul>\n  </span>\n </span>\n</span></span>\n\n</div>",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 11
+                            }, 
+                            {
+                                "question" : "<div>\n\n<span>\n <span>\n  <span>\n  Find 3\n  professors/lecturers from different faculties and ask them the following:\n  <ul>\n   <li>Describe your stream/area of\n       teaching in one sentence</li><li>Describe a quality you want to see in your\nstudents</li></ul></span></span></span></div>",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 12
+                            }
+                        ],
+                        "desc" : "<div>\n\n<span>\n <span><span>\n  <span>\n  On completing the activity, students will be\n  able to:\n  &nbsp;\n  <br><span>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  Develop team building skills: learning the\n  importance of team work in a group activity, learning to contribute ideas\n  while also listening to other members’ opinion before making a consensus,\n  encouraging and supporting &nbsp;judgement\n  throughout the activity.</span>\n  <br><span>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  Develop creativity and problem-solving skills:\n  employing different methods and strategies to complete the treasure hunt\n  successfully in groups of 5-6 students.</span>\n  <br><span>3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  Improve communication skills, particularly\n  when working with people they are not that familiar with or when asking for\n  help from a stranger.</span>\n  <br><span>4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  Develop confidence when approaching different\n  kinds of people in unfamiliar situations.</span>\n  <br><span>5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  Have a better understanding of the\n  university culture and develop intercultural understanding by talking to\n  people from different culture and background.</span>\n  <br><span>6)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n  Develop perseverance as some tasks might be\n  quite challenging for students.</span>\n  </span>\n </span>\n</span></span>\n\n</div>"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Collaboration" : {
+                            "usr_part_score" : 4,
+                            "assessors" : {
+                                "2" : {
+                                    "usr_assr_score" : "4",
+                                    "comments" : "",
+                                    "date" : "2017-03-22 16:24:51"
+                                }
+                            }
+                        },
+                        "Communication" : {
+                            "usr_part_score" : 3.5,
+                            "assessors" : {
+                                "2" : {
+                                    "usr_assr_score" : "3.5",
+                                    "comments" : "",
+                                    "date" : "2017-03-22 16:39:12"
+                                }
+                            }
+                        },
+                        "Consideration" : {
+                            "usr_part_score" : 5,
+                            "assessors" : {
+                                "2" : {
+                                    "usr_assr_score" : "5",
+                                    "comments" : "",
+                                    "date" : "2017-03-22 16:39:45"
+                                }
+                            }
+                        },
+                        "Creativity" : {
+                            "usr_part_score" : 5,
+                            "assessors" : {
+                                "2" : {
+                                    "usr_assr_score" : "5",
+                                    "comments" : "",
+                                    "date" : "2017-03-22 16:39:59"
+                                }
+                            }
+                        },
+                        "Critical thinking" : {
+                            "usr_part_score" : 5,
+                            "assessors" : {
+                                "2" : {
+                                    "usr_assr_score" : "5",
+                                    "comments" : "",
+                                    "date" : "2017-03-22 16:39:39"
+                                }
+                            }
+                        },
+                        "Problem solving" : {
+                            "usr_part_score" : 5,
+                            "assessors" : {
+                                "2" : {
+                                    "usr_assr_score" : "5",
+                                    "comments" : "",
+                                    "date" : "2017-03-22 16:39:34"
+                                }
+                            }
+                        }
+                    },
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 85,
+                "title" : "Human Scavenger Hunt",
+                "act_type" : "OCL-X",
+                "start" : "2017-03-22 09:00",
+                "end" : "2017-03-31 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "prt",
+                        "title" : "Heart",
+                        "weight" : 0,
+                        "start" : "2017-03-31 09:00",
+                        "end" : "2017-04-06 18:00",
+                        "skills" : {
+                            "Appreciation" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Consideration" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "item" : "",
+                                "descs" : [ 
+                                    1, 
+                                    2, 
+                                    3
+                                ],
+                                "weight" : 100,
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-04-02 00:37:52",
+                                        "selected" : "3"
+                                    }
+                                }
+                            }
+                        ],
+                        "desc" : "Test 1",
+                        "likert" : 3,
+                        "marked" : "2017-04-02 00:37:52"
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "pst",
+                        "title" : "Ood",
+                        "weight" : 0,
+                        "start" : "2017-03-31 09:00",
+                        "end" : "2017-04-28 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 1,
+                            "peers" : 0,
+                            "others" : [ 
+                                22
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : 84,
+                                "answer" : "0",
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-04-01 18:50:51",
+                                        "assr_item_marks" : 84,
+                                        "comments" : "Very creative. 😝😊 很美麗"
+                                    }
+                                }
+                            }
+                        ],
+                        "desc" : "Hh",
+                        "performed" : "2017-04-01 18:44:32",
+                        "marked" : "2017-04-01 18:50:51"
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "lcn",
+                        "title" : "Learning contract ",
+                        "weight" : 0,
+                        "start" : "2017-03-31 09:00",
+                        "end" : "2017-04-20 18:00",
+                        "skills" : {
+                            "Responsibility" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 1,
+                            "peers" : 0,
+                            "others" : [ 
+                                22
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "I promise to work collaboratively with my&nbsp;",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "Be attentive<div>Use mobile phone for programme participation only</div><div>On time</div><div>Interactive</div><div>Be nice</div>",
+                                "assessors" : {}
+                            }
+                        ],
+                        "desc" : "Write out the objectives I'd mmmmmmmmmm",
+                        "performed" : "2017-04-01 18:11:40"
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "abs",
+                        "title" : "Report",
+                        "weight" : 0,
+                        "start" : "2017-03-31 09:00",
+                        "end" : "2017-04-06 18:00",
+                        "skills" : {
+                            "Collaboration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Communication" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Critical thinking" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "Today is a good day, let's test.<div>😘🀄️？但在他們一</div>",
+                                "assessors" : {}
+                            }
+                        ],
+                        "desc" : "Report testing&nbsp;",
+                        "performed" : "2017-04-01 18:45:24"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Appreciation" : {
+                            "usr_part_score" : 4.5,
+                            "assessors" : {
+                                "2" : {
+                                    "usr_assr_score" : "4.5",
+                                    "comments" : "Great 👍🏻&nbsp;",
+                                    "date" : "2017-04-03 01:23:14"
+                                }
+                            }
+                        },
+                        "Consideration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        }
+                    },
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 94,
+                "title" : "With hearts we transform 💕 ",
+                "act_type" : "YOLO-X",
+                "start" : "2017-03-31 09:00",
+                "end" : "2017-04-28 18:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "abs",
+                        "title" : "Examples for Human Scavenger Hunt also",
+                        "weight" : 0,
+                        "start" : "2017-03-03 09:00",
+                        "end" : "2017-05-12 18:00",
+                        "skills" : {
+                            "Collaboration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Communication" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Consideration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Creativity" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Critical thinking" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : "all",
+                            "others" : [ 
+                                2, 
+                                9
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "question" : "Can you name HKU's motto?",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 100
+                            }
+                        ],
+                        "desc" : "Examples for Human Scavenger Hunt also"
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "Voting System",
+                        "weight" : 0,
+                        "start" : "2017-04-04 09:00",
+                        "end" : "2017-04-05 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : "all",
+                            "others" : [ 
+                                2, 
+                                9
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "question" : "Which team perform the best in the debate session?",
+                                "choices" : [ 
+                                    "Team 1", 
+                                    "Team 2", 
+                                    "Team 3", 
+                                    "Team 4", 
+                                    "Team 5"
+                                ],
+                                "correct" : "E",
+                                "weight" : 50
+                            }, 
+                            {
+                                "question" : "",
+                                "choices" : [ 
+                                    "", 
+                                    "", 
+                                    "", 
+                                    "", 
+                                    ""
+                                ],
+                                "correct" : "A",
+                                "weight" : 50
+                            }
+                        ],
+                        "desc" : "Please vote the best performing&nbsp;team in the Team Debate session"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {},
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 95,
+                "title" : "Team Debate",
+                "act_type" : "OCL-X",
+                "start" : "2017-04-03 09:00",
+                "end" : "2017-05-09 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "abs",
+                        "title" : "123",
+                        "weight" : 0,
+                        "start" : "2017-04-04 09:00",
+                        "end" : "2017-04-14 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "dd",
+                                "assessors" : {}
+                            }
+                        ],
+                        "desc" : "123",
+                        "performed" : "2017-04-07 02:07:06"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {},
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 103,
+                "title" : "Human Scavenger Hunt",
+                "act_type" : "OCL-X",
+                "start" : "2017-04-04 09:00",
+                "end" : "2017-04-07 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "abs",
+                        "title" : "Report Butterfly 2",
+                        "weight" : 0,
+                        "start" : "2017-04-05 09:00",
+                        "end" : "2017-05-05 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                8
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : 57,
+                                "answer" : "Ok lets try again",
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-04-11 10:43:24",
+                                        "assr_item_marks" : 57,
+                                        "comments" : ""
+                                    }
+                                },
+                                "media_id_arr" : [ 
+                                    81, 
+                                    83
+                                ]
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : 73,
+                                "answer" : "The photo seems to workp test resubmit nn",
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-04-11 10:43:24",
+                                        "assr_item_marks" : 73,
+                                        "comments" : "excellent"
+                                    }
+                                }
+                            }
+                        ],
+                        "desc" : "Report",
+                        "performed" : "2017-04-11 10:43:10",
+                        "marked" : "2017-04-11 10:43:24"
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "prt",
+                        "title" : "Participation Butterfly",
+                        "weight" : 0,
+                        "start" : "2017-04-05 09:00",
+                        "end" : "2017-05-04 18:00",
+                        "skills" : {
+                            "Appreciation" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Problem solving" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "item" : "To fulfill the project outcomes",
+                                "descs" : [ 
+                                    "A", 
+                                    "B", 
+                                    "C", 
+                                    "D"
+                                ],
+                                "weight" : 50,
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-04-06 05:48:07",
+                                        "selected" : "2"
+                                    }
+                                }
+                            }, 
+                            {
+                                "item" : "To collaborate with all others",
+                                "descs" : [ 
+                                    "A always collaborate", 
+                                    "B Sometimes collaborate", 
+                                    "C Collaborate twice", 
+                                    "D - do not collaborate"
+                                ],
+                                "weight" : 50,
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-04-06 05:48:07",
+                                        "selected" : "3"
+                                    }
+                                }
+                            }
+                        ],
+                        "desc" : "",
+                        "likert" : 4,
+                        "selecteds" : {
+                            "2,2" : "3"
+                        }
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "pst",
+                        "title" : "Poster Butterfly",
+                        "weight" : 0,
+                        "start" : "2017-04-05 09:00",
+                        "end" : "2017-05-04 18:00",
+                        "skills" : {
+                            "Creativity" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : "all",
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [],
+                        "desc" : "Poster"
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "mcq",
+                        "title" : "MCQ Butterfly",
+                        "weight" : 0,
+                        "start" : "2017-04-05 09:00",
+                        "end" : "2017-05-04 18:00",
+                        "skills" : {
+                            "Communication" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Consideration" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : 0,
+                                "answer" : "C",
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-04-08 11:27:00",
+                                        "assr_item_marks" : 0,
+                                        "comments" : "😝"
+                                    }
+                                }
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : 50,
+                                "answer" : "C",
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-04-08 11:27:00",
+                                        "assr_item_marks" : 50,
+                                        "comments" : "need more"
+                                    }
+                                }
+                            }
+                        ],
+                        "desc" : "MCQ"
+                    }, 
+                    {
+                        "ass_id" : 5,
+                        "method" : "sur",
+                        "title" : "Survey Butterfly",
+                        "weight" : 0,
+                        "start" : "2017-04-05 09:00",
+                        "end" : "2017-05-04 18:00",
+                        "skills" : {
+                            "Problem solving" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : 0,
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "1",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "0",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : "-",
+                                "answer" : "1",
+                                "assessors" : {}
+                            }
+                        ],
+                        "desc" : "Survey"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {},
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 104,
+                "title" : "Butterfly",
+                "act_type" : "YOLO-X",
+                "start" : "2017-04-05 09:00",
+                "end" : "2017-05-04 18:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "ref",
+                        "title" : "123",
+                        "weight" : 0,
+                        "start" : "2017-05-16 09:00",
+                        "end" : "2017-06-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "123"
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "23",
+                        "weight" : 0,
+                        "start" : "2017-05-16 09:00",
+                        "end" : "2017-06-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "23"
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "prt",
+                        "title" : "3",
+                        "weight" : 0,
+                        "start" : "2017-05-16 09:00",
+                        "end" : "2017-06-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "3",
+                        "likert" : 4
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "abs",
+                        "title" : "12333",
+                        "weight" : 0,
+                        "start" : "2017-05-16 09:00",
+                        "end" : "2017-06-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "12333"
+                    }, 
+                    {
+                        "ass_id" : 5,
+                        "method" : "lcn",
+                        "title" : "3124",
+                        "weight" : 0,
+                        "start" : "2017-05-16 09:00",
+                        "end" : "2017-06-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "234423"
+                    }, 
+                    {
+                        "ass_id" : 6,
+                        "method" : "sur",
+                        "title" : "1345",
+                        "weight" : 0,
+                        "start" : "2017-05-16 09:00",
+                        "end" : "2017-06-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 4,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 5,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 6,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 7,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "1345153"
+                    }, 
+                    {
+                        "ass_id" : 7,
+                        "method" : "pst",
+                        "title" : "324",
+                        "weight" : 0,
+                        "start" : "2017-05-16 09:00",
+                        "end" : "2017-06-13 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "1325"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {},
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 109,
+                "title" : "16 May",
+                "act_type" : "OCL-X",
+                "start" : "2017-05-16 09:00",
+                "end" : "2017-06-13 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "mcq",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-05-17 09:00",
+                        "end" : "2017-06-14 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : ""
+                    }
+                ],
+                "impression" : {
+                    "skills" : {},
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 110,
+                "title" : "17 may",
+                "act_type" : "OCL-X",
+                "start" : "2017-05-17 09:00",
+                "end" : "2017-06-14 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [],
+                "impression" : {
+                    "skills" : {},
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 111,
+                "title" : "177 may",
+                "act_type" : "OCL-X",
+                "start" : "2017-05-17 09:00",
+                "end" : "2017-06-14 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "mcq",
+                        "title" : "testing mcq",
+                        "weight" : 0,
+                        "start" : "2017-04-26 09:00",
+                        "end" : "2017-05-24 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "123"
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "ref",
+                        "title" : "ABC",
+                        "weight" : 0,
+                        "start" : "2017-04-26 09:00",
+                        "end" : "2017-05-24 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : ""
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "sur",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-04-26 09:00",
+                        "end" : "2017-05-24 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 4,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 5,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 6,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 7,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : ""
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "pst",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-04-26 09:00",
+                        "end" : "2017-05-24 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : ""
+                    }, 
+                    {
+                        "ass_id" : 5,
+                        "method" : "lcn",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-04-26 09:00",
+                        "end" : "2017-05-24 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : ""
+                    }, 
+                    {
+                        "ass_id" : 6,
+                        "method" : "prt",
+                        "title" : "",
+                        "weight" : 0,
+                        "start" : "2017-04-26 09:00",
+                        "end" : "2017-05-24 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "",
+                        "likert" : 4
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Consideration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        }
+                    },
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 107,
+                "title" : "Testing 1",
+                "act_type" : "OCL-X",
+                "start" : "2017-04-26 09:00",
+                "end" : "2017-05-24 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "ref",
+                        "title" : "asd",
+                        "weight" : 0,
+                        "start" : "2017-05-22 09:00",
+                        "end" : "2017-06-19 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : 100,
+                                "answer" : "argareg",
+                                "assessors" : {
+                                    "11" : {
+                                        "date" : "2017-05-22 10:54:58",
+                                        "assr_item_marks" : 100,
+                                        "comments" : "good!"
+                                    }
+                                }
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "dsf",
+                        "saved" : "2017-05-22 10:44:59",
+                        "performed" : "2017-05-22 10:45:04",
+                        "marked" : "2017-05-22 10:54:58"
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "mcq",
+                        "title" : "qa43t",
+                        "weight" : 0,
+                        "start" : "2017-05-22 09:00",
+                        "end" : "2017-06-19 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : 0,
+                                "answer" : "D",
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-05-26 18:04:13",
+                                        "assr_item_marks" : 0,
+                                        "comments" : ""
+                                    }
+                                }
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "",
+                        "performed" : "2017-05-22 10:45:17",
+                        "marked" : "2017-05-26 18:04:13"
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "prt",
+                        "title" : "qewt",
+                        "weight" : 0,
+                        "start" : "2017-05-22 09:00",
+                        "end" : "2017-06-19 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {
+                                    "11" : {
+                                        "date" : "2017-05-22 11:03:40",
+                                        "selected" : "1"
+                                    },
+                                    "2" : {
+                                        "date" : "2017-05-26 18:05:03",
+                                        "selected" : "1"
+                                    }
+                                }
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "qewt",
+                        "likert" : 3,
+                        "marked" : "2017-05-26 18:05:03"
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "abs",
+                        "title" : "q34",
+                        "weight" : 0,
+                        "start" : "2017-05-22 09:00",
+                        "end" : "2017-06-19 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : 20,
+                                "answer" : "aergag",
+                                "assessors" : {
+                                    "11" : {
+                                        "date" : "2017-05-22 11:04:30",
+                                        "assr_item_marks" : 20,
+                                        "comments" : "adsf"
+                                    }
+                                },
+                                "media_id_arr" : [ 
+                                    183
+                                ]
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "",
+                        "performed" : "2017-05-22 10:45:41",
+                        "marked" : "2017-05-22 11:04:30"
+                    }, 
+                    {
+                        "ass_id" : 5,
+                        "method" : "lcn",
+                        "title" : "t4tq5",
+                        "weight" : 0,
+                        "start" : "2017-05-22 09:00",
+                        "end" : "2017-06-19 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : 23,
+                                "answer" : "aergzfv",
+                                "assessors" : {
+                                    "11" : {
+                                        "date" : "2017-05-22 11:04:40",
+                                        "assr_item_marks" : 23,
+                                        "comments" : "sdfasfd"
+                                    }
+                                }
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "",
+                        "performed" : "2017-05-22 10:45:51",
+                        "marked" : "2017-05-22 11:04:40"
+                    }, 
+                    {
+                        "ass_id" : 6,
+                        "method" : "sur",
+                        "title" : "1234",
+                        "weight" : 0,
+                        "start" : "2017-05-22 09:00",
+                        "end" : "2017-06-19 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "1",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "1",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : "-",
+                                "answer" : "1",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 4,
+                                "part_item_marks" : "-",
+                                "answer" : "0",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 5,
+                                "part_item_marks" : "-",
+                                "answer" : "0",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 6,
+                                "part_item_marks" : "-",
+                                "answer" : "4",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 7,
+                                "part_item_marks" : "-",
+                                "answer" : "aerb",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "1234",
+                        "performed" : "2017-05-22 10:46:26"
+                    }, 
+                    {
+                        "ass_id" : 7,
+                        "method" : "pst",
+                        "title" : "123",
+                        "weight" : 0,
+                        "start" : "2017-05-22 09:00",
+                        "end" : "2017-06-19 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                1, 
+                                2
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : 14,
+                                "answer" : "",
+                                "assessors" : {
+                                    "11" : {
+                                        "date" : "2017-05-22 11:05:44",
+                                        "assr_item_marks" : 14,
+                                        "comments" : "sdsgv"
+                                    }
+                                },
+                                "media_id" : 184
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : 14,
+                                "answer" : "",
+                                "assessors" : {
+                                    "11" : {
+                                        "date" : "2017-05-22 11:05:44",
+                                        "assr_item_marks" : 14,
+                                        "comments" : "adsf"
+                                    }
+                                },
+                                "media_id" : 185
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "234",
+                        "performed" : "2017-05-22 10:46:47",
+                        "marked" : "2017-05-22 11:05:44"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {},
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 113,
+                "title" : "22May",
+                "act_type" : "OCL-X",
+                "start" : "2017-05-22 09:00",
+                "end" : "2017-06-19 18:00",
+                "uact_coordinator" : 0,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            }, 
+            {
+                "assessments" : [],
+                "impression" : {
+                    "skills" : {}
+                },
+                "published" : 1,
+                "act_id" : 115,
+                "title" : "Creativity Group",
+                "act_type" : "OCL-X",
+                "start" : "2017-06-06 09:00",
+                "end" : "2017-07-22 18:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 0
+            }, 
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "ref",
+                        "title" : "Daily Reflection Day 1",
+                        "weight" : 0,
+                        "start" : "2017-04-06 09:00",
+                        "end" : "2017-05-20 18:00",
+                        "skills" : {
+                            "Appreciation" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Collaboration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Consideration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Creativity" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Teamwork" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                18, 
+                                22, 
+                                69
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "question" : "What have you learnt today?<img title=\"Image: https://canada.ncsy.org/files/learn-and-earn.jpg\" alt=\"\" src=\"https://canada.ncsy.org/files/learn-and-earn.jpg\">",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 50
+                            }, 
+                            {
+                                "question" : "What activity did you enjoy most? And why?",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 0
+                            }, 
+                            {
+                                "question" : "Which holistic competencies do you think that you have developed?",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 50
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "<div>Tell us how you feel on the day, answer the questions below.</div>"
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "ref",
+                        "title" : "Daily Reflection Day 4",
+                        "weight" : 0,
+                        "start" : "2017-04-06 09:00",
+                        "end" : "2017-05-20 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                69
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "question" : "What have you learnt today?",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 50
+                            }, 
+                            {
+                                "question" : "What activity did you enjoy most? And why?",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 0
+                            }, 
+                            {
+                                "question" : "Which holistic competencies do you think that you have developed? And how?",
+                                "min" : "",
+                                "max" : "",
+                                "weight" : 50
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "Did you enjoy yourself today?<br>Did you learn much?<br>Did you find out more about HKU?<br>Tell us how you feel on the day, answer the questions below."
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "abs",
+                        "title" : "Daily Reflection Day 4 (Scanned ones)",
+                        "weight" : 0,
+                        "start" : "2017-04-06 09:00",
+                        "end" : "2017-05-27 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                54, 
+                                69
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "This is a daily reflection for students to reflect on what they have learnt and&nbsp;experience."
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Creativity" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Adaptability" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Appreciation" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Collaboration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Communication" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Confidence" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Consideration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Critical thinking" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Leadership" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Manners" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Respect" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Responsibility" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Teamwork" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        }
+                    }
+                },
+                "published" : 1,
+                "act_id" : 105,
+                "title" : "Girded Leader United Christian College (East Kowloon)",
+                "act_type" : "OCL-X",
+                "start" : "2017-04-06 09:00",
+                "end" : "2017-05-20 18:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 0
+            },
+
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "sur",
+                        "title" : "Learning Contract HKU Vs HoManTin 我們的學習合約",
+                        "weight" : 0,
+                        "start" : "2017-06-16 09:00",
+                        "end" : "2017-07-20 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                12, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                32, 
+                                88, 
+                                89, 
+                                90, 
+                                92, 
+                                93, 
+                                94, 
+                                95, 
+                                96, 
+                                97, 
+                                98, 
+                                99, 
+                                100, 
+                                102, 
+                                104, 
+                                106, 
+                                107, 
+                                108, 
+                                109, 
+                                110, 
+                                111, 
+                                112, 
+                                113, 
+                                117, 
+                                118, 
+                                119, 
+                                120, 
+                                122, 
+                                136
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 4,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 5,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 6,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 7,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 8,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 9,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "This is a learning contract between Dr. Cecilia Chan from HKU and you, as a student of Ho Man Tin Government Secondary School"
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "abs",
+                        "title" : "Think think Ponder Ponder 學生先鋒敢想 - 感想  ",
+                        "weight" : 40,
+                        "start" : "2017-06-20 09:00",
+                        "end" : "2017-11-30 18:00",
+                        "skills" : {
+                            "Consideration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Creativity" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Resilience" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Self-confidence" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Teamwork" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                12, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                32, 
+                                88, 
+                                89, 
+                                90, 
+                                92, 
+                                93, 
+                                94, 
+                                95, 
+                                96, 
+                                97, 
+                                98, 
+                                99, 
+                                100, 
+                                102, 
+                                104, 
+                                106, 
+                                107, 
+                                108, 
+                                109, 
+                                110, 
+                                111, 
+                                112, 
+                                113, 
+                                117, 
+                                118, 
+                                119, 
+                                120, 
+                                122, 
+                                136
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "This assessment provides you with a chance to think and ponder on the activities that you have been participating in the last few days, particularly in relation to consideration, creativity, resilience, self-confidence and teamwork. Think about it, would you do things differently in the future?&nbsp;<br><ul><ul><ul><li>Consideration&nbsp;體諒&nbsp;</li><li>Creativity&nbsp;創意思維</li><li>Resilience\n抗逆力&nbsp;</li><li>Self-confidence&nbsp;自信心&nbsp;</li><li>Teamwork\n團隊合作</li></ul></ul></ul>"
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "pst",
+                        "title" : "心底話 - 你做到嗎?",
+                        "weight" : 30,
+                        "start" : "2017-06-20 09:00",
+                        "end" : "2017-11-29 18:00",
+                        "skills" : {
+                            "Appreciation" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Consideration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Openness" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                12, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                32, 
+                                88, 
+                                89, 
+                                90, 
+                                92, 
+                                93, 
+                                94, 
+                                95, 
+                                96, 
+                                97, 
+                                98, 
+                                99, 
+                                100, 
+                                102, 
+                                104, 
+                                106, 
+                                107, 
+                                108, 
+                                109, 
+                                110, 
+                                111, 
+                                112, 
+                                113, 
+                                117, 
+                                118, 
+                                119, 
+                                120, 
+                                122, 
+                                136
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "<span>In this part of your assessment, I would\nlike you to reflect back the whole programme. Think about what you have learnt\nand what you have done. Is there anyone you want to share a few heartfelt words\n(心底話) with? Make a one-minute selfie video and\nshare this video with that person. Submit the video via the YOCLE system, and\ndon't worry we won't be sharing the video with others, so be truthful to\nyourself.</span>\n\n&nbsp;\n\n<br><span><br>試回顧你在全能有情教育發展硏究計劃所參與過的活動及得着。你有想感謝的人嗎？你有一些心底話想跟這個人分享嗎？請嘗試製作一個一分鐘的自拍視頻送給這個人，再把視頻上載到 YOCLE。我們不會與其他人分享你的視頻，所以希望你能夠在視頻中坦誠地分享你的想法<span>。</span></span>"
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "ref",
+                        "title" : "我的日記 - My Reflective Journal at HKU",
+                        "weight" : 30,
+                        "start" : "2017-06-20 09:00",
+                        "end" : "2017-11-30 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                12, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                32, 
+                                88, 
+                                89, 
+                                90, 
+                                92, 
+                                93, 
+                                94, 
+                                95, 
+                                96, 
+                                97, 
+                                98, 
+                                99, 
+                                100, 
+                                102, 
+                                104, 
+                                106, 
+                                107, 
+                                108, 
+                                109, 
+                                110, 
+                                111, 
+                                112, 
+                                113, 
+                                117, 
+                                118, 
+                                119, 
+                                120, 
+                                122, 
+                                136
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : 0,
+                                "answer" : "jhj",
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-07-05 13:37:15",
+                                        "assr_item_marks" : 0,
+                                        "comments" : "This is rubbish, it doesn't even make sense"
+                                    }
+                                }
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : 40,
+                                "answer" : "team debate",
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-07-05 13:37:15",
+                                        "assr_item_marks" : 40,
+                                        "comments" : "You didn't finish answer the question, why do you think team debate is the most enjoyable?"
+                                    }
+                                }
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : 0,
+                                "answer" : "collaboration",
+                                "assessors" : {
+                                    "2" : {
+                                        "date" : "2017-07-05 13:37:15",
+                                        "assr_item_marks" : 0,
+                                        "comments" : ""
+                                    }
+                                }
+                            }
+                        ],
+                        "assr_asst_completed" : {
+                            "2" : 0,
+                            "90" : 4,
+                            "112" : 2,
+                            "119" : 1,
+                            "122" : 0
+                        },
+                        "part_asst_marks" : {
+                            "2" : 14,
+                            "177" : 100,
+                            "342" : 100,
+                            "371" : 7,
+                            "355" : 100,
+                            "410" : 100,
+                            "251" : 100,
+                            "192" : 61,
+                            "343" : 100,
+                            "277" : 28,
+                            "269" : 64,
+                            "352" : 19,
+                            "137" : 91
+                        },
+                        "assr_asst_marks" : {
+                            "2,2" : 14,
+                            "90,177" : 100,
+                            "90,342" : 100,
+                            "112,371" : 7,
+                            "90,355" : 100,
+                            "90,410" : 100,
+                            "90,251" : 100,
+                            "119,192" : 61,
+                            "90,343" : 100,
+                            "112,277" : 28,
+                            "119,269" : 64,
+                            "112,352" : 19,
+                            "122,137" : 91
+                        },
+                        "desc" : "<a target=\"_blank\" rel=\"nofollow\"><div></div></a>\t\t\t<div><div>Tell us how you feel on the day, answer the questions below.<br><br></div></div><div>告訴我們你當天的感受，回答下面的問題。<br></div>",
+                        "performed" : "2017-07-05 13:35:47",
+                        "marked" : "2017-07-05 13:37:15"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Adaptability" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Collaboration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Communication" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Contribution" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Creativity" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Leadership" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Resilience" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Self-confidence" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        }
+                    },
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 118,
+                "title" : "Ho Man Tin Government Secondary School July 2017- Have, U Can Programme 全能有情教育工作坊",
+                "act_type" : "OCL-X",
+                "start" : "2017-06-20 09:00",
+                "end" : "2017-11-30 18:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 1
+            },
+						
+
+
+
+
+
+
+            {
+                "assessments" : [ 
+                    {
+                        "ass_id" : 1,
+                        "method" : "sur",
+                        "title" : "Learning Contract HKU Vs Fanling St Francis De Assisi College 我們的學習合約",
+                        "weight" : 0,
+                        "start" : "2017-06-16 09:00",
+                        "end" : "2017-07-20 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                12, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                32
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 4,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 5,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 6,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 7,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 8,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 9,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "This is a learning contract between Dr. Cecilia Chan from HKU and you, as a student of Fanling St Francis De Assisi College"
+                    }, 
+                    {
+                        "ass_id" : 2,
+                        "method" : "abs",
+                        "title" : "Think think Ponder Ponder 學生先鋒敢想 - 感想  ",
+                        "weight" : 16,
+                        "start" : "2017-06-20 09:00",
+                        "end" : "2017-11-30 18:00",
+                        "skills" : {
+                            "Consideration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Creativity" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Resilience" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Self-confidence" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Teamwork" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                12, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                32
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "This assessment provides you with a chance to think and ponder on the activities that you have been participating in the last few days, particularly in relation to consideration, creativity, resilience, self-confidence and teamwork. Think about it, would you do things differently in the future?&nbsp;<br><ul><ul><ul><li>Consideration&nbsp;體諒&nbsp;</li><li>Creativity&nbsp;創意思維</li><li>Resilience\n抗逆力&nbsp;</li><li>Self-confidence&nbsp;自信心&nbsp;</li><li>Teamwork\n團隊合作</li></ul></ul></ul>"
+                    }, 
+                    {
+                        "ass_id" : 3,
+                        "method" : "pst",
+                        "title" : "心底話 - 你做到嗎?",
+                        "weight" : 84,
+                        "start" : "2017-06-20 09:00",
+                        "end" : "2017-11-29 18:00",
+                        "skills" : {
+                            "Appreciation" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Consideration" : {
+                                "act_asst_scores" : {}
+                            },
+                            "Openness" : {
+                                "act_asst_scores" : {}
+                            }
+                        },
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                12, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                32
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "<span>In this part of your assessment, I would\nlike you to reflect back the whole programme. Think about what you have learnt\nand what you have done. Is there anyone you want to share a few heartfelt words\n(心底話) with? Make a one-minute selfie video and\nshare this video with that person. Submit the video via the YOCLE system, and\ndon't worry we won't be sharing the video with others, so be truthful to\nyourself.</span>\n\n&nbsp;\n\n<br><span><br>試回顧你在全能有情教育發展硏究計劃所參與過的活動及得着。你有想感謝的人嗎？你有一些心底話想跟這個人分享嗎？請嘗試製作一個一分鐘的自拍視頻送給這個人，再把視頻上載到 YOCLE。我們不會與其他人分享你的視頻，所以希望你能夠在視頻中坦誠地分享你的想法<span>。</span></span>"
+                    }, 
+                    {
+                        "ass_id" : 4,
+                        "method" : "ref",
+                        "title" : "我的日記 - My Reflective Journal at HKU",
+                        "weight" : 0,
+                        "start" : "2017-06-20 09:00",
+                        "end" : "2017-11-30 18:00",
+                        "skills" : {},
+                        "panelists" : {
+                            "coordinator" : 1,
+                            "self" : 0,
+                            "peers" : 0,
+                            "others" : [ 
+                                3, 
+                                7, 
+                                8, 
+                                9, 
+                                11, 
+                                12, 
+                                13, 
+                                14, 
+                                15, 
+                                16, 
+                                17, 
+                                18, 
+                                32
+                            ],
+                            "peer_assessors" : []
+                        },
+                        "items" : [ 
+                            {
+                                "ass_item_id" : 1,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 2,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }, 
+                            {
+                                "ass_item_id" : 3,
+                                "part_item_marks" : "-",
+                                "answer" : "",
+                                "assessors" : {}
+                            }
+                        ],
+                        "assr_asst_completed" : {},
+                        "part_asst_marks" : {},
+                        "assr_asst_marks" : {},
+                        "desc" : "<a target=\"_blank\" rel=\"nofollow\"><div></div></a>\t\t\t<div><div>Tell us how you feel on the day, answer the questions below.<br><br></div></div><div>告訴我們你當天的感受，回答下面的問題。<br></div>"
+                    }
+                ],
+                "impression" : {
+                    "skills" : {
+                        "Adaptability" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Collaboration" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Communication" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Creativity" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Critical thinking" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Leadership" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Resilience" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Self-confidence" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        },
+                        "Contribution" : {
+                            "usr_part_score" : 0,
+                            "assessors" : {}
+                        }
+                    },
+                    "panelists" : {
+                        "peer_assessors" : []
+                    }
+                },
+                "published" : 1,
+                "act_id" : 119,
+                "title" : "Fanling St Francis De Assisi College July 2017- Have, U Can Programme 全能有情教育工作坊",
+                "act_type" : "OCL-X",
+                "start" : "2017-06-20 09:00",
+                "end" : "2017-11-30 18:00",
+                "uact_coordinator" : 1,
+                "uact_assessor" : 1,
+                "uact_participant" : 0
+            },
+						
+						
+{
+		"assessments" : [ 
+				{
+						"ass_id" : 1,
+						"method" : "sur",
+						"title" : "Learning Contract HKU Vs Concordia Lutheran School (North Point) 我們的學習合約",
+						"weight" : 0,
+						"start" : "2017-06-16 09:00",
+						"end" : "2017-07-20 18:00",
+						"skills" : {},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32
+								],
+								"peer_assessors" : []
+						},
+						"items" : [ 
+								{
+										"ass_item_id" : 1,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 2,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 3,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 4,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 5,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 6,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 7,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 8,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 9,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}
+						],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "This is a learning contract between Dr. Cecilia Chan from HKU and you, as a student of Concordia Lutheran School (North Point)"
+				}, 
+				{
+						"ass_id" : 2,
+						"method" : "abs",
+						"title" : "Think think Ponder Ponder 學生先鋒敢想 - 感想  ",
+						"weight" : 16,
+						"start" : "2017-06-20 09:00",
+						"end" : "2017-11-30 18:00",
+						"skills" : {
+								"Consideration" : {
+										"act_asst_scores" : {}
+								},
+								"Creativity" : {
+										"act_asst_scores" : {}
+								},
+								"Resilience" : {
+										"act_asst_scores" : {}
+								},
+								"Self-confidence" : {
+										"act_asst_scores" : {}
+								},
+								"Teamwork" : {
+										"act_asst_scores" : {}
+								}
+						},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32
+								],
+								"peer_assessors" : []
+						},
+						"items" : [ 
+								{
+										"ass_item_id" : 1,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 2,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 3,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}
+						],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "This assessment provides you with a chance to think and ponder on the activities that you have been participating in the last few days, particularly in relation to consideration, creativity, resilience, self-confidence and teamwork. Think about it, would you do things differently in the future?&nbsp;<br><ul><ul><ul><li>Consideration&nbsp;體諒&nbsp;</li><li>Creativity&nbsp;創意思維</li><li>Resilience\n抗逆力&nbsp;</li><li>Self-confidence&nbsp;自信心&nbsp;</li><li>Teamwork\n團隊合作</li></ul></ul></ul>"
+				}, 
+				{
+						"ass_id" : 3,
+						"method" : "pst",
+						"title" : "心底話 - 你做到嗎?",
+						"weight" : 84,
+						"start" : "2017-06-20 09:00",
+						"end" : "2017-11-29 18:00",
+						"skills" : {
+								"Appreciation" : {
+										"act_asst_scores" : {}
+								},
+								"Consideration" : {
+										"act_asst_scores" : {}
+								},
+								"Openness" : {
+										"act_asst_scores" : {}
+								}
+						},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32
+								],
+								"peer_assessors" : []
+						},
+						"items" : [],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "<span>In this part of your assessment, I would\nlike you to reflect back the whole programme. Think about what you have learnt\nand what you have done. Is there anyone you want to share a few heartfelt words\n(心底話) with? Make a one-minute selfie video and\nshare this video with that person. Submit the video via the YOCLE system, and\ndon't worry we won't be sharing the video with others, so be truthful to\nyourself.</span>\n\n&nbsp;\n\n<br><span><br>試回顧你在全能有情教育發展硏究計劃所參與過的活動及得着。你有想感謝的人嗎？你有一些心底話想跟這個人分享嗎？請嘗試製作一個一分鐘的自拍視頻送給這個人，再把視頻上載到 YOCLE。我們不會與其他人分享你的視頻，所以希望你能夠在視頻中坦誠地分享你的想法<span>。</span></span>"
+				}, 
+				{
+						"ass_id" : 4,
+						"method" : "ref",
+						"title" : "我的日記 - My Reflective Journal at HKU",
+						"weight" : 0,
+						"start" : "2017-06-20 09:00",
+						"end" : "2017-11-30 18:00",
+						"skills" : {},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32
+								],
+								"peer_assessors" : []
+						},
+						"items" : [ 
+								{
+										"ass_item_id" : 1,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 2,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 3,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}
+						],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "<a target=\"_blank\" rel=\"nofollow\"><div></div></a>\t\t\t<div><div>Tell us how you feel on the day, answer the questions below.<br><br></div></div><div>告訴我們你當天的感受，回答下面的問題。<br></div>"
+				}
+		],
+		"impression" : {
+				"skills" : {
+						"Adaptability" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Collaboration" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Communication" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Creativity" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Critical thinking" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Leadership" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Resilience" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Self-confidence" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Contribution" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						}
+				},
+				"panelists" : {
+						"peer_assessors" : []
+				}
+		},
+		"published" : 1,
+		"act_id" : 120,
+		"title" : "Concordia Lutheran School (North Point) July 2017- Have, U Can Programme 全能有情教育工作坊",
+		"act_type" : "OCL-X",
+		"start" : "2017-06-20 09:00",
+		"end" : "2017-11-30 18:00",
+		"uact_coordinator" : 1,
+		"uact_assessor" : 1,
+		"uact_participant" : 0
+},
+
+{
+		"assessments" : [ 
+				{
+						"ass_id" : 1,
+						"method" : "sur",
+						"title" : "Learning Contract HKU Vs Aberdeen Baptist Lui Ming Choi College 我們的學習合約",
+						"weight" : 0,
+						"start" : "2017-06-16 09:00",
+						"end" : "2017-07-20 18:00",
+						"skills" : {},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32
+								],
+								"peer_assessors" : []
+						},
+						"items" : [ 
+								{
+										"ass_item_id" : 1,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 2,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 3,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 4,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 5,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 6,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 7,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 8,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 9,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}
+						],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "This is a learning contract between Dr. Cecilia Chan from HKU and you, as a student of Aberdeen Baptist Lui Ming Choi College"
+				}, 
+				{
+						"ass_id" : 2,
+						"method" : "abs",
+						"title" : "Think think Ponder Ponder 學生先鋒敢想 - 感想  ",
+						"weight" : 16,
+						"start" : "2017-06-20 09:00",
+						"end" : "2017-11-30 18:00",
+						"skills" : {
+								"Consideration" : {
+										"act_asst_scores" : {}
+								},
+								"Creativity" : {
+										"act_asst_scores" : {}
+								},
+								"Resilience" : {
+										"act_asst_scores" : {}
+								},
+								"Self-confidence" : {
+										"act_asst_scores" : {}
+								},
+								"Teamwork" : {
+										"act_asst_scores" : {}
+								}
+						},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32
+								],
+								"peer_assessors" : []
+						},
+						"items" : [ 
+								{
+										"ass_item_id" : 1,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 2,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 3,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}
+						],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "This assessment provides you with a chance to think and ponder on the activities that you have been participating in the last few days, particularly in relation to consideration, creativity, resilience, self-confidence and teamwork. Think about it, would you do things differently in the future?&nbsp;<br><ul><ul><ul><li>Consideration&nbsp;體諒&nbsp;</li><li>Creativity&nbsp;創意思維</li><li>Resilience\n抗逆力&nbsp;</li><li>Self-confidence&nbsp;自信心&nbsp;</li><li>Teamwork\n團隊合作</li></ul></ul></ul>"
+				}, 
+				{
+						"ass_id" : 3,
+						"method" : "pst",
+						"title" : "心底話 - 你做到嗎?",
+						"weight" : 84,
+						"start" : "2017-06-20 09:00",
+						"end" : "2017-11-29 18:00",
+						"skills" : {
+								"Appreciation" : {
+										"act_asst_scores" : {}
+								},
+								"Consideration" : {
+										"act_asst_scores" : {}
+								},
+								"Openness" : {
+										"act_asst_scores" : {}
+								}
+						},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32
+								],
+								"peer_assessors" : []
+						},
+						"items" : [],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "<span>In this part of your assessment, I would\nlike you to reflect back the whole programme. Think about what you have learnt\nand what you have done. Is there anyone you want to share a few heartfelt words\n(心底話) with? Make a one-minute selfie video and\nshare this video with that person. Submit the video via the YOCLE system, and\ndon't worry we won't be sharing the video with others, so be truthful to\nyourself.</span>\n\n&nbsp;\n\n<br><span><br>試回顧你在全能有情教育發展硏究計劃所參與過的活動及得着。你有想感謝的人嗎？你有一些心底話想跟這個人分享嗎？請嘗試製作一個一分鐘的自拍視頻送給這個人，再把視頻上載到 YOCLE。我們不會與其他人分享你的視頻，所以希望你能夠在視頻中坦誠地分享你的想法<span>。</span></span>"
+				}, 
+				{
+						"ass_id" : 4,
+						"method" : "ref",
+						"title" : "我的日記 - My Reflective Journal at HKU",
+						"weight" : 0,
+						"start" : "2017-06-20 09:00",
+						"end" : "2017-11-30 18:00",
+						"skills" : {},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32
+								],
+								"peer_assessors" : []
+						},
+						"items" : [ 
+								{
+										"ass_item_id" : 1,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 2,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 3,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}
+						],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "<a target=\"_blank\" rel=\"nofollow\"><div></div></a>\t\t\t<div><div>Tell us how you feel on the day, answer the questions below.<br><br></div></div><div>告訴我們你當天的感受，回答下面的問題。<br></div>"
+				}
+		],
+		"impression" : {
+				"skills" : {
+						"Adaptability" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Collaboration" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Communication" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Creativity" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Critical thinking" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Leadership" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Resilience" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Self-confidence" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Contribution" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						}
+				},
+				"panelists" : {
+						"peer_assessors" : []
+				}
+		},
+		"published" : 1,
+		"act_id" : 121,
+		"title" : "Aberdeen Baptist Lui Ming Choi College July 2017- Have, U Can Programme 全能有情教育工作坊",
+		"act_type" : "OCL-X",
+		"start" : "2017-06-20 09:00",
+		"end" : "2017-11-30 18:00",
+		"uact_coordinator" : 1,
+		"uact_assessor" : 1,
+		"uact_participant" : 0
+}						
+						
+        ],
+        "objectives" : "I believe in ‘<i>Work Hard Play Hard</i>’ attitude. I enjoy <b>networking</b> and organizing team building activities with my colleagues off work. At work, I am able to come up with lots of creative ideas and I love sharing them with my team members.這次我的<br><span><b>Life goals:</b>&nbsp;Still searching<br></span><span><b>My proudest achievement so far:</b>&nbsp;Lost 30 pounds of weight and becoming inspirational for others to follow!! ☺<br></span><span><b>Indulgences:</b>&nbsp;My research; my workshops/seminars (I get a bit high presenting); discussion with my husband, my team and other smart people; investing in properties; romance<br></span><span><b>Inspirational quote:</b>&nbsp;“Work Hard Play Hard and Stay Young!”<br></span><span><b>My favourite food:</b>&nbsp;Food with love and meaning<br>中文都可以</span>",
+        "interest" : "",
+        "media" : []
+    },
+    "token_ios" : "35d384041b5be3271c6a7cbcedb7ba2497a40b8ac6fbb9c4655edaaee4ebe71b",
+    "messages" : {
+        "u1" : [ 
+            {
+                "msg_id" : 1,
+                "user_id" : 2,
+                "body" : "Hello!",
+                "time" : "2017-03-08 23:00"
+            }, 
+            {
+                "msg_id" : 2,
+                "user_id" : 1,
+                "body" : "Nice to meet you here!",
+                "time" : "2017-03-08 23:01"
+            }, 
+            {
+                "msg_id" : 3,
+                "user_id" : 2,
+                "body" : "May I know the progress of messenger?",
+                "time" : "2017-03-08 23:02"
+            }, 
+            {
+                "msg_id" : 4,
+                "user_id" : 1,
+                "body" : "Yes. Sure",
+                "time" : "2017-03-08 23:03"
+            }, 
+            {
+                "msg_id" : 5,
+                "user_id" : 1,
+                "body" : "4",
+                "time" : "2017-03-24 12:16:08"
+            }, 
+            {
+                "msg_id" : 6,
+                "user_id" : 1,
+                "body" : "Hello",
+                "time" : "2017-03-24 12:16:50"
+            }, 
+            {
+                "msg_id" : 7,
+                "user_id" : 2,
+                "body" : "Yes",
+                "time" : "2017-03-24 12:17:02"
+            }, 
+            {
+                "msg_id" : 8,
+                "user_id" : 1,
+                "body" : "Hi",
+                "time" : "2017-03-24 12:22:57"
+            }, 
+            {
+                "msg_id" : 9,
+                "user_id" : 1,
+                "body" : "Hello",
+                "time" : "2017-03-24 12:23:50"
+            }, 
+            {
+                "msg_id" : 10,
+                "user_id" : 1,
+                "body" : "Hi",
+                "time" : "2017-03-24 12:43:13"
+            }, 
+            {
+                "msg_id" : 11,
+                "user_id" : 2,
+                "body" : "hi Alan",
+                "time" : "2017-03-25 19:39:52"
+            }, 
+            {
+                "msg_id" : 12,
+                "user_id" : 1,
+                "body" : "Yes, Cecilia.",
+                "time" : "2017-03-26 04:09:51"
+            }, 
+            {
+                "msg_id" : 13,
+                "user_id" : 1,
+                "body" : "Hi Cecilia",
+                "time" : "2017-03-27 22:25:10"
+            }, 
+            {
+                "msg_id" : 14,
+                "user_id" : 2,
+                "body" : "You just texted me?",
+                "time" : "2017-03-27 22:26:47"
+            }, 
+            {
+                "msg_id" : 15,
+                "user_id" : 2,
+                "body" : "中文字幕",
+                "time" : "2017-03-30 09:44:16"
+            }, 
+            {
+                "msg_id" : 16,
+                "user_id" : 2,
+                "body" : "hi",
+                "time" : "2017-03-31 16:29:48"
+            }, 
+            {
+                "msg_id" : 17,
+                "user_id" : 1,
+                "body" : "Hello",
+                "time" : "2017-03-31 19:00:33"
+            }, 
+            {
+                "msg_id" : 18,
+                "user_id" : 1,
+                "body" : "Hello, Cecilia.",
+                "time" : "2017-05-16 21:58:42"
+            }, 
+            {
+                "msg_id" : 19,
+                "user_id" : 1,
+                "body" : "Have you check the new feature What's up out already?",
+                "time" : "2017-05-16 21:59:10"
+            }, 
+            {
+                "msg_id" : 20,
+                "user_id" : 1,
+                "body" : "Hello",
+                "time" : "2017-06-02 03:12:18",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 21,
+                "user_id" : 1,
+                "body" : "Hi Cecilia, this is a testing.",
+                "time" : "2017-06-02 03:23:01",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 22,
+                "user_id" : 1,
+                "body" : "Hello",
+                "time" : "2017-06-02 03:35:02",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 23,
+                "user_id" : 2,
+                "body" : "Hi",
+                "time" : "2017-06-02 03:36:07"
+            }, 
+            {
+                "msg_id" : 24,
+                "user_id" : 2,
+                "body" : "Hhh",
+                "time" : "2017-06-02 03:36:09"
+            }, 
+            {
+                "msg_id" : 25,
+                "user_id" : 1,
+                "body" : "Yes",
+                "time" : "2017-06-02 03:36:21",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 26,
+                "user_id" : 1,
+                "body" : "Can you see this? I am also using iPhone ",
+                "time" : "2017-06-02 03:38:07",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 27,
+                "user_id" : 2,
+                "body" : "Hi",
+                "time" : "2017-06-02 03:39:20"
+            }, 
+            {
+                "msg_id" : 28,
+                "user_id" : 2,
+                "body" : "I can now ",
+                "time" : "2017-06-02 03:39:29"
+            }, 
+            {
+                "msg_id" : 29,
+                "user_id" : 1,
+                "body" : "That's good!",
+                "time" : "2017-06-02 03:43:43",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 30,
+                "user_id" : 1,
+                "body" : "hello",
+                "time" : "2017-06-02 04:14:53",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 31,
+                "user_id" : 1,
+                "body" : "Can you try again? The server is updated.",
+                "time" : "2017-06-02 04:15:23",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 32,
+                "user_id" : 2,
+                "body" : "Hi",
+                "time" : "2017-06-02 04:16:13"
+            }, 
+            {
+                "msg_id" : 33,
+                "user_id" : 1,
+                "body" : "The typing being rolled up issue only occurs in iOS. It doesn't happen on Android or web versions.",
+                "time" : "2017-06-02 04:16:39",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 34,
+                "user_id" : 2,
+                "body" : "Hi",
+                "time" : "2017-06-02 04:18:49"
+            }, 
+            {
+                "msg_id" : 35,
+                "user_id" : 2,
+                "body" : "It is working now, can you see ",
+                "time" : "2017-06-02 04:18:58"
+            }, 
+            {
+                "msg_id" : 36,
+                "user_id" : 1,
+                "body" : "Yes. I can see.",
+                "time" : "2017-06-02 04:19:28",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 37,
+                "user_id" : 2,
+                "body" : "I reloaded the video board ",
+                "time" : "2017-06-02 04:30:09"
+            }, 
+            {
+                "msg_id" : 38,
+                "user_id" : 1,
+                "body" : "i see",
+                "time" : "2017-06-02 04:30:34",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 39,
+                "user_id" : 2,
+                "body" : "Ok try it one more time, send me something ",
+                "time" : "2017-06-02 04:30:55"
+            }, 
+            {
+                "msg_id" : 40,
+                "user_id" : 1,
+                "body" : "Okay. Can you see this message?",
+                "time" : "2017-06-02 04:31:20",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 41,
+                "user_id" : 2,
+                "body" : "I can see this. The notifications came alright but the typing... didn't work. Nothing was shown at the bar above ",
+                "time" : "2017-06-02 04:31:55"
+            }, 
+            {
+                "msg_id" : 42,
+                "user_id" : 1,
+                "body" : "Can't you see my typing in the top bar?",
+                "time" : "2017-06-02 04:32:33",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 43,
+                "user_id" : 2,
+                "body" : "No",
+                "time" : "2017-06-02 04:32:52"
+            }, 
+            {
+                "msg_id" : 44,
+                "user_id" : 1,
+                "body" : "what about now?",
+                "time" : "2017-06-02 04:34:07",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 45,
+                "user_id" : 2,
+                "body" : "Here is question. If I delete A message of mine, can you still see it? And if I delete a msg of yours, can you still see it?",
+                "time" : "2017-06-02 04:34:36"
+            }, 
+            {
+                "msg_id" : 46,
+                "user_id" : 2,
+                "body" : "U have to try again ",
+                "time" : "2017-06-02 04:34:41"
+            }, 
+            {
+                "msg_id" : 47,
+                "user_id" : 2,
+                "body" : "Nothing ",
+                "time" : "2017-06-02 04:35:45"
+            }, 
+            {
+                "msg_id" : 48,
+                "user_id" : 1,
+                "body" : "you will only not seeing the message on your side after deletion. in other words, you cannot delete message on other users' devices.",
+                "time" : "2017-06-02 04:36:15",
+                "item_id" : 1
+            }, 
+            {
+                "msg_id" : 49,
+                "user_id" : 2,
+                "body" : "Ok",
+                "time" : "2017-06-02 04:36:53"
+            }
+        ],
+        "u3" : [ 
+            {
+                "msg_id" : 1,
+                "user_id" : 2,
+                "body" : "Hello! Alan",
+                "time" : "2017-03-08 21:00"
+            }, 
+            {
+                "msg_id" : 2,
+                "user_id" : 1,
+                "body" : "Hello Lilian",
+                "time" : "2017-03-08 21:01"
+            }, 
+            {
+                "msg_id" : 3,
+                "user_id" : 2,
+                "body" : "Will you come back on Wednesday?",
+                "time" : "2017-03-08 21:02"
+            }, 
+            {
+                "msg_id" : 4,
+                "user_id" : 1,
+                "body" : "Yes. I will come back.",
+                "time" : "2017-03-08 21:03"
+            }
+        ],
+        "u2" : [ 
+            {
+                "msg_id" : 1,
+                "user_id" : 2,
+                "body" : "Hi&nbsp;",
+                "time" : "2017-03-24 03:18:18"
+            }, 
+            {
+                "msg_id" : 2,
+                "user_id" : 2,
+                "body" : "Hi&nbsp;",
+                "time" : "2017-03-24 03:18:18"
+            }
+        ],
+        "u25" : [ 
+            {
+                "msg_id" : 1,
+                "user_id" : 2,
+                "body" : "hi",
+                "time" : "2017-03-24 17:19:09"
+            }, 
+            {
+                "msg_id" : 2,
+                "user_id" : 2,
+                "body" : "how are you",
+                "time" : "2017-03-24 17:21:26"
+            }, 
+            {
+                "msg_id" : 3,
+                "user_id" : 25,
+                "body" : "good thanks",
+                "time" : "2017-03-24 17:21:48"
+            }, 
+            {
+                "msg_id" : 4,
+                "user_id" : 2,
+                "body" : "Participant 1",
+                "time" : "2017-03-29 02:58:22"
+            }
+        ],
+        "u22" : [ 
+            {
+                "msg_id" : 1,
+                "user_id" : 2,
+                "body" : "Hello assessor 1",
+                "time" : "2017-03-29 02:57:15"
+            }, 
+            {
+                "msg_id" : 2,
+                "user_id" : 2,
+                "body" : "Uu",
+                "time" : "2017-06-17 01:16:20"
+            }
+        ],
+        "u11" : [ 
+            {
+                "msg_id" : 1,
+                "user_id" : 11,
+                "body" : "[testing] Hey how's going?",
+                "time" : "2017-06-07 09:49:05",
+                "item_id" : 11
+            }, 
+            {
+                "msg_id" : 2,
+                "user_id" : 2,
+                "body" : "Good thx",
+                "time" : "2017-06-07 09:50:28"
+            }, 
+            {
+                "msg_id" : 3,
+                "user_id" : 2,
+                "body" : "唔唔使Test因為我地攪緊second phase",
+                "time" : "2017-06-07 09:51:27"
+            }
+        ],
+        "u15" : [ 
+            {
+                "msg_id" : 1,
+                "user_id" : 2,
+                "body" : "i",
+                "time" : "2017-06-07 14:45:22"
+            }, 
+            {
+                "msg_id" : 2,
+                "user_id" : 2,
+                "body" : "hi",
+                "time" : "2017-06-07 14:45:24"
+            }, 
+            {
+                "msg_id" : 3,
+                "user_id" : 15,
+                "body" : "Hi",
+                "time" : "2017-06-07 14:45:47",
+                "item_id" : 15
+            }
+        ],
+        "u16" : [ 
+            {
+                "msg_id" : 1,
+                "user_id" : 2,
+                "body" : "hiya",
+                "time" : "2017-06-07 14:45:32"
+            }, 
+            {
+                "msg_id" : 2,
+                "user_id" : 16,
+                "body" : "Hi~",
+                "time" : "2017-06-07 14:46:03",
+                "item_id" : 16
+            }
+        ],
+        "u18" : [ 
+            {
+                "msg_id" : 1,
+                "user_id" : 2,
+                "body" : "HIya",
+                "time" : "2017-06-07 14:45:43"
+            }
+        ]
+    },
+    "token_android" : "APA91bGmp420_23KF5yU2Zh3gK0INDMWHJY2LVirA_3OD3YeaYBd9F4bY3nysPRCofJW_Tfg3SdsuJQxFGMF-ocV-AylAAp4JJ_s6T2eyJr7iLzeQ3C1jjzYLZHfGwROwU2CGEAtpsUF",
+    "unread_msgs" : {
+        "u1" : {
+            "msg_type" : 1,
+            "item_id" : 1,
+            "datetime" : "2017-06-02 04:36:53",
+            "unread_msg" : 0,
+            "last_msg" : "Ok"
+        },
+        "u2" : {
+            "msg_type" : 1,
+            "item_id" : 2,
+            "datetime" : "2017-03-31 16:29:48",
+            "unread_msg" : 0,
+            "last_msg" : "hi"
+        },
+        "a53" : {
+            "msg_type" : 2,
+            "item_id" : 53,
+            "user_id" : 11,
+            "datetime" : "2017-04-05 11:56:44",
+            "unread_msg" : 0,
+            "last_msg" : "would be good if I can receive notifications on my phone when there is someone texting me thru messenger."
+        },
+        "a3" : {
+            "unread_msg" : 0
+        },
+        "u25" : {
+            "msg_type" : 1,
+            "item_id" : 25,
+            "datetime" : "2017-03-24 17:21:48",
+            "unread_msg" : 0,
+            "last_msg" : "good thanks"
+        },
+        "a59" : {
+            "unread_msg" : 0
+        },
+        "a58" : {
+            "msg_type" : 2,
+            "item_id" : 58,
+            "user_id" : 25,
+            "datetime" : "2017-03-24 17:21:09",
+            "unread_msg" : 0,
+            "last_msg" : "hi how are you"
+        },
+        "a86" : {
+            "unread_msg" : 0
+        },
+        "a85" : {
+            "msg_type" : 2,
+            "item_id" : 85,
+            "user_id" : 2,
+            "datetime" : "2017-03-25 19:40:27",
+            "unread_msg" : 0,
+            "last_msg" : "Hi everyone&nbsp;"
+        },
+        "u22" : {
+            "msg_type" : 1,
+            "item_id" : 22,
+            "datetime" : "2017-06-17 01:16:20",
+            "unread_msg" : 0,
+            "last_msg" : "Uu"
+        },
+        "u18" : {
+            "msg_type" : 1,
+            "item_id" : 18,
+            "datetime" : "2017-06-07 14:45:43",
+            "unread_msg" : 0,
+            "last_msg" : "HIya"
+        },
+        "a73" : {
+            "unread_msg" : 0
+        },
+        "u9" : {
+            "unread_msg" : 0
+        },
+        "a77" : {
+            "msg_type" : 2,
+            "item_id" : 77,
+            "user_id" : 22,
+            "datetime" : "2017-04-02 14:52:32",
+            "unread_msg" : 0,
+            "last_msg" : "hey this is assessor"
+        },
+        "a87" : {
+            "unread_msg" : 0
+        },
+        "a84" : {
+            "unread_msg" : 0
+        },
+        "a93" : {
+            "unread_msg" : 0
+        },
+        "a104" : {
+            "unread_msg" : 0
+        },
+        "a105" : {
+            "msg_type" : 2,
+            "item_id" : 105,
+            "user_id" : 2,
+            "datetime" : "2017-04-07 15:48:00",
+            "unread_msg" : 0,
+            "last_msg" : "Hi everyone, this is Cecilia!"
+        },
+        "a94" : {
+            "unread_msg" : 0
+        },
+        "u58" : {
+            "unread_msg" : 0
+        },
+        "u69" : {
+            "unread_msg" : 0
+        },
+        "a113" : {
+            "unread_msg" : 0
+        },
+        "u0" : {
+            "unread_msg" : 0
+        },
+        "u11" : {
+            "msg_type" : 1,
+            "item_id" : 11,
+            "datetime" : "2017-06-07 09:51:27",
+            "unread_msg" : 0,
+            "last_msg" : "唔唔使Test因為我地攪緊second phase"
+        },
+        "u15" : {
+            "msg_type" : 1,
+            "item_id" : 15,
+            "datetime" : "2017-06-07 14:45:47",
+            "unread_msg" : 0,
+            "last_msg" : "Hi"
+        },
+        "u16" : {
+            "msg_type" : 1,
+            "item_id" : 16,
+            "datetime" : "2017-06-07 14:46:03",
+            "unread_msg" : 0,
+            "last_msg" : "Hi~"
+        },
+        "a115" : {
+            "msg_type" : 2,
+            "item_id" : 115,
+            "user_id" : 16,
+            "datetime" : "2017-07-05 13:35:49",
+            "unread_msg" : 0,
+            "last_msg" : "😭😭😭"
+        },
+        "u41" : {
+            "unread_msg" : 0
+        },
+        "u87" : {
+            "unread_msg" : 0
+        },
+        "a118" : {
+            "unread_msg" : 0
+        }
+    },
+    "mood" : "SMILE ",
+    "relationship" : "Good",
+    "friends" : [ 
+        11, 
+        14, 
+        15, 
+        16, 
+        18, 
+        22
+    ],
+    "networks" : [ 
+        1, 
+        3, 
+        7, 
+        8, 
+        9, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        22, 
+        25, 
+        32, 
+        34, 
+        35, 
+        36, 
+        37, 
+        38, 
+        39, 
+        40, 
+        41, 
+        44, 
+        46, 
+        47, 
+        48, 
+        49, 
+        50, 
+        51, 
+        53, 
+        54, 
+        55, 
+        56, 
+        57, 
+        58, 
+        59, 
+        60, 
+        61, 
+        62, 
+        63, 
+        64, 
+        65, 
+        66, 
+        67, 
+        69, 
+        85, 
+        88, 
+        89, 
+        90, 
+        92, 
+        93, 
+        94, 
+        95, 
+        96, 
+        97, 
+        98, 
+        99, 
+        100, 
+        102, 
+        104, 
+        106, 
+        107, 
+        108, 
+        109, 
+        110, 
+        111, 
+        112, 
+        113, 
+        116, 
+        117, 
+        118, 
+        119, 
+        120, 
+        122, 
+        126, 
+        128, 
+        129, 
+        132, 
+        133, 
+        136, 
+        137, 
+        141, 
+        142, 
+        143, 
+        145, 
+        148, 
+        149, 
+        155, 
+        157, 
+        164, 
+        165, 
+        169, 
+        170, 
+        173, 
+        174, 
+        175, 
+        177, 
+        181, 
+        183, 
+        184, 
+        186, 
+        187, 
+        188, 
+        191, 
+        192, 
+        201, 
+        204, 
+        208, 
+        213, 
+        221, 
+        238, 
+        239, 
+        240, 
+        241, 
+        243, 
+        244, 
+        246, 
+        247, 
+        251, 
+        254, 
+        255, 
+        256, 
+        260, 
+        261, 
+        262, 
+        264, 
+        269, 
+        270, 
+        271, 
+        275, 
+        276, 
+        277, 
+        279, 
+        285, 
+        298, 
+        300, 
+        314, 
+        316, 
+        323, 
+        332, 
+        333, 
+        336, 
+        338, 
+        340, 
+        342, 
+        343, 
+        346, 
+        350, 
+        352, 
+        353, 
+        354, 
+        355, 
+        356, 
+        358, 
+        364, 
+        371, 
+        372, 
+        373, 
+        376, 
+        377, 
+        379, 
+        380, 
+        381, 
+        382, 
+        386, 
+        387, 
+        388, 
+        394, 
+        399, 
+        402, 
+        405, 
+        407, 
+        408, 
+        409, 
+        410, 
+        411, 
+        412, 
+        413, 
+        415, 
+        416, 
+        419, 
+        423, 
+        424, 
+        425, 
+        426, 
+        427, 
+        429, 
+        431, 
+        432, 
+        433, 
+        434, 
+        435, 
+        438, 
+        439, 
+        440, 
+        442, 
+        444, 
+        447, 
+        449, 
+        450, 
+        451, 
+        452, 
+        453, 
+        454, 
+        455, 
+        457, 
+        459, 
+        460, 
+        461, 
+        463, 
+        466, 
+        467, 
+        469, 
+        470, 
+        471, 
+        472, 
+        473, 
+        474, 
+        475, 
+        477, 
+        479, 
+        480, 
+        481, 
+        483, 
+        484, 
+        489, 
+        490, 
+        492, 
+        493, 
+        495, 
+        499, 
+        504, 
+        506, 
+        507, 
+        509, 
+        512, 
+        518, 
+        522, 
+        524, 
+        526, 
+        529, 
+        530, 
+        531, 
+        533, 
+        535, 
+        536, 
+        540, 
+        545, 
+        546, 
+        547, 
+        548, 
+        549, 
+        568, 
+        569, 
+        570
+    ],
+    "whatsup_ids" : [ 
+        8, 
+        17, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        30, 
+        31, 
+        32, 
+        33, 
+        34, 
+        36, 
+        37, 
+        38, 
+        41, 
+        42, 
+        43
+    ]
+}

@@ -1064,11 +1064,6 @@ object[type='application/x-shockwave-flash']{
   background: grey;
 }
 
-.svg_pen{
- width:24px;
- height: 24px
-}
-
 /* media queries */
 @media only screen and (max-width:470px){
 	.tbl_toolbar{

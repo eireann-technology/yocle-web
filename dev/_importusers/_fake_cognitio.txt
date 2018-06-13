@@ -1,0 +1,6 @@
+st.au@yocle.net,Au Sin Ting,F,
+wf.chan@yocle.net,Chan Wong Fun,F,
+hk.li@yocle.net,Li Ho Kwong,M,
+sk.chui@yocle.net,Chiu Sze Kei,F,
+ask.tam@yocle.net,Tam Sik Kiu,M,
+yp.wong@yocle.net,Wong Yee Pang,M,

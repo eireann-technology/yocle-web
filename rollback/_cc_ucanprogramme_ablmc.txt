@@ -1,0 +1,315 @@
+{
+		"assessments" : [ 
+				{
+						"ass_id" : 1,
+						"method" : "sur",
+						"title" : "Learning Contract HKU Vs Aberdeen Baptist Lui Ming Choi College 我們的學習合約",
+						"weight" : 0,
+						"start" : "2017-06-16 09:00",
+						"end" : "2017-07-20 18:00",
+						"skills" : {},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32,89
+								],
+								"peer_assessors" : []
+						},
+						"items" : [ 
+								{
+										"ass_item_id" : 1,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 2,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 3,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 4,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 5,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 6,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 7,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 8,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 9,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}
+						],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "This is a learning contract between Dr. Cecilia Chan from HKU and you, as a student of Aberdeen Baptist Lui Ming Choi College"
+				}, 
+				{
+						"ass_id" : 2,
+						"method" : "abs",
+						"title" : "Think think Ponder Ponder 學生先鋒敢想 - 感想  ",
+						"weight" : 16,
+						"start" : "2017-06-20 09:00",
+						"end" : "2017-11-30 18:00",
+						"skills" : {
+								"Consideration" : {
+										"act_asst_scores" : {}
+								},
+								"Creativity" : {
+										"act_asst_scores" : {}
+								},
+								"Resilience" : {
+										"act_asst_scores" : {}
+								},
+								"Self-confidence" : {
+										"act_asst_scores" : {}
+								},
+								"Teamwork" : {
+										"act_asst_scores" : {}
+								}
+						},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32, 89
+								],
+								"peer_assessors" : []
+						},
+						"items" : [ 
+								{
+										"ass_item_id" : 1,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 2,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 3,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}
+						],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "This assessment provides you with a chance to think and ponder on the activities that you have been participating in the last few days, particularly in relation to consideration, creativity, resilience, self-confidence and teamwork. Think about it, would you do things differently in the future?&nbsp;<br><ul><ul><ul><li>Consideration&nbsp;體諒&nbsp;</li><li>Creativity&nbsp;創意思維</li><li>Resilience\n抗逆力&nbsp;</li><li>Self-confidence&nbsp;自信心&nbsp;</li><li>Teamwork\n團隊合作</li></ul></ul></ul>"
+				}, 
+				{
+						"ass_id" : 3,
+						"method" : "pst",
+						"title" : "心底話 - 你做到嗎?",
+						"weight" : 84,
+						"start" : "2017-06-20 09:00",
+						"end" : "2017-11-29 18:00",
+						"skills" : {
+								"Appreciation" : {
+										"act_asst_scores" : {}
+								},
+								"Consideration" : {
+										"act_asst_scores" : {}
+								},
+								"Openness" : {
+										"act_asst_scores" : {}
+								}
+						},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32, 89
+								],
+								"peer_assessors" : []
+						},
+						"items" : [],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "<span>In this part of your assessment, I would\nlike you to reflect back the whole programme. Think about what you have learnt\nand what you have done. Is there anyone you want to share a few heartfelt words\n(心底話) with? Make a one-minute selfie video and\nshare this video with that person. Submit the video via the YOCLE system, and\ndon't worry we won't be sharing the video with others, so be truthful to\nyourself.</span>\n\n&nbsp;\n\n<br><span><br>試回顧你在全能有情教育發展硏究計劃所參與過的活動及得着。你有想感謝的人嗎？你有一些心底話想跟這個人分享嗎？請嘗試製作一個一分鐘的自拍視頻送給這個人，再把視頻上載到 YOCLE。我們不會與其他人分享你的視頻，所以希望你能夠在視頻中坦誠地分享你的想法<span>。</span></span>"
+				}, 
+				{
+						"ass_id" : 4,
+						"method" : "ref",
+						"title" : "我的日記 - My Reflective Journal at HKU",
+						"weight" : 0,
+						"start" : "2017-06-20 09:00",
+						"end" : "2017-11-30 18:00",
+						"skills" : {},
+						"panelists" : {
+								"coordinator" : 1,
+								"self" : 0,
+								"peers" : 0,
+								"others" : [ 
+										3, 
+										7, 
+										8, 
+										9, 
+										11, 
+										12, 
+										13, 
+										14, 
+										15, 
+										16, 
+										17, 
+										18, 
+										32, 89
+								],
+								"peer_assessors" : []
+						},
+						"items" : [ 
+								{
+										"ass_item_id" : 1,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 2,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}, 
+								{
+										"ass_item_id" : 3,
+										"part_item_marks" : "-",
+										"answer" : "",
+										"assessors" : {}
+								}
+						],
+						"assr_asst_completed" : {},
+						"part_asst_marks" : {},
+						"assr_asst_marks" : {},
+						"desc" : "<a target=\"_blank\" rel=\"nofollow\"><div></div></a>\t\t\t<div><div>Tell us how you feel on the day, answer the questions below.<br><br></div></div><div>告訴我們你當天的感受，回答下面的問題。<br></div>"
+				}
+		],
+		"impression" : {
+				"skills" : {
+						"Adaptability" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Collaboration" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Communication" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Creativity" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Critical thinking" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Leadership" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Resilience" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Self-confidence" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						},
+						"Contribution" : {
+								"usr_part_score" : 0,
+								"assessors" : {}
+						}
+				},
+				"panelists" : {
+						"peer_assessors" : []
+				}
+		},
+		"published" : 1,
+		"act_id" : 121,
+		"title" : "Aberdeen Baptist Lui Ming Choi College July 2017- Have, U Can Programme 全能有情教育工作坊",
+		"act_type" : "OCL-X",
+		"start" : "2017-06-20 09:00",
+		"end" : "2017-11-30 18:00",
+		"uact_coordinator" : 1,
+		"uact_assessor" : 1,
+		"uact_participant" : 0
+},

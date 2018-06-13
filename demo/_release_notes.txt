@@ -1,0 +1,46 @@
+adding
+	- yolox stamper
+	- searcher's homepage
+	- each assignment has its own period
+	- offline text chat
+	
+20160613
+	- added chole pages
+	- added activity period
+	- fixed create activity video
+	
+20160611
+	- used data.js to fill tbl_search_activity
+	
+20160601
+	- added oclx assessor
+	- added open comments by textarea and autosize.js
+	- added stamper toggle by toggle.js
+	- added GS Skill rating by jquery.star-rating-svg
+	- added GS Status by gauge.js
+
+20160531
+	- added edit func on all olcx-yolox item pages
+	- change local video to youtube video
+
+20060523
+	- added abstract
+	- added blog
+	- added participation
+	- added reflective
+
+20160520
+	- added getSelectMethod
+	- added methods
+		- abstract
+		- blog
+		- mcq
+		- participation
+		- reflective piece
+		- survey
+		
+20160519
+	- toolbar
+		- added group
+		- added image
+

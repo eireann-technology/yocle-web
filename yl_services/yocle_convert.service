@@ -1,0 +1,17 @@
+[Unit]
+Description=Yocle Convert
+
+[Service]
+ExecStart=/usr/bin/php /gdrive/_WEB/yocle/convert/convert.php
+Restart=always
+RestartSec=10
+
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=yocle_convert
+
+User=root
+Group=root
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/gdrive/_WEB/yocle/convert/

@@ -1,0 +1,21 @@
+[Unit]
+Description=Yocle Chat
+
+[Service]
+ExecStart=/usr/bin/node /gdrive/_WEB/yocle/chat/chat.js
+Restart=always
+RestartSec=10
+
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=yocle_chat
+
+User=root
+Group=root
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production PORT=8090
+WorkingDirectory=/gdrive/_WEB/yocle/chat/
+
+[Install]
+WantedBy=multi-user.target
+

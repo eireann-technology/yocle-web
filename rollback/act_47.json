@@ -1,0 +1,107 @@
+{
+    "_id" : ObjectId("5893f5093d17e649fc0071b6"),
+    "act_id" : 47,
+    "img_id" : 0,
+    "act_type" : "OCL-X",
+    "start" : "2015-12-09 09:00",
+    "end" : "2018-12-10 18:00",
+    "title" : "test act",
+    "desc" : "",
+    "published" : 1,
+    "coordinator_id" : 1,
+    "participants" : [ 
+        1, 
+        23, 
+        26
+    ],
+    "impression" : {
+        "enabled" : 1,
+        "skills" : {
+            "Problem solving" : {
+                "act_part_scores" : {},
+                "act_assr_scores" : {},
+                "act_assr_completeds" : {}
+            }
+        },
+        "panelists" : {
+            "coordinator" : 1,
+            "self" : 0,
+            "peers" : 0,
+            "others" : [ 
+                24
+            ]
+        }
+    },
+    "assessment" : {
+        "enabled" : 1,
+        "assessments" : [ 
+            {
+                "ass_id" : 1,
+                "method" : "ref",
+                "title" : "test ref",
+                "weight" : 0,
+                "start" : "2015-12-09 09:00",
+                "end" : "2015-12-10 18:00",
+                "skills" : {
+                    "Self-management" : {
+                        "act_asst_scores" : {}
+                    }
+                },
+                "panelists" : {
+                    "coordinator" : 1,
+                    "self" : 0,
+                    "peers" : 0,
+                    "others" : [ 
+                        24
+                    ]
+                },
+                "items" : [ 
+                    {
+                        "question" : "q1",
+                        "min" : "",
+                        "max" : 100,
+                        "weight" : 100
+                    }
+                ],
+                "assr_asst_completed" : {
+                    "1" : 50
+                },
+                "part_asst_marks" : {
+                    "1" : 100
+                },
+                "assr_asst_marks" : {
+                    "1,1" : 100
+                }
+            }, 
+            {
+                "ass_id" : 2,
+                "method" : "pst",
+                "title" : "My Poster",
+                "weight" : 0,
+                "start" : "2017-02-01 09:00",
+                "end" : "2018-02-02 18:00",
+                "skills" : {
+                    "Communication" : {
+                        "act_asst_scores" : {}
+                    },
+                    "Critical thinking" : {
+                        "act_asst_scores" : {}
+                    }
+                },
+                "panelists" : {
+                    "coordinator" : 1,
+                    "self" : 0,
+                    "peers" : 1,
+                    "others" : 0
+                },
+                "items" : [ 
+                    40
+                ],
+                "assr_asst_completed" : {},
+                "part_asst_marks" : {},
+                "assr_asst_marks" : {}
+            }
+        ]
+    },
+    "media" : []
+}

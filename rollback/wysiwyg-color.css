@@ -1,0 +1,93 @@
+.wysiwyg-color-black {
+  color: black;
+}
+
+.wysiwyg-color-silver {
+  color: silver;
+}
+
+.wysiwyg-color-gray {
+  color: gray;
+}
+
+.wysiwyg-color-white {
+  color: white;
+}
+
+.wysiwyg-color-maroon {
+  color: maroon;
+}
+
+.wysiwyg-color-red {
+  color: red;
+}
+
+.wysiwyg-color-purple {
+  color: purple;
+}
+
+.wysiwyg-color-fuchsia {
+  color: fuchsia;
+}
+
+.wysiwyg-color-green {
+  color: green;
+}
+
+.wysiwyg-color-lime {
+  color: lime;
+}
+
+.wysiwyg-color-olive {
+  color: olive;
+}
+
+.wysiwyg-color-yellow {
+  color: yellow;
+}
+
+.wysiwyg-color-navy {
+  color: navy;
+}
+
+.wysiwyg-color-blue {
+  color: blue;
+}
+
+.wysiwyg-color-teal {
+  color: teal;
+}
+
+.wysiwyg-color-aqua {
+  color: aqua;
+}
+
+.wysiwyg-color-orange {
+  color: orange;
+}
+.input_wysihtml5 *{
+/*	font-size: 16px;*/
+/*font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;*/
+
+/* remarked by alantypoon 20161129*/
+/*
+	font-variant-ligatures: normal;
+	font-variant-caps: normal;
+	color: rgb(0, 0, 0);
+	cursor: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: start;
+	text-decoration: none;
+	text-indent: 0px;
+	text-rendering: auto;
+	word-break: normal;
+	word-wrap: break-word;
+	word-spacing: 0px;
+	background-color: rgb(255, 255, 255);
+	height:auto;
+*/	
+}

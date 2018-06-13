@@ -1,0 +1,25 @@
+.div_transdiv {
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.div_transdiv > div {
+    position: relative;
+}
+.div_transdiv > div > div{
+    position: absolute;
+}
+
+.div_transdiv > div > div:nth-child(1) {
+    left:0px;
+    background-color: red;
+}
+.div_transdiv > div >  div:nth-child(2) {
+    background-color: green;
+}
+body{
+    margin:0px;
+}
+#div_trans1, .div_transdiv > div > div{
+    height:600px;
+}

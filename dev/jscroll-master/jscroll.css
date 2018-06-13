@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+body, html {
+	background: #666 url(body-bg.jpg) repeat-x top;
+}
+body {
+	text-align: center;
+	font: 76%/1.5 Verdana, Geneva, sans-serif;
+	color: #333;
+}
+#wrapper {
+	width: 980px;
+	margin: 12px auto 0;
+	background: #fff url(wrapper-bg.jpg) repeat-y center;
+	text-align: left;
+}
+#header {
+	width: 100%;
+	height: 168px;
+	background: url(header-bg.jpg) no-repeat 0 0;
+}
+h1 {
+	width: 168px;
+	height: 71px;
+	text-indent: -9999px;
+	font-size: 0;
+	background: url(jscroll-logo.png) no-repeat 0 0;
+	position: absolute;
+	margin: 50px 0 0 40px;
+}
+h1 a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#nav {
+	margin: 80px 40px 0 0;
+}
+#nav li {
+	float: left;
+}
+#nav li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font: bold 1.2em/1 "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px 10px;
+}
+#nav li a:hover {
+	color: #fc0;
+	background: #00202f;
+}
+#content {
+	width: 100%;
+	background: url(content-bg.jpg) no-repeat 0 0;
+	min-height: 131px;
+	padding: 20px 0;
+}
+#main {
+	margin-left: 40px;
+	width: 600px;
+}
+#side {
+	margin-right: 40px;
+	width: 270px;
+	font-size: .9em;
+}
+h2 {
+	font: bold 1.6em "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h2, h3, h4, h5, p, pre {
+	margin: 0 0 10px;
+}
+h2 {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px dotted #aaa;
+}
+h2:first-child {
+	margin-top: 0;
+	padding-top: 0;
+	border: none;
+}
+h3 {
+	font-size: 1.2em;
+	color: #666;
+}
+abbr {
+	border-bottom: 1px dotted #ccc;
+}
+#content a {
+	color: #005d8c;
+	text-decoration: none;
+	border-bottom: 1px dotted #005d8c;
+}
+#content a:hover {
+	color: #000;
+	border-color: #000;
+}
+.thumb {
+	float: left;
+	display: inline;
+	margin: 0 10px 0 0;
+}
+#content .thumb a {
+	border: none;
+}
+.thumb img {
+	padding: 2px;
+	border: 1px solid #aaa;
+}
+.thumb a:hover img {
+	border-color: #005d8c;
+}
+pre {
+	background: #f0f0f0;
+	border: 1px dotted #aaa;
+	padding: 5px 10px;
+	font-size: .9em;
+	overflow-x: auto;
+}
+pre, code {
+	font-family: "Courier New", Courier, monospace;
+	color: #00496c;
+}
+table {
+	width: 100%;
+	margin-bottom: 10px;
+}
+tr.alt td {
+	background: #f3f3f3;
+}
+th {
+	background: #00496c;
+	color: #fff;
+	padding: 2px 5px;
+	border-color: #00496c;
+}
+th.key {
+	width: 15%;
+}
+th.default {
+	width: 35%;
+	white-space: nowrap;
+}
+td {
+	border: 1px solid #ddd;
+	padding: 5px;
+	vertical-align: top;
+}
+#footer {
+	width: 980px;
+	background: url(footer-bg.jpg) no-repeat 0 0;
+	padding-top: 10px;
+	margin: 0 auto 20px;
+	text-align: left;
+	font-size: .9em;
+	color: #eee;
+}
+#footer a {
+	color: #fc0;
+}
+#footer a:hover {
+	color: #fff;
+}
+.scroll {
+	border: 1px solid #aaa;
+	padding: 5px 10px;
+	height: 200px;
+	overflow-y: scroll;
+	margin: 20px 0;
+	background: #ffc;
+}
+.sponsored {
+    margin-top: 20px;
+}
+#side .sponsored {
+    padding-top: 20px;
+    border-top: 1px dotted #aaa;
+}
+.next {
+    text-align: center;
+    margin: 10px 0;
+}
+.jscroll-loading {
+    text-align: center;
+    background: url(loading.gif) no-repeat center;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-indent: -9999px;
+}
+hr {
+    border-top: 1px solid #aaa;
+    margin: 10px 0;
+}
+small {
+    font-size: .9em;
+    color: #999;
+}

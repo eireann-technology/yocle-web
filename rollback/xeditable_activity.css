@@ -1,0 +1,72 @@
+.editable-activity {
+	font-weight:bold;
+	display: block;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+
+.activity_sharing{
+	width: 80px;
+	font-size: 14px;
+	font-weight:bold;
+	text-align:right;
+}
+.activity_selection{
+	width: 175px;
+	text-align: right;
+}
+.activity_period{
+	font-weight:normal;
+	font-size:14px;
+}
+.activity_outer{
+	padding:4px;
+	font-size: 14px;
+	width: 965px;
+}
+.activity_outer label{
+	font-size:12px;
+	width:60px;
+}
+.activity_outer .feedback{
+	width:100%;
+	text-align:justify;
+}
+#profile_blocks table.activity_feedback{
+	padding-top:6px;
+	padding-left: 0px;
+	width:100%;
+}
+
+.feedback_date{
+	font-weight:normal;
+	white-space: nowrap;	
+	vertical-align: top;
+	text-align: left;
+	color:#808080;
+	width:80px;
+}
+.feedback_assessor{
+	font-weight:normal;
+	white-space: nowrap;	
+	vertical-align: top;
+	text-align: left;
+	color:#808080;
+	width:120px;
+}
+.feedback_comments{
+	text-align:justify;
+	color:#808080;
+}
+.activity_title2, .activity_type{
+	font-size: 14px;
+}
+.activity_title2{
+	font-weight:bold;
+	cursor:pointer;
+	color: #428bca;
+	white-space:normal;
+}
+.activity_title2:hover{
+	text-decoration:underline;
+}
