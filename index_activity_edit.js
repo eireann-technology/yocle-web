@@ -321,11 +321,8 @@ function editActivity(act_id, acttab_index){
 
 	console.info('editActivity act_id=' + act_id, acttab_index);
 
-	//if (g_saved_activity && act_id == g_saved_activity.act_id){
+	$('.div_editact, #div_editact_btn_panel').hide();
 
-	//	editActivity2(g_saved_activity, acttab_index);
-
-	//} else
 	{
 		openProgress2('Processing...');
 		call_svrop(
@@ -455,8 +452,6 @@ function editActivity2(activity, acttab_index){
 		})
 	;
 
-	// REFRESH BUTTONS
-	showActBtnPanel()
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -468,6 +463,7 @@ function reduceCountDown(s, acttab_index){
 		closeProgress2();
 		setSavedAct(g_saved_activity);
 		showActTab(acttab_index);
+		showActBtnPanel();		
 	}
 }
 

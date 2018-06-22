@@ -459,7 +459,8 @@ function getTruncatedScore($score){
 //////////////////////////////////////////
 
 function obj_count($obj){
-	return count($obj);
+	//return count($obj);
+	return isset($obj) ? count(get_object_vars($obj)) : 0;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////

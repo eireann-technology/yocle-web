@@ -1151,6 +1151,9 @@ function openProgress2(s){
 		waitingDialog.show(s);	// https://github.com/ehpc/bootstrap-waitingfor
 	}
 }
+
+/////////////////////////////////////////////////////////////////////////////////////
+
 function closeProgress2(){
 	//NProgress.stop();
 	if (g_progress_opened){
@@ -1604,7 +1607,7 @@ function changeBodyView(page){
 		$('.bodyview_lvl1').hide();
 		switch (page){
 			case TAB_HOME:					$('#tab_home').show();		break;
-			case TAB_ACTIVITY:				$('#tab_activity').show();	break;
+			case TAB_ACTIVITY:			$('#tab_activity').show();	break;
 			case TAB_PEERS:					$('#tab_peers').show();		break;
 			case TAB_PROFILE:				$('#tab_profile').show();	break;
 		}

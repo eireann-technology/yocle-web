@@ -54,7 +54,7 @@
 
 				<div class="actpage_header">Material <div class="div_material_hdr">File formats: png, mp4, bmp, gif, jpg, mp3, pdf</div></div>
 
-				<input id="uploader_viewass_general" style="display:none" class="uploader" type="file" accept="image/*, video/*, audio/*, capture=camcorder, .pdf" data-title="Add">
+				<input class="uploader uploader_viewass_general" style="display:none" type="file" accept="image/*, video/*, audio/*, capture=camcorder, .pdf" data-title="Add">
 
 			</a>
 			<div class="div_indent">

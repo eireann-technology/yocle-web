@@ -44,7 +44,7 @@ function goStartPage(){
 		//viewActivity(138);
 		//editActivity(138);
 
-		openMessengerList(); return;
+		//openMessengerList(); return;
 
 		//viewActivity(81);
 

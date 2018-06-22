@@ -17,6 +17,10 @@ function initViewAct(){
 		var act_id = parseInt(jdiv.attr('act_id'));
 		editActivity(act_id, g_acttab_index);
 	});
+	jdiv.find('.btn_viewact_export').click(function(){
+		var act_id = parseInt(jdiv.attr('act_id'));
+		exportActivity(act_id);
+	})
 
 	jdiv.find('.btn_viewact_submit').click(function(){
 		switch (g_acttab_index){
@@ -37,7 +41,7 @@ function initViewAct(){
 	});
 
 	// uploader
-	var 
+	var
 		juploader = $('#uploader_viewact'),
 		jgallery = $('#gallery_viewact'),
 		bEditable = 1 //g_curr_role != 'participant'
@@ -395,6 +399,7 @@ function viewActivity(act_id, acttab_index){
 	}
 
 	$('.div_act_tabs, #view_act_title_ass, .tbl_ass_tabs, #div_activity_view .btn_panel').show();
+	$('.div_viewact, #div_viewact_btn_panel').hide();
 
 	// GET USER ACTIVITY
 	var uact = getUact(act_id);
@@ -407,7 +412,7 @@ function viewActivity(act_id, acttab_index){
 		return;
 	}
 
-	
+
 	if (uact.published == 0){
 
 		$('#tab_activity, #div_activity_view').show();	// for better testing
@@ -416,7 +421,7 @@ function viewActivity(act_id, acttab_index){
 	} else {
 
 		openProgress2('Loading...');
-		
+
 		// load user page
 		call_svrop(
 			{
@@ -425,7 +430,7 @@ function viewActivity(act_id, acttab_index){
 			},
 			function (obj){
 				console.info('succeeded', obj);
-				closeProgress2();
+				//closeProgress2();
 
 				if (!obj.activity){
 					// may be deleted
@@ -659,11 +664,7 @@ function viewActivity(act_id, acttab_index){
 				;
 
 				// RUBRICS
-				//refreshEditActRubrics(activity);
 				refreshEditActRubrics(activity.assessment.assessments);
-
-				// BUTTONS
-				showActBtnPanel();
 
 				//////////////////////////////////////////////////////
 				// GET CURRENT PEER ASSESSEES
@@ -680,6 +681,10 @@ function viewActivity(act_id, acttab_index){
 						updatePeerAssesseesArr(obj.arr);
 
 						showActTab(g_saved_acttab_index);
+
+						showActBtnPanel();
+
+						closeProgress2();
 					}
 				);
 			},
@@ -748,8 +753,13 @@ function showViewActBtnPanel(){
 		jpanel.show();
 		if (btn_edit){
 			$('.btn_viewact_edit').show();
+			if (g_platform == 'web'){
+				$('.btn_viewact_export').show();
+			} else {
+				$('.btn_viewact_export').hide();
+			}
 		} else {
-			$('.btn_viewact_edit').hide();
+			$('.btn_viewact_edit, .btn_viewact_export').hide();
 		}
 		if (btn_submit){
 			$('.btn_viewact_submit').show();
@@ -760,3 +770,62 @@ function showViewActBtnPanel(){
 		jpanel.hide();
 	}
 }
+
+////////////////////////////////////////////////////////////////////////
+
+function exportActivity(act_id){
+///*
+	var
+		folder = getMediaFolder(),
+		url = folder + '../export/export_act_excel.php?act_id=' + act_id
+	;
+
+	// option 1: direct the http response to iframe
+	//var s = '<iframe id="ifrm_export" src="' + url + '"></iframe>';
+	//$('#div_export').html(s);
+
+	// option 2: save the file, and open the file in iframe
+	openProgress2('Processing...');
+	$.ajax({
+		type: 'POST',
+		url: url,
+		async: true,
+		dataType: 'json',
+		data: {
+			act_id: act_id,
+		},
+		success: function (obj){
+			console.log('success', obj);
+			closeProgress2();
+			setTimeout(function(){
+				var url2 = folder + '../export_act/' + obj.file;
+				var s = '<iframe id="ifrm_export" src="' + url2 + '"></iframe>';
+				$('#div_export').html(s);
+			}, 250);
+		},
+		error: function(jqXHR, textStatus, errorThrown){
+			console.error('error', jqXHR, textStatus, errorThrown);
+			closeProgress2();
+			errorDialog('Error in exporting.');
+		},
+	});
+
+	//checkExportComplete();
+}
+/*
+/////////////////////////////////////////////////////////////////
+
+function checkExportComplete(){
+	var
+		iframe = $('#ifrm_export')[0],
+ 		iframeDoc = iframe.contentDocument || iframe.contentWindow.document,
+		state = iframeDoc.readyState
+	;
+	console.log(state);
+	if (state == 'complete'){
+		closeProgress2();
+	} else {
+		setTimeout(checkExportComplete, 1000);
+	}
+}
+*/

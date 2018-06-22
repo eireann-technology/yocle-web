@@ -20,17 +20,17 @@ var isMobile = {
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 // newwin
-// 
+//
 // url = datatable_level2.php
 // jsfunc = setDataTable('1','<div> ..... </div>')";
 // e.g.	open_newwin("datatable_level3.php", "setDataTable('"+arg1+"','"+arg2+"')");
 function open_newwin(url, jdiv, callback, obj){
 	console.info('open_newwin', url);
 	var bSuccess = 0;
-/*	
+/*
 	//alert('platform: ' + g_platform);
 	switch (g_platform){
-		
+
 		case 'ios':
 		case 'android':
 			//var jsfunc = "setNewWinDiv('" + jdiv.html() + "', '" + g_platform + "', '" + callback + "', '" + JSON.stringify(obj) + "')";
@@ -38,7 +38,7 @@ function open_newwin(url, jdiv, callback, obj){
 			var url2 = (!g_bProduction ? 'dev/' + url : url) + ('?separate='+g_separate) ;
 			//alert(url2+','+jsfunc);
 			switch (g_platform){
-				
+
 				case 'ios':
 					//alert('call ios postMessage:\r\n\r\n' + url2 + ', ' + jsfunc);
 					//window.location = "newwin://" + url2 + ">" + jsfunc;
@@ -53,7 +53,7 @@ function open_newwin(url, jdiv, callback, obj){
 					}
 					//alert(3);
 					break;
-					
+
 				case 'android':
 					if (typeof app != "undefined"){
 						app.newwin(url2, jsfunc);
@@ -63,7 +63,7 @@ function open_newwin(url, jdiv, callback, obj){
 			}
 			break;
 	}
-*/	
+*/
 	// UNUSED!!!
 	if (!bSuccess){
 		// windows desktop
@@ -97,7 +97,7 @@ function newwin_callback(callback, obj){
 function backwin(callback, obj){
 	var jsfunc = 'backwin_callback("' + callback + '", "' + JSON.stringify(obj) + "')";
 	switch (g_platform){
-		
+
 		case 'ios':
 			if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.app && window.webkit.messageHandlers.app.postMessage){
 				try {
@@ -106,7 +106,7 @@ function backwin(callback, obj){
 				} catch(e){}
 			}
 			break;
-			
+
 		case 'android':
 			if (typeof app != "undefined")	{
 				app.backwin(jsfunc);
@@ -121,7 +121,7 @@ function backwin_callback(callback, sobj){
 	//alert('backwin_callback: ' + callback);
 	switch (callback){
 		default:
-		break;
+			break;
 	}
 }
 
@@ -130,17 +130,17 @@ function backwin_callback(callback, sobj){
 
 // jsonstr = {\"status\":\"2\",\"uri\":\"people/m10.jpg\",\"name\":\"Chan Tai Man\"}";  status = 1 (not login), status = 2 (logoned)
 /*
-	After logon, call 
-	jsonstr = {\"status\":\"2\",\"uri\":\"people/m10.jpg\",\"name\":\"Chan Tai Man\"}"; 
+	After logon, call
+	jsonstr = {\"status\":\"2\",\"uri\":\"people/m10.jpg\",\"name\":\"Chan Tai Man\"}";
 
 	After logout, call
-	jsonstr = {\"status\":\"1\",\"uri\":\"\",\"name\":\"\"}"; 
+	jsonstr = {\"status\":\"1\",\"uri\":\"\",\"name\":\"\"}";
 */
 /*
 function changeprofile(jsonstr){
 	if (isMobile.Android()){
 		if(typeof app != "undefined")	{
-			app.changeprofile(jsonstr);		
+			app.changeprofile(jsonstr);
 		}
 	} else if(isMobile.iOS()) {
 		window.location = "changeprofile://"+jsonstr;
@@ -153,16 +153,17 @@ function changeprofile(jsonstr){
 
 function changeprofile(jsonstr){
 	switch (g_platform){
+
 		case 'android':
 			if (typeof(app) != "undefined"){
 				try {
-					app.changeprofile(jsonstr);		
+					app.changeprofile(jsonstr);
 				} catch (e){
 					alert(e?e.message:'error1');
 				}
 			}
 			break;
-			
+
 		case 'ios':
 			if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.app && window.webkit.messageHandlers.app.postMessage){
 				try {
@@ -171,7 +172,7 @@ function changeprofile(jsonstr){
 				} catch (e){
 					alert(e?e.message:'error2');
 				}
-			}	
+			}
 			break;
 	}
 }
@@ -180,27 +181,27 @@ function changeprofile(jsonstr){
 
 // 1. setup
 // jsonstr = {\"menuitems\":[{\"anchor\":\"paragraph1\",\"title\":\"Paragraph 1\"}, {\"anchor\":\"paragraph2\",\"title\":\"Paragraph 2\"},{\"anchor\":\"paragraph3\",\"title\":\"Paragraph 3\"},{\"anchor\":\"paragraph4\",\"title\":\"Paragraph 4\"},{\"anchor\":\"paragraph5\",\"title\":\"Paragraph 5\"},{\"anchor\":\"paragraph6\",\"title\":\"Paragraph 6\"},{\"anchor\":\"paragraph7\",\"title\":\"Paragraph 7\"},{\"anchor\":\"paragraph8\",\"title\":\"Paragraph 8\"}]}";
-			
+
 // 2. anchor in html
 // <p><a name="paragraph2">Paragraph 2</a><br><br>
 
 // 3. remove anchors
-// jsonstr = "{\"menuitems\":[]}";	
+// jsonstr = "{\"menuitems\":[]}";
 
 /*
 function cmenu(jsonstr) {
  if(isMobile.Android()) {
 		if(typeof app != "undefined")	{
-			app.cmenu(jsonstr);		
+			app.cmenu(jsonstr);
 			return;
 		}
-	}	
+	}
 	else if(isMobile.iOS()) {
 		window.location = "cmenu://"+jsonstr;
 		return;
 	}
 	else { // windows desktop
-	
+
 	}
 }
 */
@@ -214,13 +215,13 @@ function cmenu(json){
 		case 'android':
 			if (typeof(app) != "undefined"){
 				try {
-					app.cmenu(jsonstr);		
+					app.cmenu(jsonstr);
 				} catch (e){
 					alert(e?e.message:'error1');
 				}
 			}
 			break;
-			
+
 		case 'ios':
 			if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.app && window.webkit.messageHandlers.app.postMessage){
 				try {
@@ -229,7 +230,7 @@ function cmenu(json){
 				} catch (e){
 					alert(e?e.message:'error2');
 				}
-			}	
+			}
 			break;
 	}
 }
@@ -243,18 +244,18 @@ function goto(hash) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function external_call(command, arg1){
-	
+
 	//alert('external_call:' + command + ', ' + arg1);
-	
+
 	if (command) command = command.trim();
 	if (arg1) arg1 = arg1.trim();
-	
+
 	switch (command){
-		
+
 		case 'notify_token':
 			var token = arg1;
 			//alert('token=***' + token + '***\r\n\r\nplatform=' + g_platform + '\r\n\r\nurl=' + my_server_url());
-			
+
 			// update to server
 			call_svrop(
 				{
@@ -266,17 +267,17 @@ function external_call(command, arg1){
 				function (obj){
 					console.info('notify_token completed');
 				}
-			);	
+			);
 			break;
-		
+
 		case 'home':
-			openHome();			
+			openHome();
 			break;
-			
+
 		case 'profile':
 			openProfile();
 			break;
-			
+
 		case 'activity':
 			openActivityList();
 			break;
@@ -284,30 +285,30 @@ function external_call(command, arg1){
 		case 'schedule':
 			openSchedule();
 			break;
-			
+
 		case 'logout':
 			goLogOut();
 			break;
-			
+
 		case 'messenger':
 			//alert('messenger');
 			openMessengerList();
 			break;
-			
+
 		case 'whats_up':
 			//alert('whats_up');
 			openWhatsup();
 			break;
-			
+
 		case 'peers':
 			openPeers();
 			break;
-			
+
 		default:
 			alert('unknown external_call:' + command + ', ' + arg1);
 			break;
 	}
-	
+
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -320,52 +321,31 @@ function sendNotification(msg){
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-function showhideactionbar(i){ // i=0 hide the bar, i=1 show the bar
+function showhideactionbar(show){ // i=0 hide the bar, i=1 show the bar
 	//return;
-	//alert('showhideactionbar: ' + i + ' ' + g_platform);	
+	//alert('showhideactionbar: ' + i + ' ' + g_platform);
 	//return;
-	
+	show = 0; // permanantly disabled 20180620
+
 	switch (g_platform){
-		
+
 		case 'ios':
 			if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.app && window.webkit.messageHandlers.app.postMessage){
 				try {
-					window.webkit.messageHandlers.app.postMessage({'cmd': 'showhideactionbar://'+i});
-					bSuccess = 1;
+					window.webkit.messageHandlers.app.postMessage({'cmd': 'showhideactionbar://' + show});
+					//bSuccess = 1;
 				} catch(e){}
 			}
 			break;
-			
+
 		case 'android':
-			//alert('showhideactionbar(start): ' + i);	
+			//alert('showhideactionbar(start): ' + i);
 			try {
 				if (typeof app != "undefined")	{
-					app.showhideactionbar(i);
+					app.showhideactionbar(show);
 				}
 			} catch (e){}
-			//alert('showhideactionbar(end): ' + i);	
-			break;
-	}
-}
-
-//////////////////////////////////////////////////////////////////////////////////////////
-
-function enabledisablepullrefresh(i){ // i=0 hide the bar, i=1 show the bar
-	//alert('showhideactionbar: ' + i + ' ' + g_platform);	
-	
-	switch (g_platform){
-		
-		case 'ios':
-			break;
-			
-		case 'android':
-			//alert('showhideactionbar(start): ' + i);	
-			try {
-				if (typeof app != "undefined")	{
-					app.enabledisablepullrefresh(i);
-				}
-			} catch (e){}
-			//alert('showhideactionbar(end): ' + i);	
+			//alert('showhideactionbar(end): ' + i);
 			break;
 	}
 }
@@ -376,7 +356,7 @@ function storeLogonSession(){
 	switch (g_platform){
 		case 'ios':
 			break;
-			
+
 		case 'android':
 			try {
 				if (typeof app != "undefined")	{
@@ -385,4 +365,38 @@ function storeLogonSession(){
 			} catch (e){}
 			break;
 	}
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+function enabledisablepullrefresh(i){ // i=0 disable, i=1 enable
+
+	var bSuccess = 0;
+
+	switch (g_platform){
+
+		case 'ios':
+
+			if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.app && window.webkit.messageHandlers.app.postMessage){
+				try {
+					window.webkit.messageHandlers.app.postMessage({'cmd': 'pullrefresh://'+i});
+					bSuccess = 1;
+				} catch(e){}
+			}
+			break;
+
+		case 'android':
+			//alert('showhideactionbar(start): ' + i);
+			try {
+				if (typeof app != "undefined")	{
+					app.enabledisablepullrefresh(i);
+					bSuccess = 1;
+				}
+			} catch (e){}
+			//alert('showhideactionbar(end): ' + i);
+			break;
+	}
+	//alert('enabledisablepullrefresh: ' + i + ' platform=' + g_platform + ' success=' + bSuccess);
+
 }

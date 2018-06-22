@@ -1,3 +1,9 @@
+tom's testing
+* assessment level material (e.g.blog participant)
+* missing messenger's head photo
+* msg_arr or messages error
+* edit blog send to friends, if none, error
+
 * 5-star assessor's view
 * 5-star participant's view
 * 5-star coordinator's editing view

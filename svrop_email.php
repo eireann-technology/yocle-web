@@ -112,7 +112,7 @@ function sendEmail_confirmation($username, $email, $secret_token){
 	$url = "$server/?confirmed_email=$email&secret_token=$secret_token";
 	$url = '<a href="' . $url . '">' . $url . '</a>';
 	$subject = 'Yocle Account Confirmation';
-	$body = "Dear $username,$CR$CRThank you for signing up with Yocle. Please click the following link to continue:$CR$CR $url $CR$CR Best regards,$CR$CR Yocle Team";
+	$body = "Dear $username,$CR$CR Thank you for signing up with Yocle. Please click the following link to continue:$CR$CR $url $CR$CR Best regards,$CR$CR Yocle Team";
 	return sendEmail(EMAIL_SENDER_ADRS, $recipients, $subject, $body);
 }
 

@@ -21,6 +21,17 @@ $method_arr = [
 //	'wik' => 'Wikis',
 ];
 
+$sur_arr = [
+	['Yes', 'No'],
+	['Agree', 'Disagree'],
+	['1', '2', '3'],
+	['1', '2', '3', '4', '5'],
+	['Strongly agree', 'Agree', 'Neutral', 'Disagree', 'Strongly disagree'],
+	['Always', 'Often', 'Sometimes', 'Occasionally', 'Rarely', 'Never'],
+	[],	// open comments
+];
+
+
 /*
 	'Abstract', ///Dissertation/Essay/Reviews',
 	'Application',///Report',

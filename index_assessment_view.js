@@ -71,11 +71,18 @@ function initViewAsst(){
 		addPrtRubrics();
 	})
 
-	initUploader(
-		$('.uploader_viewass_general'),
-	 	$('.gallery_viewass_general'),
-		'assessment', {act_id: 0, ass_id: 0})
-	;
+	// uploader
+	jdiv.find('.uploader_viewass_general').each(function(){
+		var
+			juploader = $(this),
+			jgallery = juploader.parent().parent().find('.gallery_viewass_general')
+		;
+		initUploader(
+			juploader,
+		 	jgallery,
+			'assessment', {act_id: 0, ass_id: 0}
+		);
+	})
 
 	// add asst stars
 	jdiv.find('.div_asst_stars').html(getDivStar(0, '<b>Score:</b> ', 1));

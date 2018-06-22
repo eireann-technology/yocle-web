@@ -352,8 +352,13 @@
 
 		<div id="div_viewact_btn_panel" class="btn_panel">
 			<button class="btn_viewact_edit btn btn-success"><i class="glyphicon glyphicon-edit"></i> Edit Activity</button>
+			<button class="btn_viewact_export btn btn-success"><i class="glyphicon glyphicon-export"></i> Export to Excel</button>
 			<button class="btn_viewact_submit btn btn-primary"><i class="glyphicon glyphicon-send"></i> Submit Assessment</button>
 		</div>
 
 	</div>
 </div>
+<!--
+<iframe id="ifrm_export" style="display:none"></iframe>
+-->
+<div id="div_export" style="display:none"></div>
