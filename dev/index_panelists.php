@@ -1,6 +1,6 @@
 	<!--<div class="subsection_header">Assessors</div>-->
-	
-	<table class="tbl_panelists layout_box" border="0"> 
+
+	<table class="tbl_panelists layout_box" border="0">
 
 		<tr>
 			<td>
@@ -28,7 +28,7 @@
 				Peers
 			</td>
 		</tr>
-		
+
 		<tr class="tr_peers" style="display:none">
 			<td>
 				&nbsp;
@@ -49,10 +49,10 @@
 				Other assessors <span class="span_others_num"></span>
 			</td>
 		</tr>
-		
+
 		<tr class="tr_others">
-			<td colspan="2"> 
-				<div class="div_assessors">
+			<td colspan="2">
+				<div class="div_select_typeahead div_assessors" type="users">
 					<?php include 'find_users.php'?>
 				</div>
 			</td>

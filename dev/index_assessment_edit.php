@@ -104,7 +104,7 @@
 
 		<!--GENERIC SKILLS-->
 		<div class="actpage_header" style="">Generic Skills</div>
-		<div>
+		<div class="div_select_typeahead" type="skills">
 			<?php include 'find_skills.php'?>
 		</div>
 

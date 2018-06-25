@@ -20,3 +20,6 @@ body {
 .div_stat{
   padding:10px 0px;
 }
+#div_import_users .uploader_label{
+  width:200px;
+}

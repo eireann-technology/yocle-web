@@ -161,6 +161,7 @@ function getFileCat($file_mime){
 
 		case 'plain':
 		case 'vnd.ms-excel':
+		case 'csv':
 			$file_cat = 'text';
 			break;
 	}
@@ -399,7 +400,7 @@ function uploadByResumable(){
 // https://gist.github.com/jaywilliams/119517
 // convert_ascii
 
-function convert_ascii($string){ 
+function convert_ascii($string){
 
   $search[]  = chr(160);
 	$replace[] = " ";
@@ -433,7 +434,7 @@ function convert_ascii($string){
   $string = str_replace($search, $replace, $string);
   // Remove any non-ASCII Characters
   $string = preg_replace("/[^\x01-\x7F]/","", $string);
-  return $string; 
+  return $string;
 }
 
 function mytrim($str) {
@@ -446,9 +447,9 @@ function cmp($a, $b){
 
 function import_users($users, $apply){
 	global $dummy_birthday;
-	
+
 	$users2 = [];
-	
+
 	$creates = [];
 	$updates = [];
 	$warnings = [];
@@ -457,19 +458,19 @@ function import_users($users, $apply){
 	//usort($users, 'cmp');
 
 	foreach ($users as $line){
-		
+
 		$line = convert_ascii($line);
 
 		$arr = explode(',', $line);
 
 		$user_id = 0;
 		$gender = '';
-		
+
 		$ncol = sizeof($arr);
 		//echo $ncol;
-		
+
 		$error = 0;
-		
+
 		switch ($ncol){
 			case 1:
 				///////////////////////////////////////////////////
@@ -479,7 +480,7 @@ function import_users($users, $apply){
 				$line = "$email,$username,M,$dummy_birthday";
 				$arr = explode(',', $line);
 				break;
-				
+
 			case 4:
 				// standard format
 				//
@@ -491,7 +492,7 @@ function import_users($users, $apply){
 				// 2: gender
 				// 3: birthday
 				break;
-				
+
 			case 10:
 			case 11:
 			case 12:
@@ -510,7 +511,7 @@ function import_users($users, $apply){
 					$arr = [$email, "$surname $firstname ($grp_id)", $gender, $birthday];
 				}
 				break;
-				
+
 			case 18:
 			case 19:
 			case 20:
@@ -531,13 +532,13 @@ function import_users($users, $apply){
 					$arr = [$email, "$fullname ($grp_id)", $gender, $birthday];
 				}
 				break;
-				
+
 			default:
 				array_push($warnings, "<b>invalid format</b>: $line ($ncol)");
 				$error = 1;
 				break;
 		}
-		
+
 		if (!$error && $gender != 'F' && $gender != 'M'){
 			array_push($warnings, "<b>invalid gender</b>: $line ($ncol)");
 			$error = 1;
@@ -561,7 +562,7 @@ function import_users($users, $apply){
 				$birthday = $dummy_birthday;
 			}
 			$user = checkUserExists($email);
-			
+
 			// not exist or not confirmed
 			$secret_token = '';
 
@@ -575,7 +576,7 @@ function import_users($users, $apply){
 			} else {
 				$status = CREATEUSER_UPDATED;
 				$user_id = $user->user_id;
-				
+
 				// don't change the password
 				if ($user->pwd != ''){
 					$pwd = $user->pwd;
@@ -583,7 +584,7 @@ function import_users($users, $apply){
 				if ($user->birthday != ''){
 					$birthday = $user->birthday;
 				}
-				
+
 				if (
 						!strcmp($user->username, $username)
 					&&
@@ -592,13 +593,13 @@ function import_users($users, $apply){
 						!strcmp($user->birthday, $birthday)
 				){
 					$status = CREATEUSER_SAME;
-					
+
 				} else {
-					
+
 					if (strcmp($user->username, $username)){
 						array_push($updates, "<b>$user->username($user_id) updated username</b>: $username");
 					}
-					
+
 					if (strcmp($user->gender, $gender)){
 						array_push($updates, "<b>$user->username($user_id) updated gender</b>: $user->gender -> $gender");
 					}
@@ -606,8 +607,8 @@ function import_users($users, $apply){
 					if (strcmp($user->birthday, $birthday)){
 						array_push($updates, "<b>$user->username($user_id) updated birthday</b>: $user->birthday -> $birthday");
 					}
-					
-					if ($apply){					
+
+					if ($apply){
 						$user_id = updateUser($user, $email, $pwd, $username, $gender, $birthday, $secret_token);
 					}
 				}
@@ -632,7 +633,7 @@ function import_users($users, $apply){
 		'apply' => $apply,
 	];
 	//print_json($output);
-	
+
 	return $output;
 }
 

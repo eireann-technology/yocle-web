@@ -302,9 +302,10 @@ function initEditAct(){
 	var jtbl2 = $('#div_activity_edit');
 	initBasicLinked(jtbl2, [50, 50]);
 
-	jdiv.find('.but_import').click(function(){
-		import_users(jtbl);
-	});
+	//var jtokenfield = jdiv.find('.div_participants');
+	//jdiv.find('.but_import').click(function(){
+	//	import_users(jtokenfield);
+	//});
 }
 
 ///////////////////////////////////////////////////////
@@ -463,7 +464,7 @@ function reduceCountDown(s, acttab_index){
 		closeProgress2();
 		setSavedAct(g_saved_activity);
 		showActTab(acttab_index);
-		showActBtnPanel();		
+		showActBtnPanel();
 	}
 }
 
@@ -1381,3 +1382,152 @@ function showEditActBtnPanel(){
 		}
 	}
 }
+
+///////////////////////////////////////////////////////////////
+// UpdateImportUsers
+///////////////////////////////////////////////////////////////
+
+function updateImportUsers(users, warnings){
+
+	// prepare table
+	var jtbl = $('.my_datatable'), dt = 0;
+	if (!jtbl.hasClass('dataTable')){
+		dt = jtbl.DataTable({
+			ordering: true,	// otherwise, the list is difficult to trace
+			rowReorder: true,
+			autoWidth: false,
+			bPaginate: false,
+			dom: '',
+			language:{
+				emptyTable: '',
+				zeroRecords: '',
+			},
+			columnDefs: [
+				//{	targets: [ 0 ],	orderable: false,	},
+			],
+			"order": [[ 1, "asc" ]],
+		});
+	} else {
+		dt = jtbl.show().DataTable().clear().draw();
+	}
+
+	var ncreated = 0, nupdated = 0, nsame = 0, user_ids = [];
+	if (users){
+		for (var i = 0; i < users.length; i++){
+			var user = users[i];
+			console.log(user);
+			dt.row.add([
+				user.user_id,
+				user.email,
+				user.username,
+				user.status
+			]);
+			switch (user.status){
+				case 'created': ncreated++; break;
+				case 'updated': nupdated++;	break;
+				case 'same': nsame++;	break;
+			}
+			if (user.user_id){
+				user_ids.push(user.user_id);
+			}
+		}
+		dt.draw();
+	}
+
+	user_ids.sort(function(a,b){return a-b});
+
+	$('#span_created').text(ncreated);
+	$('#span_updated').text(nupdated);
+	$('#span_same').text(nsame);
+	$('#span_users').text(user_ids.join(', '));
+	$('#span_warnings').html(warnings.join('<br/>'));
+
+	if (ncreated || nupdated){
+		$('#but_apply').show();
+	} else {
+		$('#but_apply').hide();
+	}
+}
+
+/*
+////////////////////////////////////////////////////////
+
+function import_users(jtbl){
+	// ***TO BE TESTED AND REPLACED BY BODYVIEW
+	g_lightbox = $.featherlight($("#div_import_users"), {
+		afterClose: function(){
+			return false;
+		},
+		afterContent: function(){
+			var
+				jdiv = this.$content,
+				jdiv_input = jdiv.find('.div_import_input'),
+				jdiv_output = jdiv.find('.div_import_output')
+			;
+			// CREATE UPLOADER TO UPLOAD CVS/TXT
+			var juploader = jdiv.find('.uploader_users');
+			var opts = {
+				target: 				'./import_users.php',
+				upload_query: 	{type: 'ul_media'},
+				allowtext: 			1,
+				onUploaderSuccess: function(file, output){
+
+					var obj = 0;
+					try {
+						obj = JSON.parse(output);
+					} catch (e){}
+
+					if (!obj){
+						errorDialog('parse error');
+					} else if (obj.error){
+						errorDialog(obj.error);
+						return;
+					}
+					console.log('onUploaderSuccess', obj);
+					g_file_name = obj.file;
+					$('#span_filename').text(g_file_name);
+					updateImportUsers(obj.users, obj.warnings);
+					jdiv_input.hide();
+					jdiv_output.show();
+				}
+			};
+			juploader.uploader(opts);
+
+			// show button
+			$('label[for=uploader_users]')
+				.css('width', 150)
+				.show()
+			;
+
+			jdiv.find('.but_cancel').click(function(){
+				jdiv_input.show();
+				jdiv_output.hide();
+			});
+
+			jdiv.find('.but_apply').click(function(){
+				$.ajax({
+					type: 'POST',
+					url: './import_users.php',
+					async: true,
+					dataType: 'json',
+					data: {
+						file_name: g_file_name,
+						apply: 1,
+					},
+					success: function (obj){
+						console.log('success', obj);
+						updateImportUsers(obj.users, obj.warnings);
+						notifyDialog('The changes have been applied.');
+					},
+					error: function(jqXHR, textStatus, errorThrown){
+						console.error('error', jqXHR, textStatus, errorThrown);
+						errorDialog('Error in applying.');
+					},
+				});
+			});
+
+		}
+	});
+
+}
+*/

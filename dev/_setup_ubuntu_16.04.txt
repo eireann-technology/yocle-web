@@ -329,7 +329,7 @@ driver
 - http://pecl.php.net/package/mongodb/1.1.7/windows (recommended)
 
 install
--http://www.thegeekstuff.com/2015/10/php-mongodb-for-xampp/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheGeekStuff+(The+Geek+Stuff)
+- http://www.thegeekstuff.com/2015/10/php-mongodb-for-xampp/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheGeekStuff+(The+Geek+Stuff)
 
 tutorial
 - http://php.net/manual/en/class.mongodb-driver-manager.php

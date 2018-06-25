@@ -2991,19 +2991,15 @@ a.cmenu_anchor:hover{
 	padding:10px;
 }
 .but_additem,
-.but_edititem
+.but_edititem,
+.but_import
 {
 	width:50px;
 	margin-left:4px;
 	margin-right:8px;
-}
-.btn.but_import{
 	margin-top: 4px;
 	margin-bottom: 4px;
-	margin-right:0px;
-	margin-left: 0px;
 	font-size: 13px;
-	width:50px;
 }
 
 .tbl_ass_item>tbody>tr>td:first-child{
@@ -4833,7 +4829,7 @@ button.btn.but_back_userpage{
 		top: 0px;
 		/* height: calc(100% - 50px); */
 	}
-	
+
 	#tbl_message_comm_input{
 		position: fixed;
 		width: 100%;
