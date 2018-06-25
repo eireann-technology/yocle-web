@@ -7,12 +7,6 @@
 var tt_url = 'svrop.php?type=find_field&q=%QUERY'
 var image_url = 'svrop.php?type=dl_img&img_id=';
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-
-//function getUserImgSrc(img_id){
-//	return img_id ? image_url + img_id + '&d=' + getDateString2() : './images/new_user.png';
-//}
-
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function getTTValue(jinput){
@@ -52,25 +46,6 @@ function initTypeahead(selector, onChange){
 			return Bloodhound.tokenizers.whitespace(datum.value);
 		},
 		queryTokenizer: Bloodhound.tokenizers.whitespace,
-	/*
-		remote: {
-			url: tt_url + '&collection=users',
-			filter: function (items){
-				//console.info('filter', items, $(this));
-				return $.map(items.results, function (item){
-					{
-						return {
-							value: 								item.username,
-							email: 								item.email,
-							user_id:							item.user_id,
-							img_url:							getUserImgSrc(item.img_id),
-						};
-					}
-				});
-			}
-		}
-*/
-///*
 		remote: {
 			url: tt_url + '&collection=users_activities',
 			filter: function (items){
@@ -127,10 +102,6 @@ function initTypeahead(selector, onChange){
 									'<img src="{{img_url}}"/>'+
 								'</td>'+
 								'<td>{{value}}</td></tr>'+
-							//'<tr>'+
-							//	'<td>{{email}}</td>'+
-							//'</tr>'+
-							//'<tr><td>{{user_id}}</td></tr>'+
 						'</table>'
 					),
 					footer: 		Handlebars.compile('<span class="typeahead_footer">Searched for "{{query}}"</span>')
@@ -154,13 +125,11 @@ function initTypeahead(selector, onChange){
 
 function initTypeahead_tokenfield_users(selector){
 	selector += ' .my_tokenfield[tt_type=users]';
-	
+
 	if (!$(selector).length){
 		console.error('initTypeahead_tokenfield_users', selector);
-	} //else {
-		//console.info('initTypeahead_tokenfield_users', $(selector).length);
-	//}
-	
+	}
+
 	// Instantiate the Bloodhound suggestion engine
 	var blood = new Bloodhound({
 		datumTokenizer: function (datum){
@@ -250,7 +219,8 @@ function initTypeahead_tokenfield_users(selector){
 				$(this).parent().parent().find('div.token:last').attr('ttval', suggestion.user_id);
 				//console.log('Selection', suggestion.user_id, getTokens(selector));
 			})
-		var	btn_add = $(selector).parent().parent().parent().find('.but_additem');
+		//var	btn_add = $(selector).parent().parent().parent().find('.but_additem');
+		var	btn_add = $(selector).closest('.div_select_typeahead').find('.but_additem');
 		postTypeaheadToken(btn_add);
 	}
 }
@@ -343,7 +313,8 @@ function initTypeahead_tokenfield_skills(selector, jspan_num){
 				$(this).parent().parent().find('div.token:last').attr('ttval', suggestion.value);
 			})
 		;
-		var	btn_add = $(selector).parent().parent().parent().parent().find('.but_additem');
+		//var	btn_add = $(selector).parent().parent().parent().parent().find('.but_additem');
+		var	btn_add = $(selector).closest('.div_select_typeahead').find('.but_additem');
 		postTypeaheadToken(btn_add);
 	}
 }
@@ -351,7 +322,7 @@ function initTypeahead_tokenfield_skills(selector, jspan_num){
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 function postTypeaheadToken(btn_add){
-	var token_input = btn_add.parent().parent().find('div.tokenfield span.twitter-typeahead input.token-input');
+	var token_input = btn_add.closest('.div_select_typeahead').find('div.tokenfield span.twitter-typeahead input.token-input');
 	/////////////////////////////////////////////////
 	// TYPEAHEAD AND DATATABLE (GENERAL)
 	/////////////////////////////////////////////////
@@ -382,7 +353,7 @@ function postTypeaheadToken(btn_add){
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function setTokenfieldWidth(jtoken){
+function setTokenfieldWidth(jtoken, nRetry){
 	var
 		jobj = jtoken.next().next().find('.token-input');
 		jparent = jobj.parent().parent(),
@@ -395,9 +366,9 @@ function setTokenfieldWidth(jtoken){
 			//debugger;
 		} else {
 			//console.info('setTokenfieldWidth', jtoken, w);
-			if (w < 200){
+			if (w < 150 && nRetry && nRetry-- > 0){
 				setTimeout(function(){
-					setTokenfieldWidth(jtoken);
+					setTokenfieldWidth(jtoken, nRetry);
 				}, 100);
 			} else {
 				jobj.width(w - 60);
@@ -412,6 +383,79 @@ function clearTokenfield(jtoken, bSetWidth){
 	jtoken.tokenfield('setTokens', '');
 	if (bSetWidth)
 	{
-		setTokenfieldWidth(jtoken)
+		setTokenfieldWidth(jtoken, 3)
+	}
+}
+
+//////////////////////////////////////////////////
+
+var g_import_jdiv = 0;
+
+function import_users(obj){
+	g_import_jdiv = $(obj).closest('.div_select_typeahead');
+	var url = getMediaFolder() + '../import';
+	g_lightbox = $.featherlight({
+		iframe: url,
+		iframeMaxWidth: '100%',
+		iframeWidth: '100%',
+		iframeHeight: '90%',
+		iframeScrolling: "yes",
+	});
+}
+
+//////////////////////////////////////////////////
+
+function onselect_importusers(user_ids){
+	console.log(user_ids);
+
+	var jtokenfield = g_import_jdiv.find('.tokenfield.form-control');
+	jtokenfield.find('.token').each(function(){
+		var jtoken = $(this);
+		var user_id = jtoken.attr('ttval');
+		if (!isNaN(user_id)){
+			user_id = parseInt(user_id);
+			//remove_element_from_array(user_ids, user_id);
+			for (var i = user_ids.length - 1; i >= 0; i--){
+				var user = user_ids[i];
+				if (user.user_id == user_id){
+					user_ids.splice(i, 1);
+				}
+			}
+		}
+	})
+	call_svrop(
+		{
+			type: 'check_users',
+			users: user_ids,
+		},
+		function (obj){
+			var users = obj.users;
+			for (var i = 0; i < users.length; i++){
+				var user = users[i];
+				var s = '<div class="token" ttval="' + user.user_id + '">'
+								+ '<span class="token-label" style="max-width: 600px;">'
+								 + user.username
+								 + '</span>'
+								 + '<a href="#" class="close" tabindex="-1" onclick="closeToken(this)">x</a>'
+								 + '</div>'
+				;
+				var jtoken = jtokenfield.find('.token:last');
+				if (!jtoken.length){
+					jtoken = jtokenfield.find('input.my_tokenfield');
+				}
+				$(s).insertAfter(jtoken);
+			}
+		}
+	);
+}
+
+//////////////////////////////////////////////
+
+function closeToken(obj){
+	$(obj).closest('.token').remove();
+	var e = window.event;
+	if (e){
+		e.stopPropagation();
+		e.preventDefault();
 	}
 }

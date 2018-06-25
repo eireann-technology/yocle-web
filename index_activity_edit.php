@@ -135,14 +135,14 @@
 					<td>
 						Participants <span class="asterisk">*</span> <span class="span_editact_npart"></span>
 					</td>
-<!--					
+<!--
 					<td width="10">
 						<button class="btn btn-primary but_import">Import</button>
 					</td>
 -->					
 				</tr>
 			</table>
-			<div class="div_participants input_area">
+			<div class="div_select_typeahead div_participants input_area" type="users">
 				<?php include 'find_users.php'?>
 			</div>
 		</div>
@@ -186,7 +186,9 @@
 				</table>
 
 				<div class="subsection_header">Skills</div>
-				<?php include 'find_skills.php'?>
+				<div class="div_select_typeahead" type="skills">
+					<?php include 'find_skills.php'?>
+				</div>
 				<div class="subsection_header">Assessors</div>
 				<?php include 'index_panelists.php'?>
 			</div>

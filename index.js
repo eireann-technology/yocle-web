@@ -70,7 +70,7 @@ function goStartPage(){
 		//viewActivity(217, ACTTAB_ASSESSMENTS); return;
 		//viewActivity(217, ACTTAB_ASSESSMENTS); return;
 
-		//editActivity(233, ACTTAB_PARTICIPANTS);
+		editActivity(217, ACTTAB_PARTICIPANTS);
 		//viewActivity(217, ACTTAB_PARTICIPANTS); return;
 		//viewActivity(219, ACTTAB_ASSESSMENTS); return;
 
@@ -292,10 +292,10 @@ function initAll(){
 		.click(function(event){
 			openDropmenu($(this), 'action', event);
 		});
-	$('.but_users_import')
-		.click(function(event){
-			openDropmenu($(this), 'import', event);
-		});
+	//$('.but_users_import')
+	//	.click(function(event){
+	//		openDropmenu($(this), 'import', event);
+	//	});
 	$('.import2_button')
 		.click(function(event){
 			openDropmenu($(this), 'import2', event);

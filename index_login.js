@@ -388,6 +388,12 @@ function openMain(){
 	if (g_platform != 'web' && g_nativeapp == 1){
 		$('.ui-tabs-nav').hide();
 	}
+
+	if (g_user_id == 2 && g_platform == 'web'){
+		$('.but_import').show();
+	} else {
+		$('.but_import').hide();
+	}
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////

@@ -380,7 +380,7 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .tokenfield{
-	height:40px;
+	height:auto;
 }
 /*
 html,body{
